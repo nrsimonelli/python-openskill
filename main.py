@@ -2,7 +2,7 @@ import csv
 from openskill.models import PlackettLuce
 
 def main():
-    model = PlackettLuce()
+    model = PlackettLuce(mu=1200, sigma=400, beta=400 / 6, tau=400/300)
     
     player_ratings = {}
     
@@ -29,8 +29,12 @@ def main():
             for i in range(len(players)):
                 player_ratings[players[i]] = updated_rating[i][0]
 
-    # Print the ratings
-    print(player_ratings)
+    # Print the ratings in a nice format
+    # sort the player_ratings by mu
+    player_ratings = {k: v for k, v in sorted(player_ratings.items(), key=lambda item: item[1].mu, reverse=True)}
+    for player, rating in player_ratings.items():
+        print(f'{player}: {rating.mu:.2f} ± {rating.sigma:.2f}')
+
 
 if __name__ == "__main__":
     main()
