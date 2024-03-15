@@ -2,7 +2,7 @@ import csv
 from openskill.models import PlackettLuce
 
 def main():
-    model = PlackettLuce(mu=1200, sigma=400, beta=400 / 6, tau=400/300)
+    model = PlackettLuce(mu=1200, sigma=400, beta=200, tau=1200/300)
     
     player_ratings = {}
     
