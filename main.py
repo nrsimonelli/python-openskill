@@ -11,7 +11,8 @@ def main():
     player_ratings = {
         'all_time': {},
         'one_versus_one': {},
-        'three_and_four_player': {}
+        'three_and_four_player': {},
+        'by_event': {}
     }
 
     # key value pairs of all event names and keys from values.csv
@@ -52,6 +53,9 @@ def main():
             ranks = [int(row[f'rank_{letter}']) for letter in 'abcd' if row[f'rank_{letter}']]
             event = int(event_key[row['event']])
 
+            if event not in player_ratings['by_event']:
+                player_ratings['by_event'][event] = {}
+
             if event in one_versus_one_event_list:
                 # Initialize player ratings if not already present
                 for player in players:
@@ -78,6 +82,11 @@ def main():
             for player in players:
                 if player not in player_ratings['all_time']:
                     player_ratings['all_time'][player] = model.rating(name=player)
+                
+                if player not in player_ratings['by_event'][event]:
+                  player_ratings['by_event'][event] = [model.rating(name=player)]
+                else:
+                  player_ratings['by_event'][event].append(model.rating(name=player))
             
             # Update the ratings                
             updated_rating = model.rate(teams=[[player_ratings['all_time'][player]] for player in players], ranks=ranks)
@@ -92,6 +101,7 @@ def main():
     player_ratings['all_time'] = {k: v for k, v in sorted(player_ratings['all_time'].items(), key=lambda item: item[1].mu, reverse=True)}
     player_ratings['one_versus_one'] = {k: v for k, v in sorted(player_ratings['one_versus_one'].items(), key=lambda item: item[1].mu, reverse=True)}
     player_ratings['three_and_four_player'] = {k: v for k, v in sorted(player_ratings['three_and_four_player'].items(), key=lambda item: item[1].mu, reverse=True)}
+    print(player_ratings['by_event'])
 
     with open("player_rankings.json", "w") as outfile:
         outfile.write(json.dumps({player: {"mu": rating.mu, "sigma": rating.sigma} for player, rating in player_ratings['all_time'].items()}, indent=2))
