@@ -84,9 +84,9 @@ def main():
                     player_ratings['all_time'][player] = model.rating(name=player)
                 
                 if player not in player_ratings['by_event'][event]:
-                  player_ratings['by_event'][event] = [model.rating(name=player)]
+                  player_ratings['by_event'][event][player] = [model.rating(name=player)]
                 else:
-                  player_ratings['by_event'][event].append(model.rating(name=player))
+                  player_ratings['by_event'][event][player].append(model.rating(name=player))
             
             # Update the ratings                
             updated_rating = model.rate(teams=[[player_ratings['all_time'][player]] for player in players], ranks=ranks)
