@@ -25,13 +25,7 @@ EVENT_KEY = {
     'Season 4, 1v1 League': 20,
 }
 
-ADJUSTED_MU = 1200
-model = PlackettLuce(mu=ADJUSTED_MU, sigma=ADJUSTED_MU/3, beta=ADJUSTED_MU/6, tau=ADJUSTED_MU/300)
-# model = PlackettLuce()
-
-def calculate_ordinal(player_ratings):
-    for player in player_ratings:
-        player['ordinal'] = player.ordinal()
+model = PlackettLuce()
 
 def initialize_rating(player_ratings, player):
     if player not in player_ratings:
@@ -42,8 +36,7 @@ def update_rating(player_ratings, players, ranks):
     for i in range(len(players)):
         player_ratings[players[i]] = updated_rating[i][0]
 
-def main(): 
-    # demo()   
+def main():   
     player_ratings = {
         'all_time': {},
         'one_versus_one': {},
@@ -51,13 +44,8 @@ def main():
     }   
     all_events = list(EVENT_KEY.values())
     one_versus_one_event_list = [5, 7, 10, 12, 16, 20]
-    three_and_four_player_event_list = list(set(all_events) - set(one_versus_one_event_list)) 
+    three_and_four_player_event_list = list(set(all_events) - set(one_versus_one_event_list))  
 
-    all_data = []
-    one_versus_one_data = []
-    three_and_four_player_data = []   
-
-    # Read the CSV file
     with open('values.csv', newline='') as csvfile:
         reader = csv.DictReader(csvfile)     
 
@@ -67,42 +55,33 @@ def main():
             ranks = [int(row[f'rank_{letter}']) for letter in 'abcd' if row[f'rank_{letter}']]
             event = int(EVENT_KEY[row['event']])
 
+            # Initialize ratings for players if they don't exist in the given event category
             for player in players:
                 if event in one_versus_one_event_list:
                     initialize_rating(player_ratings['one_versus_one'], player)
                 if event in three_and_four_player_event_list:
                     initialize_rating(player_ratings['three_and_four_player'], player)
-                
+
                 initialize_rating(player_ratings['all_time'], player)
-            # Initialize player ratings if not already present
-            
-            # Update the ratings    
+             
+            # Update corresponding rating lists
             if event in one_versus_one_event_list:
                 update_rating(player_ratings['one_versus_one'], players, ranks)
+
             if event in three_and_four_player_event_list:
                 update_rating(player_ratings['three_and_four_player'], players, ranks)
 
             update_rating(player_ratings['all_time'], players, ranks)
 
-                
-    for player in player_ratings['one_versus_one']:
-        player_ratings['one_versus_one'][player].ordinal = player_ratings['one_versus_one'][player].ordinal()
-    for player in player_ratings['three_and_four_player']:
-        player_ratings['three_and_four_player'][player].ordinal = player_ratings['three_and_four_player'][player].ordinal()
-    for player in player_ratings['all_time']:
-        player_ratings['all_time'][player].ordinal = player_ratings['all_time'][player].ordinal()
+    
+    for category in player_ratings:
+        for player in player_ratings[category]:
+            player_ratings[category][player].ordinal = player_ratings[category][player].ordinal(z=3) * 24 + 1200
 
+        player_ratings[category] = {k: v for k, v in sorted(player_ratings[category].items(), key=lambda item: item[1].ordinal, reverse=True)}
 
-    player_ratings['all_time'] = {k: v for k, v in sorted(player_ratings['all_time'].items(), key=lambda item: item[1].ordinal, reverse=True)}
-    player_ratings['one_versus_one'] = {k: v for k, v in sorted(player_ratings['one_versus_one'].items(), key=lambda item: item[1].ordinal, reverse=True)}
-    player_ratings['three_and_four_player'] = {k: v for k, v in sorted(player_ratings['three_and_four_player'].items(), key=lambda item: item[1].ordinal, reverse=True)}
-
-    with open("player_rankings.json", "w") as outfile:
-        outfile.write(json.dumps({player: {"mu": rating.mu, "sigma": rating.sigma, "ordinal": rating.ordinal } for player, rating in player_ratings['all_time'].items()}, indent=2))
-    with open("one_versus_one.json", "w") as outfile:
-        outfile.write(json.dumps({player: {"mu": rating.mu, "sigma": rating.sigma, "ordinal": rating.ordinal } for player, rating in player_ratings['one_versus_one'].items()}, indent=2))
-    with open("three_and_four_player_rankings.json", "w") as outfile:
-        outfile.write(json.dumps({player: {"mu": rating.mu, "sigma": rating.sigma, "ordinal": rating.ordinal } for player, rating in player_ratings['three_and_four_player'].items()}, indent=2))
+        with open(f"{category}_ratings.json", "w") as outfile:
+            outfile.write(json.dumps({player: {"mu": rating.mu, "sigma": rating.sigma, "ordinal": rating.ordinal } for player, rating in player_ratings[category].items()}, indent=2))
 
 
 if __name__ == "__main__":
