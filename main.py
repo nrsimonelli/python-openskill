@@ -84,7 +84,8 @@ def main():
                 if player not in player_ratings['all_time']:
                     player_ratings['all_time'][player] = curr_rating
                     player_ratings['by_event'][event][player] = [{"mu": curr_rating.mu, "sigma": curr_rating.sigma}]
-                else:
+                elif player not in player_ratings['by_event'][event]:
+                    # add the value of the elo from before (can remove if granularity is strictly by game)
                     prev_rating = player_ratings['all_time'][player]
                     player_ratings['by_event'][event][player] = [{"mu": prev_rating.mu, "sigma": prev_rating.sigma}]
             
@@ -95,9 +96,6 @@ def main():
             for i in range(len(players)):
                 player_ratings['all_time'][players[i]] = updated_rating[i][0]
                 player_ratings['by_event'][event][players[i]].append({"mu": updated_rating[i][0].mu, "sigma": updated_rating[i][0].sigma})
-                if event == 1 and players[i] == "JoyDivision":
-                  print(players, event, players[i])
-                  print(player_ratings['by_event'][event][players[i]])
 
     # Print the ratings in a nice format
     # sort the player_ratings by mu
