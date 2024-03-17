@@ -80,28 +80,30 @@ def main():
             
             # Initialize player ratings if not already present
             for player in players:
+                curr_rating = model.rating(name=player) # new rating
                 if player not in player_ratings['all_time']:
-                    player_ratings['all_time'][player] = model.rating(name=player)
-                
-                if player not in player_ratings['by_event'][event]:
-                  player_ratings['by_event'][event][player] = [model.rating(name=player)]
+                    player_ratings['all_time'][player] = curr_rating
+                    player_ratings['by_event'][event][player] = [{"mu": curr_rating.mu, "sigma": curr_rating.sigma}]
                 else:
-                  player_ratings['by_event'][event][player].append(model.rating(name=player))
+                    prev_rating = player_ratings['all_time'][player]
+                    player_ratings['by_event'][event][player] = [{"mu": prev_rating.mu, "sigma": prev_rating.sigma}]
             
             # Update the ratings                
             updated_rating = model.rate(teams=[[player_ratings['all_time'][player]] for player in players], ranks=ranks)
 
-
             # each player in players needs their updated_rating stored in player_ratings
             for i in range(len(players)):
                 player_ratings['all_time'][players[i]] = updated_rating[i][0]
+                player_ratings['by_event'][event][players[i]].append({"mu": updated_rating[i][0].mu, "sigma": updated_rating[i][0].sigma})
+                if event == 1 and players[i] == "JoyDivision":
+                  print(players, event, players[i])
+                  print(player_ratings['by_event'][event][players[i]])
 
     # Print the ratings in a nice format
     # sort the player_ratings by mu
     player_ratings['all_time'] = {k: v for k, v in sorted(player_ratings['all_time'].items(), key=lambda item: item[1].mu, reverse=True)}
     player_ratings['one_versus_one'] = {k: v for k, v in sorted(player_ratings['one_versus_one'].items(), key=lambda item: item[1].mu, reverse=True)}
     player_ratings['three_and_four_player'] = {k: v for k, v in sorted(player_ratings['three_and_four_player'].items(), key=lambda item: item[1].mu, reverse=True)}
-    print(player_ratings['by_event'])
 
     with open("player_rankings.json", "w") as outfile:
         outfile.write(json.dumps({player: {"mu": rating.mu, "sigma": rating.sigma} for player, rating in player_ratings['all_time'].items()}, indent=2))
@@ -109,6 +111,8 @@ def main():
         outfile.write(json.dumps({player: {"mu": rating.mu, "sigma": rating.sigma} for player, rating in player_ratings['one_versus_one'].items()}, indent=2))
     with open("three_and_four_player_rankings.json", "w") as outfile:
         outfile.write(json.dumps({player: {"mu": rating.mu, "sigma": rating.sigma} for player, rating in player_ratings['three_and_four_player'].items()}, indent=2))
+    with open("by_event.json", "w") as outfile:
+        outfile.write(json.dumps(player_ratings["by_event"], indent=2))
 
 
 if __name__ == "__main__":
