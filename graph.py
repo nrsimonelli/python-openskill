@@ -15,7 +15,7 @@ def graph_tournament(tournament_ratings, tournament_name): #player_ratings['by_e
   plt.savefig(f"images/{tournament_name}.png", bbox_inches='tight')
 
 def graph_player(event_ratings, player_name, granularity):
-  consolidated_ratings = [{"mu": 1200}]
+  consolidated_ratings = [{"mu": 1200}] # initialize starting point. technically should also be part of the data somewhere
   for event in event_ratings:
     if player_name in event_ratings[event]:
       if granularity == "event":
