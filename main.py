@@ -119,11 +119,17 @@ def main():
     with open("by_event.json", "w") as outfile:
         outfile.write(json.dumps(player_ratings["by_event"], indent=2))
 
-    # graphing demonstration
+    # graphing demonstrations
     tournament_num = 18
     graph.graph_tournament(player_ratings["by_event"][tournament_num], list(EVENT_KEY.keys())[tournament_num - 1])
-    player = "morewhales"
+    graph.clear()
+    player = "JoyDivision"
     graph.graph_player(player_ratings["by_event"], player, "event") # or by game
+    graph.clear()
+
+    player_group = ["FOMOF", "JoyDivision", "Mr. Der", "Nevic", "nobadinohz"]
+    graph.graph_players(player_ratings["by_event"], player_group, "event")
+    graph.clear()
 
 if __name__ == "__main__":
     main()
