@@ -1,6 +1,7 @@
 import csv
 import json
 from openskill.models import PlackettLuce
+import graph
 
 EVENT_KEY = {
     'First DE Tournament': 1,
@@ -40,13 +41,8 @@ def initialize_rating(player_ratings, player):
 def initialize_event_rating(player_ratings, player, event):
     if event not in player_ratings['by_event']:
         player_ratings['by_event'][event] = {}
-    if player not in player_ratings['all_time']:
-      new_rating = model.rating(name=player)
-      player_ratings['by_event'][event][player] = [{"mu": new_rating.mu, "sigma": new_rating.sigma, "ordinal": new_rating.ordinal()}]
-    elif player not in player_ratings['by_event'][event]:
-      # add the value of the elo from before (can remove if granularity is strictly by game)
-      prev_rating = player_ratings['all_time'][player]
-      player_ratings['by_event'][event][player] = [{"mu": prev_rating.mu, "sigma": prev_rating.sigma, "ordinal": prev_rating.ordinal()}]
+    if player not in player_ratings['by_event'][event]:
+      player_ratings['by_event'][event][player] = []
 
 def update_rating(player_ratings, players, ranks):
     updated_rating = model.rate(teams=[[player_ratings[player]] for player in players], ranks=ranks)
@@ -123,6 +119,11 @@ def main():
     with open("by_event.json", "w") as outfile:
         outfile.write(json.dumps(player_ratings["by_event"], indent=2))
 
+    # graphing demonstration
+    tournament_num = 18
+    graph.graph_tournament(player_ratings["by_event"][tournament_num], list(EVENT_KEY.keys())[tournament_num - 1])
+    player = "morewhales"
+    graph.graph_player(player_ratings["by_event"], player, "event") # or by game
 
 if __name__ == "__main__":
     main()
