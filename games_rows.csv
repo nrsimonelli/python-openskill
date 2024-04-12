@@ -1,1803 +1,1803 @@
-id,event,name
-1,1,First DE Tournament
-2,1,First DE Tournament
-3,1,First DE Tournament
-4,1,First DE Tournament
-5,1,First DE Tournament
-6,1,First DE Tournament
-7,1,First DE Tournament
-8,1,First DE Tournament
-9,1,First DE Tournament
-10,1,First DE Tournament
-11,1,First DE Tournament
-12,1,First DE Tournament
-13,1,First DE Tournament
-14,1,First DE Tournament
-15,1,First DE Tournament
-16,1,First DE Tournament
-17,1,First DE Tournament
-18,1,First DE Tournament
-19,1,First DE Tournament
-20,1,First DE Tournament
-21,1,First DE Tournament
-22,1,First DE Tournament
-23,1,First DE Tournament
-24,1,First DE Tournament
-25,1,First DE Tournament
-26,1,First DE Tournament
-27,1,First DE Tournament
-28,1,First DE Tournament
-29,1,First DE Tournament
-30,1,First DE Tournament
-31,1,First DE Tournament
-32,1,First DE Tournament
-33,1,First DE Tournament
-34,1,First DE Tournament
-35,1,First DE Tournament
-36,1,First DE Tournament
-37,1,First DE Tournament
-38,1,First DE Tournament
-39,1,First DE Tournament
-40,1,First DE Tournament
-41,1,First DE Tournament
-42,1,First DE Tournament
-43,1,First DE Tournament
-44,1,First DE Tournament
-45,1,First DE Tournament
-46,1,First DE Tournament
-47,2,Second DE Tournament
-48,2,Second DE Tournament
-49,2,Second DE Tournament
-50,2,Second DE Tournament
-51,2,Second DE Tournament
-52,2,Second DE Tournament
-53,2,Second DE Tournament
-54,2,Second DE Tournament
-55,2,Second DE Tournament
-56,2,Second DE Tournament
-57,2,Second DE Tournament
-58,2,Second DE Tournament
-59,2,Second DE Tournament
-60,2,Second DE Tournament
-61,2,Second DE Tournament
-62,2,Second DE Tournament
-63,2,Second DE Tournament
-64,2,Second DE Tournament
-65,2,Second DE Tournament
-66,2,Second DE Tournament
-67,2,Second DE Tournament
-68,2,Second DE Tournament
-69,2,Second DE Tournament
-70,2,Second DE Tournament
-71,2,Second DE Tournament
-72,2,Second DE Tournament
-73,2,Second DE Tournament
-74,2,Second DE Tournament
-75,2,Second DE Tournament
-76,2,Second DE Tournament
-77,2,Second DE Tournament
-78,2,Second DE Tournament
-79,2,Second DE Tournament
-80,2,Second DE Tournament
-81,2,Second DE Tournament
-82,2,Second DE Tournament
-83,2,Second DE Tournament
-84,2,Second DE Tournament
-85,2,Second DE Tournament
-86,2,Second DE Tournament
-87,2,Second DE Tournament
-88,2,Second DE Tournament
-89,2,Second DE Tournament
-90,2,Second DE Tournament
-91,2,Second DE Tournament
-92,2,Second DE Tournament
-93,2,Second DE Tournament
-94,2,Second DE Tournament
-95,2,Second DE Tournament
-96,2,Second DE Tournament
-97,2,Second DE Tournament
-98,2,Second DE Tournament
-99,2,Second DE Tournament
-100,2,Second DE Tournament
-101,2,Second DE Tournament
-102,2,Second DE Tournament
-103,2,Second DE Tournament
-104,2,Second DE Tournament
-105,2,Second DE Tournament
-106,2,Second DE Tournament
-107,2,Second DE Tournament
-108,2,Second DE Tournament
-109,2,Second DE Tournament
-110,2,Second DE Tournament
-111,2,Second DE Tournament
-112,2,Second DE Tournament
-113,2,Second DE Tournament
-114,2,Second DE Tournament
-115,2,Second DE Tournament
-116,2,Second DE Tournament
-117,2,Second DE Tournament
-118,2,Second DE Tournament
-119,2,Second DE Tournament
-120,2,Second DE Tournament
-121,2,Second DE Tournament
-122,2,Second DE Tournament
-123,2,Second DE Tournament
-124,2,Second DE Tournament
-125,2,Second DE Tournament
-126,2,Second DE Tournament
-127,2,Second DE Tournament
-128,2,Second DE Tournament
-129,2,Second DE Tournament
-130,2,Second DE Tournament
-131,2,Second DE Tournament
-132,2,Second DE Tournament
-133,2,Second DE Tournament
-134,2,Second DE Tournament
-135,2,Second DE Tournament
-136,2,Second DE Tournament
-137,2,Second DE Tournament
-138,3,"Draft Kings, January 2021"
-139,3,"Draft Kings, January 2021"
-140,3,"Draft Kings, January 2021"
-141,3,"Draft Kings, January 2021"
-142,3,"Draft Kings, January 2021"
-143,3,"Draft Kings, January 2021"
-144,3,"Draft Kings, January 2021"
-145,3,"Draft Kings, January 2021"
-146,3,"Draft Kings, January 2021"
-147,3,"Draft Kings, January 2021"
-148,3,"Draft Kings, January 2021"
-149,3,"Draft Kings, January 2021"
-150,3,"Draft Kings, January 2021"
-151,3,"Draft Kings, January 2021"
-152,3,"Draft Kings, January 2021"
-153,4,"Draft Swiss, March"
-154,4,"Draft Swiss, March"
-155,4,"Draft Swiss, March"
-156,4,"Draft Swiss, March"
-157,4,"Draft Swiss, March"
-158,4,"Draft Swiss, March"
-159,4,"Draft Swiss, March"
-160,4,"Draft Swiss, March"
-161,4,"Draft Swiss, March"
-162,4,"Draft Swiss, March"
-163,4,"Draft Swiss, March"
-164,4,"Draft Swiss, March"
-165,4,"Draft Swiss, March"
-166,4,"Draft Swiss, March"
-167,4,"Draft Swiss, March"
-168,4,"Draft Swiss, March"
-169,4,"Draft Swiss, March"
-170,4,"Draft Swiss, March"
-171,4,"Draft Swiss, March"
-172,4,"Draft Swiss, March"
-173,4,"Draft Swiss, March"
-174,4,"Draft Swiss, March"
-175,4,"Draft Swiss, March"
-176,4,"Draft Swiss, March"
-177,4,"Draft Swiss, March"
-178,4,"Draft Swiss, March"
-179,4,"Draft Swiss, March"
-180,4,"Draft Swiss, March"
-181,4,"Draft Swiss, March"
-182,4,"Draft Swiss, March"
-183,4,"Draft Swiss, March"
-184,4,"Draft Swiss, March"
-185,4,"Draft Swiss, March"
-186,4,"Draft Swiss, March"
-187,4,"Draft Swiss, March"
-188,4,"Draft Swiss, March"
-189,5,"1v1, March 2021"
-190,5,"1v1, March 2021"
-191,5,"1v1, March 2021"
-192,5,"1v1, March 2021"
-193,5,"1v1, March 2021"
-194,5,"1v1, March 2021"
-195,5,"1v1, March 2021"
-196,5,"1v1, March 2021"
-197,5,"1v1, March 2021"
-198,5,"1v1, March 2021"
-199,5,"1v1, March 2021"
-200,5,"1v1, March 2021"
-201,5,"1v1, March 2021"
-202,5,"1v1, March 2021"
-203,5,"1v1, March 2021"
-204,5,"1v1, March 2021"
-205,5,"1v1, March 2021"
-206,5,"1v1, March 2021"
-207,5,"1v1, March 2021"
-208,5,"1v1, March 2021"
-209,5,"1v1, March 2021"
-210,5,"1v1, March 2021"
-211,5,"1v1, March 2021"
-212,5,"1v1, March 2021"
-213,5,"1v1, March 2021"
-214,5,"1v1, March 2021"
-215,5,"1v1, March 2021"
-216,5,"1v1, March 2021"
-217,5,"1v1, March 2021"
-218,5,"1v1, March 2021"
-219,5,"1v1, March 2021"
-220,5,"1v1, March 2021"
-221,5,"1v1, March 2021"
-222,5,"1v1, March 2021"
-223,5,"1v1, March 2021"
-224,5,"1v1, March 2021"
-225,5,"1v1, March 2021"
-226,5,"1v1, March 2021"
-227,5,"1v1, March 2021"
-228,5,"1v1, March 2021"
-229,6,"Classic, May 2021"
-230,6,"Classic, May 2021"
-231,6,"Classic, May 2021"
-232,6,"Classic, May 2021"
-233,6,"Classic, May 2021"
-234,6,"Classic, May 2021"
-235,6,"Classic, May 2021"
-236,6,"Classic, May 2021"
-237,6,"Classic, May 2021"
-238,6,"Classic, May 2021"
-239,6,"Classic, May 2021"
-240,6,"Classic, May 2021"
-241,6,"Classic, May 2021"
-242,6,"Classic, May 2021"
-243,6,"Classic, May 2021"
-244,6,"Classic, May 2021"
-245,6,"Classic, May 2021"
-246,6,"Classic, May 2021"
-247,6,"Classic, May 2021"
-248,6,"Classic, May 2021"
-249,6,"Classic, May 2021"
-250,6,"Classic, May 2021"
-251,6,"Classic, May 2021"
-252,6,"Classic, May 2021"
-253,6,"Classic, May 2021"
-254,6,"Classic, May 2021"
-255,6,"Classic, May 2021"
-256,6,"Classic, May 2021"
-257,6,"Classic, May 2021"
-258,6,"Classic, May 2021"
-259,6,"Classic, May 2021"
-260,6,"Classic, May 2021"
-261,6,"Classic, May 2021"
-262,6,"Classic, May 2021"
-263,6,"Classic, May 2021"
-264,6,"Classic, May 2021"
-265,6,"Classic, May 2021"
-266,6,"Classic, May 2021"
-267,6,"Classic, May 2021"
-268,6,"Classic, May 2021"
-269,6,"Classic, May 2021"
-270,6,"Classic, May 2021"
-271,6,"Classic, May 2021"
-272,7,"1v1, July 2021"
-273,7,"1v1, July 2021"
-274,7,"1v1, July 2021"
-275,7,"1v1, July 2021"
-276,7,"1v1, July 2021"
-277,7,"1v1, July 2021"
-278,7,"1v1, July 2021"
-279,7,"1v1, July 2021"
-280,7,"1v1, July 2021"
-281,7,"1v1, July 2021"
-282,7,"1v1, July 2021"
-283,7,"1v1, July 2021"
-284,7,"1v1, July 2021"
-285,7,"1v1, July 2021"
-286,7,"1v1, July 2021"
-287,7,"1v1, July 2021"
-288,7,"1v1, July 2021"
-289,7,"1v1, July 2021"
-290,7,"1v1, July 2021"
-291,7,"1v1, July 2021"
-292,7,"1v1, July 2021"
-293,7,"1v1, July 2021"
-294,7,"1v1, July 2021"
-295,7,"1v1, July 2021"
-296,7,"1v1, July 2021"
-297,7,"1v1, July 2021"
-298,7,"1v1, July 2021"
-299,7,"1v1, July 2021"
-300,7,"1v1, July 2021"
-301,7,"1v1, July 2021"
-302,8,Winter Cup 2021
-303,8,Winter Cup 2021
-304,8,Winter Cup 2021
-305,8,Winter Cup 2021
-306,8,Winter Cup 2021
-307,8,Winter Cup 2021
-308,8,Winter Cup 2021
-309,8,Winter Cup 2021
-310,8,Winter Cup 2021
-311,8,Winter Cup 2021
-312,8,Winter Cup 2021
-313,8,Winter Cup 2021
-314,8,Winter Cup 2021
-315,8,Winter Cup 2021
-316,8,Winter Cup 2021
-317,8,Winter Cup 2021
-318,8,Winter Cup 2021
-319,8,Winter Cup 2021
-320,8,Winter Cup 2021
-321,8,Winter Cup 2021
-322,8,Winter Cup 2021
-323,8,Winter Cup 2021
-324,8,Winter Cup 2021
-325,8,Winter Cup 2021
-326,8,Winter Cup 2021
-327,8,Winter Cup 2021
-328,8,Winter Cup 2021
-329,8,Winter Cup 2021
-330,8,Winter Cup 2021
-331,8,Winter Cup 2021
-332,8,Winter Cup 2021
-333,8,Winter Cup 2021
-334,8,Winter Cup 2021
-335,8,Winter Cup 2021
-336,8,Winter Cup 2021
-337,8,Winter Cup 2021
-338,8,Winter Cup 2021
-339,8,Winter Cup 2021
-340,8,Winter Cup 2021
-341,8,Winter Cup 2021
-342,8,Winter Cup 2021
-343,8,Winter Cup 2021
-344,8,Winter Cup 2021
-345,8,Winter Cup 2021
-346,8,Winter Cup 2021
-347,8,Winter Cup 2021
-348,8,Winter Cup 2021
-349,8,Winter Cup 2021
-350,8,Winter Cup 2021
-351,8,Winter Cup 2021
-352,8,Winter Cup 2021
-353,8,Winter Cup 2021
-354,8,Winter Cup 2021
-355,8,Winter Cup 2021
-356,8,Winter Cup 2021
-357,8,Winter Cup 2021
-358,8,Winter Cup 2021
-359,8,Winter Cup 2021
-360,8,Winter Cup 2021
-361,8,Winter Cup 2021
-362,8,Winter Cup 2021
-363,8,Winter Cup 2021
-364,8,Winter Cup 2021
-365,8,Winter Cup 2021
-366,8,Winter Cup 2021
-367,8,Winter Cup 2021
-368,8,Winter Cup 2021
-369,8,Winter Cup 2021
-370,8,Winter Cup 2021
-371,8,Winter Cup 2021
-372,8,Winter Cup 2021
-373,8,Winter Cup 2021
-374,8,Winter Cup 2021
-375,8,Winter Cup 2021
-376,8,Winter Cup 2021
-377,8,Winter Cup 2021
-378,8,Winter Cup 2021
-379,8,Winter Cup 2021
-380,8,Winter Cup 2021
-381,8,Winter Cup 2021
-382,8,Winter Cup 2021
-383,8,Winter Cup 2021
-384,8,Winter Cup 2021
-385,8,Winter Cup 2021
-386,8,Winter Cup 2021
-387,8,Winter Cup 2021
-388,8,Winter Cup 2021
-389,8,Winter Cup 2021
-390,8,Winter Cup 2021
-391,8,Winter Cup 2021
-392,8,Winter Cup 2021
-393,8,Winter Cup 2021
-394,8,Winter Cup 2021
-395,8,Winter Cup 2021
-396,8,Winter Cup 2021
-397,8,Winter Cup 2021
-398,8,Winter Cup 2021
-399,8,Winter Cup 2021
-400,8,Winter Cup 2021
-401,8,Winter Cup 2021
-402,8,Winter Cup 2021
-403,8,Winter Cup 2021
-404,8,Winter Cup 2021
-405,8,Winter Cup 2021
-406,8,Winter Cup 2021
-407,8,Winter Cup 2021
-408,8,Winter Cup 2021
-409,8,Winter Cup 2021
-410,8,Winter Cup 2021
-411,8,Winter Cup 2021
-412,8,Winter Cup 2021
-413,8,Winter Cup 2021
-414,8,Winter Cup 2021
-415,8,Winter Cup 2021
-416,8,Winter Cup 2021
-417,8,Winter Cup 2021
-418,8,Winter Cup 2021
-419,8,Winter Cup 2021
-420,8,Winter Cup 2021
-421,8,Winter Cup 2021
-422,8,Winter Cup 2021
-423,8,Winter Cup 2021
-424,8,Winter Cup 2021
-425,8,Winter Cup 2021
-426,8,Winter Cup 2021
-427,8,Winter Cup 2021
-428,8,Winter Cup 2021
-429,8,Winter Cup 2021
-430,8,Winter Cup 2021
-431,8,Winter Cup 2021
-432,8,Winter Cup 2021
-433,8,Winter Cup 2021
-434,8,Winter Cup 2021
-435,8,Winter Cup 2021
-436,8,Winter Cup 2021
-437,8,Winter Cup 2021
-438,8,Winter Cup 2021
-439,8,Winter Cup 2021
-440,8,Winter Cup 2021
-441,8,Winter Cup 2021
-442,8,Winter Cup 2021
-443,8,Winter Cup 2021
-444,8,Winter Cup 2021
-445,8,Winter Cup 2021
-446,8,Winter Cup 2021
-447,8,Winter Cup 2021
-448,8,Winter Cup 2021
-449,8,Winter Cup 2021
-450,8,Winter Cup 2021
-451,8,Winter Cup 2021
-452,8,Winter Cup 2021
-453,8,Winter Cup 2021
-454,8,Winter Cup 2021
-455,8,Winter Cup 2021
-456,8,Winter Cup 2021
-457,8,Winter Cup 2021
-458,8,Winter Cup 2021
-459,8,Winter Cup 2021
-460,8,Winter Cup 2021
-461,8,Winter Cup 2021
-462,8,Winter Cup 2021
-463,8,Winter Cup 2021
-464,8,Winter Cup 2021
-465,8,Winter Cup 2021
-466,8,Winter Cup 2021
-467,8,Winter Cup 2021
-468,8,Winter Cup 2021
-469,8,Winter Cup 2021
-470,8,Winter Cup 2021
-471,8,Winter Cup 2021
-472,8,Winter Cup 2021
-473,8,Winter Cup 2021
-474,8,Winter Cup 2021
-475,8,Winter Cup 2021
-476,8,Winter Cup 2021
-477,8,Winter Cup 2021
-478,8,Winter Cup 2021
-479,8,Winter Cup 2021
-480,8,Winter Cup 2021
-481,8,Winter Cup 2021
-482,9,February 2022 Draft
-483,9,February 2022 Draft
-484,9,February 2022 Draft
-485,9,February 2022 Draft
-486,9,February 2022 Draft
-487,9,February 2022 Draft
-488,9,February 2022 Draft
-489,9,February 2022 Draft
-490,9,February 2022 Draft
-491,9,February 2022 Draft
-492,9,February 2022 Draft
-493,9,February 2022 Draft
-494,9,February 2022 Draft
-495,9,February 2022 Draft
-496,9,February 2022 Draft
-497,9,February 2022 Draft
-498,9,February 2022 Draft
-499,9,February 2022 Draft
-500,9,February 2022 Draft
-501,9,February 2022 Draft
-502,9,February 2022 Draft
-503,9,February 2022 Draft
-504,9,February 2022 Draft
-505,9,February 2022 Draft
-506,9,February 2022 Draft
-507,9,February 2022 Draft
-508,9,February 2022 Draft
-509,9,February 2022 Draft
-510,9,February 2022 Draft
-511,9,February 2022 Draft
-512,9,February 2022 Draft
-513,9,February 2022 Draft
-514,9,February 2022 Draft
-515,9,February 2022 Draft
-516,9,February 2022 Draft
-517,9,February 2022 Draft
-518,9,February 2022 Draft
-519,9,February 2022 Draft
-520,9,February 2022 Draft
-521,9,February 2022 Draft
-522,9,February 2022 Draft
-523,9,February 2022 Draft
-524,9,February 2022 Draft
-525,9,February 2022 Draft
-526,9,February 2022 Draft
-527,9,February 2022 Draft
-528,9,February 2022 Draft
-529,9,February 2022 Draft
-530,9,February 2022 Draft
-531,9,February 2022 Draft
-532,9,February 2022 Draft
-533,9,February 2022 Draft
-534,9,February 2022 Draft
-535,9,February 2022 Draft
-536,9,February 2022 Draft
-537,9,February 2022 Draft
-538,9,February 2022 Draft
-539,9,February 2022 Draft
-540,9,February 2022 Draft
-541,9,February 2022 Draft
-542,9,February 2022 Draft
-543,9,February 2022 Draft
-544,9,February 2022 Draft
-545,9,February 2022 Draft
-546,9,February 2022 Draft
-547,9,February 2022 Draft
-548,9,February 2022 Draft
-549,9,February 2022 Draft
-550,9,February 2022 Draft
-551,9,February 2022 Draft
-552,9,February 2022 Draft
-553,9,February 2022 Draft
-554,9,February 2022 Draft
-555,9,February 2022 Draft
-556,9,February 2022 Draft
-557,9,February 2022 Draft
-558,9,February 2022 Draft
-559,9,February 2022 Draft
-560,9,February 2022 Draft
-561,9,February 2022 Draft
-562,9,February 2022 Draft
-563,9,February 2022 Draft
-564,9,February 2022 Draft
-565,9,February 2022 Draft
-566,9,February 2022 Draft
-567,9,February 2022 Draft
-568,9,February 2022 Draft
-569,9,February 2022 Draft
-570,9,February 2022 Draft
-571,9,February 2022 Draft
-572,9,February 2022 Draft
-573,9,February 2022 Draft
-574,9,February 2022 Draft
-575,9,February 2022 Draft
-576,9,February 2022 Draft
-577,9,February 2022 Draft
-578,9,February 2022 Draft
-579,9,February 2022 Draft
-580,9,February 2022 Draft
-581,9,February 2022 Draft
-582,9,February 2022 Draft
-583,9,February 2022 Draft
-584,9,February 2022 Draft
-585,9,February 2022 Draft
-586,9,February 2022 Draft
-587,9,February 2022 Draft
-588,9,February 2022 Draft
-589,9,February 2022 Draft
-590,9,February 2022 Draft
-591,9,February 2022 Draft
-592,9,February 2022 Draft
-593,9,February 2022 Draft
-594,9,February 2022 Draft
-595,9,February 2022 Draft
-596,9,February 2022 Draft
-597,9,February 2022 Draft
-598,9,February 2022 Draft
-599,9,February 2022 Draft
-600,9,February 2022 Draft
-601,9,February 2022 Draft
-602,9,February 2022 Draft
-603,9,February 2022 Draft
-604,9,February 2022 Draft
-605,9,February 2022 Draft
-606,9,February 2022 Draft
-607,9,February 2022 Draft
-608,9,February 2022 Draft
-609,9,February 2022 Draft
-610,9,February 2022 Draft
-611,9,February 2022 Draft
-612,9,February 2022 Draft
-613,9,February 2022 Draft
-614,9,February 2022 Draft
-615,9,February 2022 Draft
-616,9,February 2022 Draft
-617,9,February 2022 Draft
-618,9,February 2022 Draft
-619,9,February 2022 Draft
-620,9,February 2022 Draft
-621,9,February 2022 Draft
-622,9,February 2022 Draft
-623,9,February 2022 Draft
-624,9,February 2022 Draft
-625,9,February 2022 Draft
-626,9,February 2022 Draft
-627,9,February 2022 Draft
-628,9,February 2022 Draft
-629,9,February 2022 Draft
-630,9,February 2022 Draft
-631,9,February 2022 Draft
-632,9,February 2022 Draft
-633,9,February 2022 Draft
-634,9,February 2022 Draft
-635,9,February 2022 Draft
-636,9,February 2022 Draft
-637,9,February 2022 Draft
-638,10,"Season 1, 1v1 League"
-639,10,"Season 1, 1v1 League"
-640,10,"Season 1, 1v1 League"
-641,10,"Season 1, 1v1 League"
-642,10,"Season 1, 1v1 League"
-643,10,"Season 1, 1v1 League"
-644,10,"Season 1, 1v1 League"
-645,10,"Season 1, 1v1 League"
-646,10,"Season 1, 1v1 League"
-647,10,"Season 1, 1v1 League"
-648,10,"Season 1, 1v1 League"
-649,10,"Season 1, 1v1 League"
-650,10,"Season 1, 1v1 League"
-651,10,"Season 1, 1v1 League"
-652,10,"Season 1, 1v1 League"
-653,10,"Season 1, 1v1 League"
-654,10,"Season 1, 1v1 League"
-655,10,"Season 1, 1v1 League"
-656,10,"Season 1, 1v1 League"
-657,10,"Season 1, 1v1 League"
-658,10,"Season 1, 1v1 League"
-659,10,"Season 1, 1v1 League"
-660,10,"Season 1, 1v1 League"
-661,10,"Season 1, 1v1 League"
-662,10,"Season 1, 1v1 League"
-663,10,"Season 1, 1v1 League"
-664,10,"Season 1, 1v1 League"
-665,10,"Season 1, 1v1 League"
-666,10,"Season 1, 1v1 League"
-667,10,"Season 1, 1v1 League"
-668,10,"Season 1, 1v1 League"
-669,10,"Season 1, 1v1 League"
-670,10,"Season 1, 1v1 League"
-671,10,"Season 1, 1v1 League"
-672,10,"Season 1, 1v1 League"
-673,10,"Season 1, 1v1 League"
-674,10,"Season 1, 1v1 League"
-675,10,"Season 1, 1v1 League"
-676,10,"Season 1, 1v1 League"
-677,10,"Season 1, 1v1 League"
-678,10,"Season 1, 1v1 League"
-679,10,"Season 1, 1v1 League"
-680,10,"Season 1, 1v1 League"
-681,10,"Season 1, 1v1 League"
-682,10,"Season 1, 1v1 League"
-683,10,"Season 1, 1v1 League"
-684,10,"Season 1, 1v1 League"
-685,10,"Season 1, 1v1 League"
-686,10,"Season 1, 1v1 League"
-687,10,"Season 1, 1v1 League"
-688,10,"Season 1, 1v1 League"
-689,10,"Season 1, 1v1 League"
-690,10,"Season 1, 1v1 League"
-691,10,"Season 1, 1v1 League"
-692,10,"Season 1, 1v1 League"
-693,10,"Season 1, 1v1 League"
-694,10,"Season 1, 1v1 League"
-695,10,"Season 1, 1v1 League"
-696,10,"Season 1, 1v1 League"
-697,10,"Season 1, 1v1 League"
-698,10,"Season 1, 1v1 League"
-699,10,"Season 1, 1v1 League"
-700,10,"Season 1, 1v1 League"
-701,10,"Season 1, 1v1 League"
-702,10,"Season 1, 1v1 League"
-703,10,"Season 1, 1v1 League"
-704,10,"Season 1, 1v1 League"
-705,10,"Season 1, 1v1 League"
-706,10,"Season 1, 1v1 League"
-707,10,"Season 1, 1v1 League"
-708,10,"Season 1, 1v1 League"
-709,10,"Season 1, 1v1 League"
-710,10,"Season 1, 1v1 League"
-711,10,"Season 1, 1v1 League"
-712,10,"Season 1, 1v1 League"
-713,10,"Season 1, 1v1 League"
-714,10,"Season 1, 1v1 League"
-715,10,"Season 1, 1v1 League"
-716,10,"Season 1, 1v1 League"
-717,10,"Season 1, 1v1 League"
-718,10,"Season 1, 1v1 League"
-719,10,"Season 1, 1v1 League"
-720,10,"Season 1, 1v1 League"
-721,10,"Season 1, 1v1 League"
-722,10,"Season 1, 1v1 League"
-723,10,"Season 1, 1v1 League"
-724,10,"Season 1, 1v1 League"
-725,10,"Season 1, 1v1 League"
-726,10,"Season 1, 1v1 League"
-727,10,"Season 1, 1v1 League"
-728,10,"Season 1, 1v1 League"
-729,10,"Season 1, 1v1 League"
-730,10,"Season 1, 1v1 League"
-731,10,"Season 1, 1v1 League"
-732,10,"Season 1, 1v1 League"
-733,10,"Season 1, 1v1 League"
-734,10,"Season 1, 1v1 League"
-735,10,"Season 1, 1v1 League"
-736,10,"Season 1, 1v1 League"
-737,10,"Season 1, 1v1 League"
-738,10,"Season 1, 1v1 League"
-739,10,"Season 1, 1v1 League"
-740,10,"Season 1, 1v1 League"
-741,10,"Season 1, 1v1 League"
-742,10,"Season 1, 1v1 League"
-743,10,"Season 1, 1v1 League"
-744,10,"Season 1, 1v1 League"
-745,10,"Season 1, 1v1 League"
-746,10,"Season 1, 1v1 League"
-747,10,"Season 1, 1v1 League"
-748,10,"Season 1, 1v1 League"
-749,10,"Season 1, 1v1 League"
-750,10,"Season 1, 1v1 League"
-751,10,"Season 1, 1v1 League"
-752,10,"Season 1, 1v1 League"
-753,10,"Season 1, 1v1 League"
-754,10,"Season 1, 1v1 League"
-755,10,"Season 1, 1v1 League"
-756,10,"Season 1, 1v1 League"
-757,10,"Season 1, 1v1 League"
-758,10,"Season 1, 1v1 League"
-759,10,"Season 1, 1v1 League"
-760,10,"Season 1, 1v1 League"
-761,10,"Season 1, 1v1 League"
-762,10,"Season 1, 1v1 League"
-763,10,"Season 1, 1v1 League"
-764,10,"Season 1, 1v1 League"
-765,10,"Season 1, 1v1 League"
-766,10,"Season 1, 1v1 League"
-767,10,"Season 1, 1v1 League"
-768,10,"Season 1, 1v1 League"
-769,10,"Season 1, 1v1 League"
-770,10,"Season 1, 1v1 League"
-771,10,"Season 1, 1v1 League"
-772,10,"Season 1, 1v1 League"
-773,10,"Season 1, 1v1 League"
-774,10,"Season 1, 1v1 League"
-775,10,"Season 1, 1v1 League"
-776,10,"Season 1, 1v1 League"
-777,10,"Season 1, 1v1 League"
-778,10,"Season 1, 1v1 League"
-779,10,"Season 1, 1v1 League"
-780,10,"Season 1, 1v1 League"
-781,10,"Season 1, 1v1 League"
-782,10,"Season 1, 1v1 League"
-783,10,"Season 1, 1v1 League"
-784,10,"Season 1, 1v1 League"
-785,10,"Season 1, 1v1 League"
-786,10,"Season 1, 1v1 League"
-787,10,"Season 1, 1v1 League"
-788,10,"Season 1, 1v1 League"
-789,10,"Season 1, 1v1 League"
-790,10,"Season 1, 1v1 League"
-791,10,"Season 1, 1v1 League"
-792,10,"Season 1, 1v1 League"
-793,10,"Season 1, 1v1 League"
-794,10,"Season 1, 1v1 League"
-795,10,"Season 1, 1v1 League"
-796,10,"Season 1, 1v1 League"
-797,10,"Season 1, 1v1 League"
-798,10,"Season 1, 1v1 League"
-799,10,"Season 1, 1v1 League"
-800,10,"Season 1, 1v1 League"
-801,10,"Season 1, 1v1 League"
-802,10,"Season 1, 1v1 League"
-803,10,"Season 1, 1v1 League"
-804,10,"Season 1, 1v1 League"
-805,10,"Season 1, 1v1 League"
-806,10,"Season 1, 1v1 League"
-807,10,"Season 1, 1v1 League"
-808,10,"Season 1, 1v1 League"
-809,10,"Season 1, 1v1 League"
-810,10,"Season 1, 1v1 League"
-811,10,"Season 1, 1v1 League"
-812,10,"Season 1, 1v1 League"
-813,10,"Season 1, 1v1 League"
-814,10,"Season 1, 1v1 League"
-815,10,"Season 1, 1v1 League"
-816,10,"Season 1, 1v1 League"
-817,10,"Season 1, 1v1 League"
-818,10,"Season 1, 1v1 League"
-819,10,"Season 1, 1v1 League"
-820,10,"Season 1, 1v1 League"
-821,10,"Season 1, 1v1 League"
-822,10,"Season 1, 1v1 League"
-823,10,"Season 1, 1v1 League"
-824,10,"Season 1, 1v1 League"
-825,10,"Season 1, 1v1 League"
-826,10,"Season 1, 1v1 League"
-827,10,"Season 1, 1v1 League"
-828,10,"Season 1, 1v1 League"
-829,10,"Season 1, 1v1 League"
-830,10,"Season 1, 1v1 League"
-831,10,"Season 1, 1v1 League"
-832,10,"Season 1, 1v1 League"
-833,10,"Season 1, 1v1 League"
-834,10,"Season 1, 1v1 League"
-835,10,"Season 1, 1v1 League"
-836,10,"Season 1, 1v1 League"
-837,10,"Season 1, 1v1 League"
-838,10,"Season 1, 1v1 League"
-839,10,"Season 1, 1v1 League"
-840,10,"Season 1, 1v1 League"
-841,10,"Season 1, 1v1 League"
-842,10,"Season 1, 1v1 League"
-843,10,"Season 1, 1v1 League"
-844,10,"Season 1, 1v1 League"
-845,10,"Season 1, 1v1 League"
-846,10,"Season 1, 1v1 League"
-847,10,"Season 1, 1v1 League"
-848,10,"Season 1, 1v1 League"
-849,10,"Season 1, 1v1 League"
-850,10,"Season 1, 1v1 League"
-851,10,"Season 1, 1v1 League"
-852,10,"Season 1, 1v1 League"
-853,10,"Season 1, 1v1 League"
-854,10,"Season 1, 1v1 League"
-855,10,"Season 1, 1v1 League"
-856,10,"Season 1, 1v1 League"
-857,10,"Season 1, 1v1 League"
-858,10,"Season 1, 1v1 League"
-859,10,"Season 1, 1v1 League"
-860,10,"Season 1, 1v1 League"
-861,10,"Season 1, 1v1 League"
-862,10,"Season 1, 1v1 League"
-863,10,"Season 1, 1v1 League"
-864,10,"Season 1, 1v1 League"
-865,10,"Season 1, 1v1 League"
-866,10,"Season 1, 1v1 League"
-867,10,"Season 1, 1v1 League"
-868,10,"Season 1, 1v1 League"
-869,10,"Season 1, 1v1 League"
-870,10,"Season 1, 1v1 League"
-871,10,"Season 1, 1v1 League"
-872,10,"Season 1, 1v1 League"
-873,10,"Season 1, 1v1 League"
-874,10,"Season 1, 1v1 League"
-875,10,"Season 1, 1v1 League"
-876,10,"Season 1, 1v1 League"
-877,10,"Season 1, 1v1 League"
-878,10,"Season 1, 1v1 League"
-879,10,"Season 1, 1v1 League"
-880,10,"Season 1, 1v1 League"
-881,10,"Season 1, 1v1 League"
-882,10,"Season 1, 1v1 League"
-883,10,"Season 1, 1v1 League"
-884,10,"Season 1, 1v1 League"
-885,10,"Season 1, 1v1 League"
-886,10,"Season 1, 1v1 League"
-887,10,"Season 1, 1v1 League"
-888,10,"Season 1, 1v1 League"
-889,10,"Season 1, 1v1 League"
-890,10,"Season 1, 1v1 League"
-891,10,"Season 1, 1v1 League"
-892,10,"Season 1, 1v1 League"
-893,10,"Season 1, 1v1 League"
-894,10,"Season 1, 1v1 League"
-895,10,"Season 1, 1v1 League"
-896,10,"Season 1, 1v1 League"
-897,10,"Season 1, 1v1 League"
-898,10,"Season 1, 1v1 League"
-899,10,"Season 1, 1v1 League"
-900,10,"Season 1, 1v1 League"
-901,10,"Season 1, 1v1 League"
-902,10,"Season 1, 1v1 League"
-903,10,"Season 1, 1v1 League"
-904,10,"Season 1, 1v1 League"
-905,10,"Season 1, 1v1 League"
-906,10,"Season 1, 1v1 League"
-907,10,"Season 1, 1v1 League"
-908,10,"Season 1, 1v1 League"
-909,10,"Season 1, 1v1 League"
-910,10,"Season 1, 1v1 League"
-911,10,"Season 1, 1v1 League"
-912,10,"Season 1, 1v1 League"
-913,10,"Season 1, 1v1 League"
-914,10,"Season 1, 1v1 League"
-915,10,"Season 1, 1v1 League"
-916,10,"Season 1, 1v1 League"
-917,10,"Season 1, 1v1 League"
-918,10,"Season 1, 1v1 League"
-919,10,"Season 1, 1v1 League"
-920,10,"Season 1, 1v1 League"
-921,10,"Season 1, 1v1 League"
-922,10,"Season 1, 1v1 League"
-923,10,"Season 1, 1v1 League"
-924,10,"Season 1, 1v1 League"
-925,10,"Season 1, 1v1 League"
-926,11,May 2022 Mashup
-927,11,May 2022 Mashup
-928,11,May 2022 Mashup
-929,11,May 2022 Mashup
-930,11,May 2022 Mashup
-931,11,May 2022 Mashup
-932,11,May 2022 Mashup
-933,11,May 2022 Mashup
-934,11,May 2022 Mashup
-935,11,May 2022 Mashup
-936,11,May 2022 Mashup
-937,11,May 2022 Mashup
-938,11,May 2022 Mashup
-939,11,May 2022 Mashup
-940,11,May 2022 Mashup
-941,11,May 2022 Mashup
-942,11,May 2022 Mashup
-943,11,May 2022 Mashup
-944,11,May 2022 Mashup
-945,11,May 2022 Mashup
-946,11,May 2022 Mashup
-947,11,May 2022 Mashup
-948,11,May 2022 Mashup
-949,11,May 2022 Mashup
-950,11,May 2022 Mashup
-951,11,May 2022 Mashup
-952,11,May 2022 Mashup
-953,11,May 2022 Mashup
-954,11,May 2022 Mashup
-955,11,May 2022 Mashup
-956,11,May 2022 Mashup
-957,11,May 2022 Mashup
-958,11,May 2022 Mashup
-959,11,May 2022 Mashup
-960,11,May 2022 Mashup
-961,11,May 2022 Mashup
-962,11,May 2022 Mashup
-963,11,May 2022 Mashup
-964,11,May 2022 Mashup
-965,11,May 2022 Mashup
-966,11,May 2022 Mashup
-967,11,May 2022 Mashup
-968,11,May 2022 Mashup
-969,11,May 2022 Mashup
-970,11,May 2022 Mashup
-971,11,May 2022 Mashup
-972,11,May 2022 Mashup
-973,11,May 2022 Mashup
-974,11,May 2022 Mashup
-975,11,May 2022 Mashup
-976,11,May 2022 Mashup
-977,11,May 2022 Mashup
-978,11,May 2022 Mashup
-979,11,May 2022 Mashup
-980,11,May 2022 Mashup
-981,11,May 2022 Mashup
-982,11,May 2022 Mashup
-983,11,May 2022 Mashup
-984,11,May 2022 Mashup
-985,11,May 2022 Mashup
-986,11,May 2022 Mashup
-987,11,May 2022 Mashup
-988,11,May 2022 Mashup
-989,11,May 2022 Mashup
-990,11,May 2022 Mashup
-991,11,May 2022 Mashup
-992,11,May 2022 Mashup
-993,11,May 2022 Mashup
-994,11,May 2022 Mashup
-995,11,May 2022 Mashup
-996,11,May 2022 Mashup
-997,11,May 2022 Mashup
-998,11,May 2022 Mashup
-999,11,May 2022 Mashup
-1000,11,May 2022 Mashup
-1001,11,May 2022 Mashup
-1002,11,May 2022 Mashup
-1003,11,May 2022 Mashup
-1004,11,May 2022 Mashup
-1005,11,May 2022 Mashup
-1006,11,May 2022 Mashup
-1007,11,May 2022 Mashup
-1008,11,May 2022 Mashup
-1009,11,May 2022 Mashup
-1010,11,May 2022 Mashup
-1011,11,May 2022 Mashup
-1012,11,May 2022 Mashup
-1013,11,May 2022 Mashup
-1014,11,May 2022 Mashup
-1015,11,May 2022 Mashup
-1016,11,May 2022 Mashup
-1017,11,May 2022 Mashup
-1018,11,May 2022 Mashup
-1019,11,May 2022 Mashup
-1020,11,May 2022 Mashup
-1021,11,May 2022 Mashup
-1022,11,May 2022 Mashup
-1023,11,May 2022 Mashup
-1024,11,May 2022 Mashup
-1025,11,May 2022 Mashup
-1026,11,May 2022 Mashup
-1027,11,May 2022 Mashup
-1028,11,May 2022 Mashup
-1029,11,May 2022 Mashup
-1030,11,May 2022 Mashup
-1031,11,May 2022 Mashup
-1032,11,May 2022 Mashup
-1033,12,"Season 2, 1v1 League"
-1034,12,"Season 2, 1v1 League"
-1035,12,"Season 2, 1v1 League"
-1036,12,"Season 2, 1v1 League"
-1037,12,"Season 2, 1v1 League"
-1038,12,"Season 2, 1v1 League"
-1039,12,"Season 2, 1v1 League"
-1040,12,"Season 2, 1v1 League"
-1041,12,"Season 2, 1v1 League"
-1042,12,"Season 2, 1v1 League"
-1043,12,"Season 2, 1v1 League"
-1044,12,"Season 2, 1v1 League"
-1045,12,"Season 2, 1v1 League"
-1046,12,"Season 2, 1v1 League"
-1047,12,"Season 2, 1v1 League"
-1048,12,"Season 2, 1v1 League"
-1049,12,"Season 2, 1v1 League"
-1050,12,"Season 2, 1v1 League"
-1051,12,"Season 2, 1v1 League"
-1052,12,"Season 2, 1v1 League"
-1053,12,"Season 2, 1v1 League"
-1054,12,"Season 2, 1v1 League"
-1055,12,"Season 2, 1v1 League"
-1056,12,"Season 2, 1v1 League"
-1057,12,"Season 2, 1v1 League"
-1058,12,"Season 2, 1v1 League"
-1059,12,"Season 2, 1v1 League"
-1060,12,"Season 2, 1v1 League"
-1061,12,"Season 2, 1v1 League"
-1062,12,"Season 2, 1v1 League"
-1063,12,"Season 2, 1v1 League"
-1064,12,"Season 2, 1v1 League"
-1065,12,"Season 2, 1v1 League"
-1066,12,"Season 2, 1v1 League"
-1067,12,"Season 2, 1v1 League"
-1068,12,"Season 2, 1v1 League"
-1069,12,"Season 2, 1v1 League"
-1070,12,"Season 2, 1v1 League"
-1071,12,"Season 2, 1v1 League"
-1072,12,"Season 2, 1v1 League"
-1073,12,"Season 2, 1v1 League"
-1074,12,"Season 2, 1v1 League"
-1075,12,"Season 2, 1v1 League"
-1076,12,"Season 2, 1v1 League"
-1077,12,"Season 2, 1v1 League"
-1078,12,"Season 2, 1v1 League"
-1079,12,"Season 2, 1v1 League"
-1080,12,"Season 2, 1v1 League"
-1081,12,"Season 2, 1v1 League"
-1082,12,"Season 2, 1v1 League"
-1083,12,"Season 2, 1v1 League"
-1084,12,"Season 2, 1v1 League"
-1085,12,"Season 2, 1v1 League"
-1086,12,"Season 2, 1v1 League"
-1087,12,"Season 2, 1v1 League"
-1088,12,"Season 2, 1v1 League"
-1089,12,"Season 2, 1v1 League"
-1090,12,"Season 2, 1v1 League"
-1091,12,"Season 2, 1v1 League"
-1092,12,"Season 2, 1v1 League"
-1093,12,"Season 2, 1v1 League"
-1094,12,"Season 2, 1v1 League"
-1095,12,"Season 2, 1v1 League"
-1096,12,"Season 2, 1v1 League"
-1097,12,"Season 2, 1v1 League"
-1098,12,"Season 2, 1v1 League"
-1099,12,"Season 2, 1v1 League"
-1100,12,"Season 2, 1v1 League"
-1101,12,"Season 2, 1v1 League"
-1102,12,"Season 2, 1v1 League"
-1103,12,"Season 2, 1v1 League"
-1104,12,"Season 2, 1v1 League"
-1105,12,"Season 2, 1v1 League"
-1106,12,"Season 2, 1v1 League"
-1107,12,"Season 2, 1v1 League"
-1108,12,"Season 2, 1v1 League"
-1109,12,"Season 2, 1v1 League"
-1110,12,"Season 2, 1v1 League"
-1111,12,"Season 2, 1v1 League"
-1112,12,"Season 2, 1v1 League"
-1113,12,"Season 2, 1v1 League"
-1114,12,"Season 2, 1v1 League"
-1115,12,"Season 2, 1v1 League"
-1116,12,"Season 2, 1v1 League"
-1117,12,"Season 2, 1v1 League"
-1118,12,"Season 2, 1v1 League"
-1119,12,"Season 2, 1v1 League"
-1120,12,"Season 2, 1v1 League"
-1121,12,"Season 2, 1v1 League"
-1122,12,"Season 2, 1v1 League"
-1123,12,"Season 2, 1v1 League"
-1124,12,"Season 2, 1v1 League"
-1125,12,"Season 2, 1v1 League"
-1126,12,"Season 2, 1v1 League"
-1127,12,"Season 2, 1v1 League"
-1128,12,"Season 2, 1v1 League"
-1129,12,"Season 2, 1v1 League"
-1130,12,"Season 2, 1v1 League"
-1131,12,"Season 2, 1v1 League"
-1132,12,"Season 2, 1v1 League"
-1133,12,"Season 2, 1v1 League"
-1134,12,"Season 2, 1v1 League"
-1135,12,"Season 2, 1v1 League"
-1136,12,"Season 2, 1v1 League"
-1137,12,"Season 2, 1v1 League"
-1138,12,"Season 2, 1v1 League"
-1139,12,"Season 2, 1v1 League"
-1140,12,"Season 2, 1v1 League"
-1141,12,"Season 2, 1v1 League"
-1142,12,"Season 2, 1v1 League"
-1143,12,"Season 2, 1v1 League"
-1144,12,"Season 2, 1v1 League"
-1145,12,"Season 2, 1v1 League"
-1146,12,"Season 2, 1v1 League"
-1147,12,"Season 2, 1v1 League"
-1148,12,"Season 2, 1v1 League"
-1149,12,"Season 2, 1v1 League"
-1150,12,"Season 2, 1v1 League"
-1151,12,"Season 2, 1v1 League"
-1152,12,"Season 2, 1v1 League"
-1153,12,"Season 2, 1v1 League"
-1154,12,"Season 2, 1v1 League"
-1155,12,"Season 2, 1v1 League"
-1156,12,"Season 2, 1v1 League"
-1157,12,"Season 2, 1v1 League"
-1158,12,"Season 2, 1v1 League"
-1159,12,"Season 2, 1v1 League"
-1160,12,"Season 2, 1v1 League"
-1161,12,"Season 2, 1v1 League"
-1162,12,"Season 2, 1v1 League"
-1163,12,"Season 2, 1v1 League"
-1164,12,"Season 2, 1v1 League"
-1165,12,"Season 2, 1v1 League"
-1166,12,"Season 2, 1v1 League"
-1167,12,"Season 2, 1v1 League"
-1168,12,"Season 2, 1v1 League"
-1169,12,"Season 2, 1v1 League"
-1170,12,"Season 2, 1v1 League"
-1171,12,"Season 2, 1v1 League"
-1172,12,"Season 2, 1v1 League"
-1173,12,"Season 2, 1v1 League"
-1174,12,"Season 2, 1v1 League"
-1175,12,"Season 2, 1v1 League"
-1176,12,"Season 2, 1v1 League"
-1177,12,"Season 2, 1v1 League"
-1178,12,"Season 2, 1v1 League"
-1179,12,"Season 2, 1v1 League"
-1180,12,"Season 2, 1v1 League"
-1181,12,"Season 2, 1v1 League"
-1182,12,"Season 2, 1v1 League"
-1183,12,"Season 2, 1v1 League"
-1184,12,"Season 2, 1v1 League"
-1185,12,"Season 2, 1v1 League"
-1186,12,"Season 2, 1v1 League"
-1187,12,"Season 2, 1v1 League"
-1188,12,"Season 2, 1v1 League"
-1189,12,"Season 2, 1v1 League"
-1190,12,"Season 2, 1v1 League"
-1191,12,"Season 2, 1v1 League"
-1192,12,"Season 2, 1v1 League"
-1193,12,"Season 2, 1v1 League"
-1194,12,"Season 2, 1v1 League"
-1195,12,"Season 2, 1v1 League"
-1196,12,"Season 2, 1v1 League"
-1197,12,"Season 2, 1v1 League"
-1198,12,"Season 2, 1v1 League"
-1199,12,"Season 2, 1v1 League"
-1200,12,"Season 2, 1v1 League"
-1201,12,"Season 2, 1v1 League"
-1202,12,"Season 2, 1v1 League"
-1203,12,"Season 2, 1v1 League"
-1204,12,"Season 2, 1v1 League"
-1205,12,"Season 2, 1v1 League"
-1206,12,"Season 2, 1v1 League"
-1207,12,"Season 2, 1v1 League"
-1208,12,"Season 2, 1v1 League"
-1209,12,"Season 2, 1v1 League"
-1210,12,"Season 2, 1v1 League"
-1211,12,"Season 2, 1v1 League"
-1212,12,"Season 2, 1v1 League"
-1213,12,"Season 2, 1v1 League"
-1214,12,"Season 2, 1v1 League"
-1215,12,"Season 2, 1v1 League"
-1216,12,"Season 2, 1v1 League"
-1217,12,"Season 2, 1v1 League"
-1218,12,"Season 2, 1v1 League"
-1219,12,"Season 2, 1v1 League"
-1220,12,"Season 2, 1v1 League"
-1221,12,"Season 2, 1v1 League"
-1222,12,"Season 2, 1v1 League"
-1223,12,"Season 2, 1v1 League"
-1224,12,"Season 2, 1v1 League"
-1225,12,"Season 2, 1v1 League"
-1226,12,"Season 2, 1v1 League"
-1227,12,"Season 2, 1v1 League"
-1228,12,"Season 2, 1v1 League"
-1229,12,"Season 2, 1v1 League"
-1230,12,"Season 2, 1v1 League"
-1231,12,"Season 2, 1v1 League"
-1232,12,"Season 2, 1v1 League"
-1233,12,"Season 2, 1v1 League"
-1234,12,"Season 2, 1v1 League"
-1235,12,"Season 2, 1v1 League"
-1236,12,"Season 2, 1v1 League"
-1237,13,September Scenarios 2022
-1238,13,September Scenarios 2022
-1239,13,September Scenarios 2022
-1240,13,September Scenarios 2022
-1241,13,September Scenarios 2022
-1242,13,September Scenarios 2022
-1243,13,September Scenarios 2022
-1244,13,September Scenarios 2022
-1245,13,September Scenarios 2022
-1246,13,September Scenarios 2022
-1247,13,September Scenarios 2022
-1248,13,September Scenarios 2022
-1249,13,September Scenarios 2022
-1250,13,September Scenarios 2022
-1251,13,September Scenarios 2022
-1252,13,September Scenarios 2022
-1253,13,September Scenarios 2022
-1254,13,September Scenarios 2022
-1255,13,September Scenarios 2022
-1256,13,September Scenarios 2022
-1257,13,September Scenarios 2022
-1258,13,September Scenarios 2022
-1259,14,Factory Rush 2022
-1260,14,Factory Rush 2022
-1261,14,Factory Rush 2022
-1262,14,Factory Rush 2022
-1263,14,Factory Rush 2022
-1264,14,Factory Rush 2022
-1265,14,Factory Rush 2022
-1266,14,Factory Rush 2022
-1267,14,Factory Rush 2022
-1268,14,Factory Rush 2022
-1269,14,Factory Rush 2022
-1270,14,Factory Rush 2022
-1271,14,Factory Rush 2022
-1272,14,Factory Rush 2022
-1273,14,Factory Rush 2022
-1274,14,Factory Rush 2022
-1275,14,Factory Rush 2022
-1276,14,Factory Rush 2022
-1277,14,Factory Rush 2022
-1278,14,Factory Rush 2022
-1279,14,Factory Rush 2022
-1280,14,Factory Rush 2022
-1281,14,Factory Rush 2022
-1282,14,Factory Rush 2022
-1283,14,Factory Rush 2022
-1284,14,Factory Rush 2022
-1285,14,Factory Rush 2022
-1286,15,2023 New Years Tournament
-1287,15,2023 New Years Tournament
-1288,15,2023 New Years Tournament
-1289,15,2023 New Years Tournament
-1290,15,2023 New Years Tournament
-1291,15,2023 New Years Tournament
-1292,15,2023 New Years Tournament
-1293,15,2023 New Years Tournament
-1294,15,2023 New Years Tournament
-1295,15,2023 New Years Tournament
-1296,15,2023 New Years Tournament
-1297,15,2023 New Years Tournament
-1298,15,2023 New Years Tournament
-1299,15,2023 New Years Tournament
-1300,15,2023 New Years Tournament
-1301,15,2023 New Years Tournament
-1302,15,2023 New Years Tournament
-1303,15,2023 New Years Tournament
-1304,15,2023 New Years Tournament
-1305,15,2023 New Years Tournament
-1306,15,2023 New Years Tournament
-1307,15,2023 New Years Tournament
-1308,15,2023 New Years Tournament
-1309,15,2023 New Years Tournament
-1310,15,2023 New Years Tournament
-1311,15,2023 New Years Tournament
-1312,15,2023 New Years Tournament
-1313,15,2023 New Years Tournament
-1314,15,2023 New Years Tournament
-1315,15,2023 New Years Tournament
-1316,15,2023 New Years Tournament
-1317,15,2023 New Years Tournament
-1318,15,2023 New Years Tournament
-1319,15,2023 New Years Tournament
-1320,15,2023 New Years Tournament
-1321,15,2023 New Years Tournament
-1322,15,2023 New Years Tournament
-1323,15,2023 New Years Tournament
-1324,15,2023 New Years Tournament
-1325,15,2023 New Years Tournament
-1326,15,2023 New Years Tournament
-1327,15,2023 New Years Tournament
-1328,15,2023 New Years Tournament
-1329,15,2023 New Years Tournament
-1330,15,2023 New Years Tournament
-1331,15,2023 New Years Tournament
-1332,15,2023 New Years Tournament
-1333,15,2023 New Years Tournament
-1334,15,2023 New Years Tournament
-1335,15,2023 New Years Tournament
-1336,15,2023 New Years Tournament
-1337,15,2023 New Years Tournament
-1338,15,2023 New Years Tournament
-1339,15,2023 New Years Tournament
-1340,15,2023 New Years Tournament
-1341,15,2023 New Years Tournament
-1342,15,2023 New Years Tournament
-1343,15,2023 New Years Tournament
-1344,15,2023 New Years Tournament
-1345,15,2023 New Years Tournament
-1346,15,2023 New Years Tournament
-1347,15,2023 New Years Tournament
-1348,15,2023 New Years Tournament
-1349,16,"Season 3, 1v1 League"
-1350,16,"Season 3, 1v1 League"
-1351,16,"Season 3, 1v1 League"
-1352,16,"Season 3, 1v1 League"
-1353,16,"Season 3, 1v1 League"
-1354,16,"Season 3, 1v1 League"
-1355,16,"Season 3, 1v1 League"
-1356,16,"Season 3, 1v1 League"
-1357,16,"Season 3, 1v1 League"
-1358,16,"Season 3, 1v1 League"
-1359,16,"Season 3, 1v1 League"
-1360,16,"Season 3, 1v1 League"
-1361,16,"Season 3, 1v1 League"
-1362,16,"Season 3, 1v1 League"
-1363,16,"Season 3, 1v1 League"
-1364,16,"Season 3, 1v1 League"
-1365,16,"Season 3, 1v1 League"
-1366,16,"Season 3, 1v1 League"
-1367,16,"Season 3, 1v1 League"
-1368,16,"Season 3, 1v1 League"
-1369,16,"Season 3, 1v1 League"
-1370,16,"Season 3, 1v1 League"
-1371,16,"Season 3, 1v1 League"
-1372,16,"Season 3, 1v1 League"
-1373,16,"Season 3, 1v1 League"
-1374,16,"Season 3, 1v1 League"
-1375,16,"Season 3, 1v1 League"
-1376,16,"Season 3, 1v1 League"
-1377,16,"Season 3, 1v1 League"
-1378,16,"Season 3, 1v1 League"
-1379,16,"Season 3, 1v1 League"
-1380,16,"Season 3, 1v1 League"
-1381,16,"Season 3, 1v1 League"
-1382,16,"Season 3, 1v1 League"
-1383,16,"Season 3, 1v1 League"
-1384,16,"Season 3, 1v1 League"
-1385,16,"Season 3, 1v1 League"
-1386,16,"Season 3, 1v1 League"
-1387,16,"Season 3, 1v1 League"
-1388,16,"Season 3, 1v1 League"
-1389,16,"Season 3, 1v1 League"
-1390,16,"Season 3, 1v1 League"
-1391,16,"Season 3, 1v1 League"
-1392,16,"Season 3, 1v1 League"
-1393,16,"Season 3, 1v1 League"
-1394,16,"Season 3, 1v1 League"
-1395,16,"Season 3, 1v1 League"
-1396,16,"Season 3, 1v1 League"
-1397,16,"Season 3, 1v1 League"
-1398,16,"Season 3, 1v1 League"
-1399,16,"Season 3, 1v1 League"
-1400,16,"Season 3, 1v1 League"
-1401,16,"Season 3, 1v1 League"
-1402,16,"Season 3, 1v1 League"
-1403,16,"Season 3, 1v1 League"
-1404,16,"Season 3, 1v1 League"
-1405,16,"Season 3, 1v1 League"
-1406,16,"Season 3, 1v1 League"
-1407,16,"Season 3, 1v1 League"
-1408,16,"Season 3, 1v1 League"
-1409,16,"Season 3, 1v1 League"
-1410,16,"Season 3, 1v1 League"
-1411,16,"Season 3, 1v1 League"
-1412,16,"Season 3, 1v1 League"
-1413,16,"Season 3, 1v1 League"
-1414,16,"Season 3, 1v1 League"
-1415,16,"Season 3, 1v1 League"
-1416,16,"Season 3, 1v1 League"
-1417,16,"Season 3, 1v1 League"
-1418,16,"Season 3, 1v1 League"
-1419,16,"Season 3, 1v1 League"
-1420,16,"Season 3, 1v1 League"
-1421,16,"Season 3, 1v1 League"
-1422,16,"Season 3, 1v1 League"
-1423,16,"Season 3, 1v1 League"
-1424,16,"Season 3, 1v1 League"
-1425,16,"Season 3, 1v1 League"
-1426,16,"Season 3, 1v1 League"
-1427,16,"Season 3, 1v1 League"
-1428,16,"Season 3, 1v1 League"
-1429,16,"Season 3, 1v1 League"
-1430,16,"Season 3, 1v1 League"
-1431,16,"Season 3, 1v1 League"
-1432,16,"Season 3, 1v1 League"
-1433,16,"Season 3, 1v1 League"
-1434,16,"Season 3, 1v1 League"
-1435,16,"Season 3, 1v1 League"
-1436,16,"Season 3, 1v1 League"
-1437,16,"Season 3, 1v1 League"
-1438,16,"Season 3, 1v1 League"
-1439,16,"Season 3, 1v1 League"
-1440,16,"Season 3, 1v1 League"
-1441,16,"Season 3, 1v1 League"
-1442,16,"Season 3, 1v1 League"
-1443,16,"Season 3, 1v1 League"
-1444,16,"Season 3, 1v1 League"
-1445,16,"Season 3, 1v1 League"
-1446,16,"Season 3, 1v1 League"
-1447,16,"Season 3, 1v1 League"
-1448,16,"Season 3, 1v1 League"
-1449,16,"Season 3, 1v1 League"
-1450,16,"Season 3, 1v1 League"
-1451,16,"Season 3, 1v1 League"
-1452,16,"Season 3, 1v1 League"
-1453,16,"Season 3, 1v1 League"
-1454,16,"Season 3, 1v1 League"
-1455,16,"Season 3, 1v1 League"
-1456,16,"Season 3, 1v1 League"
-1457,16,"Season 3, 1v1 League"
-1458,16,"Season 3, 1v1 League"
-1459,16,"Season 3, 1v1 League"
-1460,16,"Season 3, 1v1 League"
-1461,16,"Season 3, 1v1 League"
-1462,16,"Season 3, 1v1 League"
-1463,16,"Season 3, 1v1 League"
-1464,16,"Season 3, 1v1 League"
-1465,16,"Season 3, 1v1 League"
-1466,16,"Season 3, 1v1 League"
-1467,16,"Season 3, 1v1 League"
-1468,16,"Season 3, 1v1 League"
-1469,16,"Season 3, 1v1 League"
-1470,16,"Season 3, 1v1 League"
-1471,16,"Season 3, 1v1 League"
-1472,16,"Season 3, 1v1 League"
-1473,16,"Season 3, 1v1 League"
-1474,16,"Season 3, 1v1 League"
-1475,16,"Season 3, 1v1 League"
-1476,16,"Season 3, 1v1 League"
-1477,16,"Season 3, 1v1 League"
-1478,16,"Season 3, 1v1 League"
-1479,16,"Season 3, 1v1 League"
-1480,16,"Season 3, 1v1 League"
-1481,16,"Season 3, 1v1 League"
-1482,16,"Season 3, 1v1 League"
-1483,16,"Season 3, 1v1 League"
-1484,16,"Season 3, 1v1 League"
-1485,16,"Season 3, 1v1 League"
-1486,16,"Season 3, 1v1 League"
-1487,16,"Season 3, 1v1 League"
-1488,16,"Season 3, 1v1 League"
-1489,16,"Season 3, 1v1 League"
-1490,16,"Season 3, 1v1 League"
-1491,17,Factory Rush 2023
-1492,17,Factory Rush 2023
-1493,17,Factory Rush 2023
-1494,17,Factory Rush 2023
-1495,17,Factory Rush 2023
-1496,17,Factory Rush 2023
-1497,17,Factory Rush 2023
-1498,17,Factory Rush 2023
-1499,17,Factory Rush 2023
-1500,17,Factory Rush 2023
-1501,17,Factory Rush 2023
-1502,17,Factory Rush 2023
-1503,17,Factory Rush 2023
-1504,17,Factory Rush 2023
-1505,17,Factory Rush 2023
-1506,17,Factory Rush 2023
-1507,17,Factory Rush 2023
-1508,17,Factory Rush 2023
-1509,17,Factory Rush 2023
-1510,17,Factory Rush 2023
-1511,17,Factory Rush 2023
-1512,17,Factory Rush 2023
-1513,17,Factory Rush 2023
-1514,17,Factory Rush 2023
-1515,17,Factory Rush 2023
-1516,17,Factory Rush 2023
-1517,17,Factory Rush 2023
-1518,17,Factory Rush 2023
-1519,17,Factory Rush 2023
-1520,19,2024 Scythe Ice Bowl (Main)
-1521,19,2024 Scythe Ice Bowl (Main)
-1522,19,2024 Scythe Ice Bowl (Main)
-1523,19,2024 Scythe Ice Bowl (Main)
-1524,19,2024 Scythe Ice Bowl (Main)
-1525,19,2024 Scythe Ice Bowl (Main)
-1526,19,2024 Scythe Ice Bowl (Main)
-1527,19,2024 Scythe Ice Bowl (Main)
-1528,19,2024 Scythe Ice Bowl (Main)
-1529,19,2024 Scythe Ice Bowl (Main)
-1530,19,2024 Scythe Ice Bowl (Main)
-1531,19,2024 Scythe Ice Bowl (Main)
-1532,19,2024 Scythe Ice Bowl (Main)
-1533,19,2024 Scythe Ice Bowl (Main)
-1534,19,2024 Scythe Ice Bowl (Main)
-1535,19,2024 Scythe Ice Bowl (Main)
-1536,19,2024 Scythe Ice Bowl (Main)
-1537,19,2024 Scythe Ice Bowl (Main)
-1538,19,2024 Scythe Ice Bowl (Main)
-1539,19,2024 Scythe Ice Bowl (Main)
-1540,19,2024 Scythe Ice Bowl (Main)
-1541,19,2024 Scythe Ice Bowl (Main)
-1542,19,2024 Scythe Ice Bowl (Main)
-1543,19,2024 Scythe Ice Bowl (Main)
-1544,19,2024 Scythe Ice Bowl (Main)
-1545,19,2024 Scythe Ice Bowl (Main)
-1546,19,2024 Scythe Ice Bowl (Main)
-1547,19,2024 Scythe Ice Bowl (Main)
-1548,19,2024 Scythe Ice Bowl (Main)
-1549,19,2024 Scythe Ice Bowl (Main)
-1550,19,2024 Scythe Ice Bowl (Main)
-1551,19,2024 Scythe Ice Bowl (Main)
-1552,19,2024 Scythe Ice Bowl (Main)
-1553,19,2024 Scythe Ice Bowl (Main)
-1554,19,2024 Scythe Ice Bowl (Main)
-1555,19,2024 Scythe Ice Bowl (Main)
-1556,19,2024 Scythe Ice Bowl (Main)
-1557,19,2024 Scythe Ice Bowl (Main)
-1558,19,2024 Scythe Ice Bowl (Main)
-1559,19,2024 Scythe Ice Bowl (Main)
-1560,19,2024 Scythe Ice Bowl (Main)
-1561,19,2024 Scythe Ice Bowl (Main)
-1562,19,2024 Scythe Ice Bowl (Main)
-1563,19,2024 Scythe Ice Bowl (Main)
-1564,19,2024 Scythe Ice Bowl (Main)
-1565,19,2024 Scythe Ice Bowl (Main)
-1566,19,2024 Scythe Ice Bowl (Main)
-1567,19,2024 Scythe Ice Bowl (Main)
-1568,19,2024 Scythe Ice Bowl (Main)
-1569,19,2024 Scythe Ice Bowl (Main)
-1570,19,2024 Scythe Ice Bowl (Main)
-1571,19,2024 Scythe Ice Bowl (Main)
-1572,19,2024 Scythe Ice Bowl (Main)
-1573,19,2024 Scythe Ice Bowl (Main)
-1574,19,2024 Scythe Ice Bowl (Main)
-1575,19,2024 Scythe Ice Bowl (Main)
-1576,19,2024 Scythe Ice Bowl (Main)
-1577,19,2024 Scythe Ice Bowl (Main)
-1578,20,2024 Scythe Ice Bowl (Novice)
-1579,20,2024 Scythe Ice Bowl (Novice)
-1580,20,2024 Scythe Ice Bowl (Novice)
-1581,20,2024 Scythe Ice Bowl (Novice)
-1582,20,2024 Scythe Ice Bowl (Novice)
-1583,20,2024 Scythe Ice Bowl (Novice)
-1584,20,2024 Scythe Ice Bowl (Novice)
-1585,20,2024 Scythe Ice Bowl (Novice)
-1586,20,2024 Scythe Ice Bowl (Novice)
-1587,20,2024 Scythe Ice Bowl (Novice)
-1588,20,2024 Scythe Ice Bowl (Novice)
-1589,20,2024 Scythe Ice Bowl (Novice)
-1590,20,2024 Scythe Ice Bowl (Novice)
-1591,20,2024 Scythe Ice Bowl (Novice)
-1592,20,2024 Scythe Ice Bowl (Novice)
-1593,20,2024 Scythe Ice Bowl (Novice)
-1594,20,2024 Scythe Ice Bowl (Novice)
-1595,20,2024 Scythe Ice Bowl (Novice)
-1596,20,2024 Scythe Ice Bowl (Novice)
-1597,20,2024 Scythe Ice Bowl (Novice)
-1598,20,2024 Scythe Ice Bowl (Novice)
-1599,20,2024 Scythe Ice Bowl (Novice)
-1600,20,2024 Scythe Ice Bowl (Novice)
-1601,20,2024 Scythe Ice Bowl (Novice)
-1602,20,2024 Scythe Ice Bowl (Novice)
-1603,20,2024 Scythe Ice Bowl (Novice)
-1604,20,2024 Scythe Ice Bowl (Novice)
-1605,20,2024 Scythe Ice Bowl (Novice)
-1606,20,2024 Scythe Ice Bowl (Novice)
-1607,18,"Season 4, 1v1 League"
-1608,18,"Season 4, 1v1 League"
-1609,18,"Season 4, 1v1 League"
-1610,18,"Season 4, 1v1 League"
-1611,18,"Season 4, 1v1 League"
-1612,18,"Season 4, 1v1 League"
-1613,18,"Season 4, 1v1 League"
-1614,18,"Season 4, 1v1 League"
-1615,18,"Season 4, 1v1 League"
-1616,18,"Season 4, 1v1 League"
-1617,18,"Season 4, 1v1 League"
-1618,18,"Season 4, 1v1 League"
-1619,18,"Season 4, 1v1 League"
-1620,18,"Season 4, 1v1 League"
-1621,18,"Season 4, 1v1 League"
-1622,18,"Season 4, 1v1 League"
-1623,18,"Season 4, 1v1 League"
-1624,18,"Season 4, 1v1 League"
-1625,18,"Season 4, 1v1 League"
-1626,18,"Season 4, 1v1 League"
-1627,18,"Season 4, 1v1 League"
-1628,18,"Season 4, 1v1 League"
-1629,18,"Season 4, 1v1 League"
-1630,18,"Season 4, 1v1 League"
-1631,18,"Season 4, 1v1 League"
-1632,18,"Season 4, 1v1 League"
-1633,18,"Season 4, 1v1 League"
-1634,18,"Season 4, 1v1 League"
-1635,18,"Season 4, 1v1 League"
-1636,18,"Season 4, 1v1 League"
-1637,18,"Season 4, 1v1 League"
-1638,18,"Season 4, 1v1 League"
-1639,18,"Season 4, 1v1 League"
-1640,18,"Season 4, 1v1 League"
-1641,18,"Season 4, 1v1 League"
-1642,18,"Season 4, 1v1 League"
-1643,18,"Season 4, 1v1 League"
-1644,18,"Season 4, 1v1 League"
-1645,18,"Season 4, 1v1 League"
-1646,18,"Season 4, 1v1 League"
-1647,18,"Season 4, 1v1 League"
-1648,18,"Season 4, 1v1 League"
-1649,18,"Season 4, 1v1 League"
-1650,18,"Season 4, 1v1 League"
-1651,18,"Season 4, 1v1 League"
-1652,18,"Season 4, 1v1 League"
-1653,18,"Season 4, 1v1 League"
-1654,18,"Season 4, 1v1 League"
-1655,18,"Season 4, 1v1 League"
-1656,18,"Season 4, 1v1 League"
-1657,18,"Season 4, 1v1 League"
-1658,18,"Season 4, 1v1 League"
-1659,18,"Season 4, 1v1 League"
-1660,18,"Season 4, 1v1 League"
-1661,18,"Season 4, 1v1 League"
-1662,18,"Season 4, 1v1 League"
-1663,18,"Season 4, 1v1 League"
-1664,18,"Season 4, 1v1 League"
-1665,18,"Season 4, 1v1 League"
-1666,18,"Season 4, 1v1 League"
-1667,18,"Season 4, 1v1 League"
-1668,18,"Season 4, 1v1 League"
-1669,18,"Season 4, 1v1 League"
-1670,18,"Season 4, 1v1 League"
-1671,18,"Season 4, 1v1 League"
-1672,18,"Season 4, 1v1 League"
-1673,18,"Season 4, 1v1 League"
-1674,18,"Season 4, 1v1 League"
-1675,18,"Season 4, 1v1 League"
-1676,18,"Season 4, 1v1 League"
-1677,18,"Season 4, 1v1 League"
-1678,18,"Season 4, 1v1 League"
-1679,18,"Season 4, 1v1 League"
-1680,18,"Season 4, 1v1 League"
-1681,18,"Season 4, 1v1 League"
-1682,18,"Season 4, 1v1 League"
-1683,18,"Season 4, 1v1 League"
-1684,18,"Season 4, 1v1 League"
-1685,18,"Season 4, 1v1 League"
-1686,18,"Season 4, 1v1 League"
-1687,18,"Season 4, 1v1 League"
-1688,18,"Season 4, 1v1 League"
-1689,18,"Season 4, 1v1 League"
-1690,18,"Season 4, 1v1 League"
-1691,18,"Season 4, 1v1 League"
-1692,18,"Season 4, 1v1 League"
-1693,18,"Season 4, 1v1 League"
-1694,18,"Season 4, 1v1 League"
-1695,18,"Season 4, 1v1 League"
-1696,18,"Season 4, 1v1 League"
-1697,18,"Season 4, 1v1 League"
-1698,18,"Season 4, 1v1 League"
-1699,18,"Season 4, 1v1 League"
-1700,18,"Season 4, 1v1 League"
-1701,18,"Season 4, 1v1 League"
-1702,18,"Season 4, 1v1 League"
-1703,18,"Season 4, 1v1 League"
-1704,18,"Season 4, 1v1 League"
-1705,18,"Season 4, 1v1 League"
-1706,18,"Season 4, 1v1 League"
-1707,18,"Season 4, 1v1 League"
-1708,18,"Season 4, 1v1 League"
-1709,18,"Season 4, 1v1 League"
-1710,18,"Season 4, 1v1 League"
-1711,18,"Season 4, 1v1 League"
-1712,18,"Season 4, 1v1 League"
-1713,18,"Season 4, 1v1 League"
-1714,18,"Season 4, 1v1 League"
-1715,18,"Season 4, 1v1 League"
-1716,18,"Season 4, 1v1 League"
-1717,18,"Season 4, 1v1 League"
-1718,18,"Season 4, 1v1 League"
-1719,18,"Season 4, 1v1 League"
-1720,18,"Season 4, 1v1 League"
-1721,18,"Season 4, 1v1 League"
-1722,18,"Season 4, 1v1 League"
-1723,18,"Season 4, 1v1 League"
-1724,18,"Season 4, 1v1 League"
-1725,18,"Season 4, 1v1 League"
-1726,18,"Season 4, 1v1 League"
-1727,18,"Season 4, 1v1 League"
-1728,18,"Season 4, 1v1 League"
-1729,18,"Season 4, 1v1 League"
-1730,18,"Season 4, 1v1 League"
-1731,18,"Season 4, 1v1 League"
-1732,18,"Season 4, 1v1 League"
-1733,18,"Season 4, 1v1 League"
-1734,18,"Season 4, 1v1 League"
-1735,18,"Season 4, 1v1 League"
-1736,18,"Season 4, 1v1 League"
-1737,18,"Season 4, 1v1 League"
-1738,18,"Season 4, 1v1 League"
-1739,18,"Season 4, 1v1 League"
-1740,18,"Season 4, 1v1 League"
-1741,18,"Season 4, 1v1 League"
-1742,18,"Season 4, 1v1 League"
-1743,18,"Season 4, 1v1 League"
-1744,18,"Season 4, 1v1 League"
-1745,18,"Season 4, 1v1 League"
-1746,18,"Season 4, 1v1 League"
-1747,18,"Season 4, 1v1 League"
-1748,18,"Season 4, 1v1 League"
-1749,18,"Season 4, 1v1 League"
-1750,18,"Season 4, 1v1 League"
-1751,18,"Season 4, 1v1 League"
-1752,18,"Season 4, 1v1 League"
-1753,18,"Season 4, 1v1 League"
-1754,18,"Season 4, 1v1 League"
-1755,18,"Season 4, 1v1 League"
-1756,18,"Season 4, 1v1 League"
-1757,18,"Season 4, 1v1 League"
-1758,18,"Season 4, 1v1 League"
-1759,18,"Season 4, 1v1 League"
-1760,18,"Season 4, 1v1 League"
-1761,18,"Season 4, 1v1 League"
-1762,18,"Season 4, 1v1 League"
-1763,18,"Season 4, 1v1 League"
-1764,18,"Season 4, 1v1 League"
-1765,18,"Season 4, 1v1 League"
-1766,18,"Season 4, 1v1 League"
-1767,18,"Season 4, 1v1 League"
-1768,18,"Season 4, 1v1 League"
-1769,18,"Season 4, 1v1 League"
-1770,18,"Season 4, 1v1 League"
-1771,18,"Season 4, 1v1 League"
-1772,18,"Season 4, 1v1 League"
-1773,18,"Season 4, 1v1 League"
-1774,18,"Season 4, 1v1 League"
-1775,18,"Season 4, 1v1 League"
-1776,18,"Season 4, 1v1 League"
-1777,18,"Season 4, 1v1 League"
-1778,18,"Season 4, 1v1 League"
-1779,18,"Season 4, 1v1 League"
-1780,18,"Season 4, 1v1 League"
-1781,18,"Season 4, 1v1 League"
-1782,18,"Season 4, 1v1 League"
-1783,18,"Season 4, 1v1 League"
-1784,18,"Season 4, 1v1 League"
-1785,18,"Season 4, 1v1 League"
-1786,18,"Season 4, 1v1 League"
-1787,18,"Season 4, 1v1 League"
-1788,18,"Season 4, 1v1 League"
-1789,18,"Season 4, 1v1 League"
-1790,18,"Season 4, 1v1 League"
-1791,18,"Season 4, 1v1 League"
-1792,18,"Season 4, 1v1 League"
-1793,18,"Season 4, 1v1 League"
-1794,18,"Season 4, 1v1 League"
-1795,18,"Season 4, 1v1 League"
-1796,18,"Season 4, 1v1 League"
-1797,18,"Season 4, 1v1 League"
-1798,18,"Season 4, 1v1 League"
-1799,18,"Season 4, 1v1 League"
-1800,18,"Season 4, 1v1 League"
-1801,18,"Season 4, 1v1 League"
-1802,18,"Season 4, 1v1 League"
+event,name
+1,A1
+1,B1
+1,C1
+1,D1
+1,E1
+1,F1
+1,G1
+1,H1
+1,I1
+1,J1
+1,A2
+1,B2
+1,C2
+1,D2
+1,E2
+1,F2
+1,G2
+1,H2
+1,I2
+1,J2
+1,A3
+1,B3
+1,C3
+1,D3
+1,E3
+1,F3
+1,G3
+1,H3
+1,I3
+1,A4
+1,B4
+1,C4
+1,D4
+1,E4
+1,F4
+1,G4
+1,H4
+1,I4
+1,Semi 1
+1,Semi 2
+1,Semi 3
+1,Elimination 1a
+1,Elimination 1b
+1,Elimination 2a
+1,Elimination 2b
+1,Finals
+2,A1
+2,B1
+2,C1
+2,D1
+2,E1
+2,F1
+2,G1
+2,H1
+2,I1
+2,J1
+2,K1
+2,L1
+2,M1
+2,N1
+2,O1
+2,Q1
+2,R1
+2,A2
+2,B2
+2,C2
+2,D2
+2,E2
+2,F2
+2,G2
+2,H2
+2,I2
+2,J2
+2,K2
+2,L2
+2,M2
+2,N2
+2,O2
+2,P2
+2,A3
+2,B3
+2,C3
+2,D3
+2,E3
+2,F3
+2,G3
+2,H3
+2,I3
+2,J3
+2,K3
+2,L3
+2,M3
+2,N3
+2,O3
+2,A4
+2,B4
+2,C4
+2,D4
+2,E4
+2,F4
+2,G4
+2,H4
+2,I4
+2,J4
+2,K4
+2,L4
+2,M4
+2,N4
+2,O4
+2,A5
+2,B5
+2,C5
+2,D5
+2,E5
+2,F5
+2,G5
+2,H5
+2,I5
+2,J5
+2,K5
+2,L5
+2,M5
+2,N5
+2,O5
+2,QF1
+2,QF2
+2,QF3
+2,QF4
+2,QE1
+2,QE2
+2,QE3
+2,QE4
+2,SF1
+2,SF2
+2,SE1
+2,SE2
+2,FF1
+3,PreQuarter A
+3,PreQuarter B
+3,PreQuarter C
+3,PreQuarter D
+3,PreQuarter E
+3,PreQuarter F
+3,PreQuarter G
+3,PreQuarter H
+3,Quarterfinal A
+3,Quarterfinal B
+3,Quarterfinal C
+3,Quarterfinal D
+3,Semifinal A
+3,Semifinal B
+3,Final
+4,A1
+4,B1
+4,C1
+4,D1
+4,E1
+4,F1
+4,G1
+4,H1
+4,I1
+4,A2
+4,B2
+4,C2
+4,D2
+4,E2
+4,F2
+4,G2
+4,H2
+4,I2
+4,A3
+4,B3
+4,C3
+4,D3
+4,E3
+4,F3
+4,G3
+4,H3
+4,I3
+4,A4
+4,B4
+4,C4
+4,D4
+4,E4
+4,G4
+4,H4
+4,Play In
+4,Final
+5,G1
+5,G2
+5,G3
+5,G4
+5,G5
+5,G6
+5,G7
+5,G8
+5,G9
+5,G10
+5,G11
+5,G12
+5,G13
+5,G14
+5,G15
+5,G16
+5,G17
+5,G18
+5,G19
+5,G20
+5,G21
+5,G22
+5,G23
+5,G24
+5,G25
+5,G26
+5,G27
+5,G28
+5,G29
+5,G30
+5,G31
+5,G32
+5,G33
+5,G34
+5,G35
+5,G36
+5,G37
+5,G38
+5,G39
+5,G40
+6,A1
+6,B1
+6,C1
+6,D1
+6,E1
+6,F1
+6,G1
+6,H1
+6,I1
+6,J1
+6,A2
+6,B2
+6,C2
+6,D2
+6,E2
+6,F2
+6,G2
+6,H2
+6,I2
+6,J2
+6,A3
+6,B3
+6,C3
+6,D3
+6,E3
+6,F3
+6,G3
+6,H3
+6,I3
+6,J3
+6,A4
+6,B4
+6,C4
+6,D4
+6,E4
+6,F4
+6,G4
+6,H4
+6,I4
+6,J4
+6,Semi 1
+6,Semi 2
+6,Finals
+7,G1
+7,G2
+7,G3
+7,G4
+7,G5
+7,G6
+7,G7
+7,G8
+7,G9
+7,G10
+7,G11
+7,G12
+7,G13
+7,G14
+7,G15
+7,G16
+7,G17
+7,G18
+7,G19
+7,G20
+7,G21
+7,G22
+7,G23
+7,G24
+7,G25
+7,G26
+7,G27
+7,G28
+7,G29
+7,G30
+8,A1
+8,A1
+8,A1
+8,B1
+8,B1
+8,B1
+8,C1
+8,C1
+8,C1
+8,D1
+8,D1
+8,D1
+8,E1
+8,E1
+8,E1
+8,F1
+8,F1
+8,F1
+8,G1
+8,G1
+8,G1
+8,H1
+8,H1
+8,H1
+8,I1
+8,I1
+8,I1
+8,J1
+8,J1
+8,J1
+8,K1
+8,K1
+8,K1
+8,L1
+8,L1
+8,L1
+8,M1
+8,M1
+8,M1
+8,N1
+8,N1
+8,N1
+8,A2
+8,A2
+8,A2
+8,B2
+8,B2
+8,B2
+8,C2
+8,C2
+8,C2
+8,D2
+8,D2
+8,D2
+8,E2
+8,E2
+8,E2
+8,F2
+8,F2
+8,F2
+8,G2
+8,G2
+8,G2
+8,H2
+8,H2
+8,H2
+8,I2
+8,I2
+8,I2
+8,J2
+8,J2
+8,J2
+8,K2
+8,K2
+8,K2
+8,L2
+8,L2
+8,L2
+8,M2
+8,M2
+8,M2
+8,N2
+8,N2
+8,N2
+8,A3
+8,A3
+8,A3
+8,B3
+8,B3
+8,B3
+8,C3
+8,C3
+8,C3
+8,D3
+8,D3
+8,D3
+8,E3
+8,E3
+8,E3
+8,F3
+8,F3
+8,F3
+8,G3
+8,G3
+8,G3
+8,H3
+8,H3
+8,H3
+8,I3
+8,I3
+8,I3
+8,J3
+8,J3
+8,J3
+8,K3
+8,K3
+8,K3
+8,L3
+8,L3
+8,L3
+8,M3
+8,M3
+8,M3
+8,N3
+8,N3
+8,N3
+8,A4
+8,A4
+8,A4
+8,B4
+8,B4
+8,B4
+8,C4
+8,C4
+8,C4
+8,D4
+8,D4
+8,D4
+8,E4
+8,E4
+8,E4
+8,F4
+8,F4
+8,F4
+8,G4
+8,G4
+8,G4
+8,H4
+8,H4
+8,H4
+8,I4
+8,I4
+8,I4
+8,J4
+8,J4
+8,J4
+8,K4
+8,K4
+8,K4
+8,L4
+8,L4
+8,L4
+8,M4
+8,M4
+8,M4
+8,N4
+8,N4
+8,N4
+8,Semi A
+8,Semi A
+8,Semi A
+8,Semi B
+8,Semi B
+8,Semi B
+8,Semi C
+8,Semi C
+8,Semi C
+8,Finals
+8,Finals
+8,Finals
+9,R1 A1
+9,R1 A2
+9,R1 A3
+9,R1 B1
+9,R1 B2
+9,R1 B3
+9,R1 C1
+9,R1 C2
+9,R1 C3
+9,R1 D1
+9,R1 D2
+9,R1 D3
+9,R1 E1
+9,R1 E2
+9,R1 E3
+9,R1 F1
+9,R1 F2
+9,R1 F3
+9,R1 G1
+9,R1 G2
+9,R1 G3
+9,R1 H1
+9,R1 H2
+9,R1 H3
+9,R1 I1
+9,R1 I2
+9,R1 I3
+9,R1 J1
+9,R1 J2
+9,R1 J3
+9,R1 K1
+9,R1 K2
+9,R1 K3
+9,R1 L1
+9,R1 L2
+9,R1 L3
+9,R2 A1
+9,R2 A2
+9,R2 A3
+9,R2 B1
+9,R2 B2
+9,R2 B3
+9,R2 C1
+9,R2 C2
+9,R2 C3
+9,R2 D1
+9,R2 D2
+9,R2 D3
+9,R2 E1
+9,R2 E2
+9,R2 E3
+9,R2 F1
+9,R2 F2
+9,R2 F3
+9,R2 G1
+9,R2 G2
+9,R2 G3
+9,R2 H1
+9,R2 H2
+9,R2 H3
+9,R2 I1
+9,R2 I2
+9,R2 I3
+9,R2 J1
+9,R2 J2
+9,R2 J3
+9,R2 K1
+9,R2 K2
+9,R2 K3
+9,R2 L1
+9,R2 L2
+9,R2 L3
+9,R3 A1
+9,R3 A2
+9,R3 A3
+9,R3 B1
+9,R3 B2
+9,R3 B3
+9,R3 C1
+9,R3 C2
+9,R3 C3
+9,R3 D1
+9,R3 D2
+9,R3 D3
+9,R3 E1
+9,R3 E2
+9,R3 E3
+9,R3 F1
+9,R3 F2
+9,R3 F3
+9,R3 G1
+9,R3 G2
+9,R3 G3
+9,R3 H1
+9,R3 H2
+9,R3 H3
+9,R3 I1
+9,R3 I2
+9,R3 I3
+9,R3 J1
+9,R3 J2
+9,R3 J3
+9,R3 K1
+9,R3 K2
+9,R3 K3
+9,R3 L1
+9,R3 L2
+9,R3 L3
+9,R4 A1
+9,R4 A2
+9,R4 A3
+9,R4 B1
+9,R4 B2
+9,R4 B3
+9,R4 C1
+9,R4 C2
+9,R4 C3
+9,R4 D1
+9,R4 D2
+9,R4 D3
+9,R4 E1
+9,R4 E2
+9,R4 E3
+9,R4 F1
+9,R4 F2
+9,R4 F3
+9,R4 G1
+9,R4 G2
+9,R4 G3
+9,R4 H1
+9,R4 H2
+9,R4 H3
+9,R4 I1
+9,R4 I2
+9,R4 I3
+9,R4 J1
+9,R4 J2
+9,R4 J3
+9,R4 K1
+9,R4 K2
+9,R4 K3
+9,R4 L1
+9,R4 L2
+9,R4 L3
+9,Semi A1
+9,Semi A2
+9,Semi A3
+9,Semi B1
+9,Semi B2
+9,Semi B3
+9,Semi C1
+9,Semi C2
+9,Semi C3
+9,Finals A1
+9,Finals A2
+9,Finals A3
+10,T1 G1
+10,T1 G2
+10,T1 G3
+10,T1 G4
+10,T1 G5
+10,T1 G6
+10,T1 G7
+10,T1 G8
+10,T1 G9
+10,T1 G10
+10,T1 G11
+10,T1 G12
+10,T1 G13
+10,T1 G14
+10,T1 G15
+10,T1 G16
+10,T1 G17
+10,T1 G18
+10,T1 G19
+10,T1 G20
+10,T1 G21
+10,T1 G22
+10,T1 G23
+10,T1 G24
+10,T1 G25
+10,T1 G26
+10,T1 G27
+10,T1 G28
+10,T1 G29
+10,T1 G30
+10,T1 G31
+10,T1 G32
+10,T1 G33
+10,T1 G34
+10,T1 G35
+10,T1 G36
+10,T1 G37
+10,T1 G38
+10,T1 G39
+10,T1 G40
+10,T1 G41
+10,T1 G42
+10,T1 G43
+10,T1 G44
+10,T1 G45
+10,T1 G46
+10,T1 G47
+10,T1 G48
+10,T1 G49
+10,T1 G50
+10,T1 G51
+10,T1 G52
+10,T1 G53
+10,T1 G54
+10,T1 G55
+10,T1 G56
+10,T1 G57
+10,T1 G58
+10,T1 G59
+10,T1 G60
+10,T2 G1
+10,T2 G2
+10,T2 G3
+10,T2 G4
+10,T2 G5
+10,T2 G6
+10,T2 G7
+10,T2 G8
+10,T2 G9
+10,T2 G10
+10,T2 G11
+10,T2 G12
+10,T2 G13
+10,T2 G14
+10,T2 G15
+10,T2 G16
+10,T2 G17
+10,T2 G18
+10,T2 G19
+10,T2 G20
+10,T2 G21
+10,T2 G22
+10,T2 G23
+10,T2 G24
+10,T2 G25
+10,T2 G26
+10,T2 G27
+10,T2 G28
+10,T2 G29
+10,T2 G30
+10,T2 G31
+10,T2 G32
+10,T2 G33
+10,T2 G34
+10,T2 G35
+10,T2 G36
+10,T2 G37
+10,T2 G38
+10,T2 G39
+10,T2 G40
+10,T2 G41
+10,T2 G42
+10,T2 G43
+10,T2 G44
+10,T2 G45
+10,T2 G46
+10,T2 G47
+10,T2 G48
+10,T2 G49
+10,T2 G50
+10,T2 G51
+10,T2 G52
+10,T2 G53
+10,T2 G54
+10,T2 G55
+10,T2 G56
+10,T2 G57
+10,T2 G58
+10,T2 G59
+10,T2 G60
+10,T2 G61
+10,T2 G62
+10,T2 G63
+10,T2 G64
+10,T2 G65
+10,T2 G66
+10,T2 G67
+10,T2 G68
+10,T2 G69
+10,T2 G70
+10,T2 G71
+10,T2 G72
+10,T2 G73
+10,T2 G74
+10,T2 G75
+10,T2 G76
+10,T2 G77
+10,T2 G78
+10,T2 G79
+10,T2 G80
+10,T2 G81
+10,T2 G82
+10,T2 G83
+10,T2 G84
+10,T3 G1
+10,T3 G2
+10,T3 G3
+10,T3 G4
+10,T3 G5
+10,T3 G6
+10,T3 G7
+10,T3 G8
+10,T3 G9
+10,T3 G10
+10,T3 G11
+10,T3 G12
+10,T3 G13
+10,T3 G14
+10,T3 G15
+10,T3 G16
+10,T3 G17
+10,T3 G18
+10,T3 G19
+10,T3 G20
+10,T3 G21
+10,T3 G22
+10,T3 G23
+10,T3 G24
+10,T3 G25
+10,T3 G26
+10,T3 G27
+10,T3 G28
+10,T3 G29
+10,T3 G30
+10,T3 G31
+10,T3 G32
+10,T3 G33
+10,T3 G34
+10,T3 G35
+10,T3 G36
+10,T3 G37
+10,T3 G38
+10,T3 G39
+10,T3 G40
+10,T3 G41
+10,T3 G42
+10,T3 G43
+10,T3 G44
+10,T3 G45
+10,T3 G46
+10,T3 G47
+10,T3 G48
+10,T3 G49
+10,T3 G50
+10,T3 G51
+10,T3 G52
+10,T3 G53
+10,T3 G54
+10,T3 G55
+10,T3 G56
+10,T3 G57
+10,T3 G58
+10,T3 G59
+10,T3 G60
+10,T3 G61
+10,T3 G62
+10,T3 G63
+10,T3 G64
+10,T3 G65
+10,T3 G66
+10,T3 G67
+10,T3 G68
+10,T3 G69
+10,T3 G70
+10,T3 G71
+10,T3 G72
+10,T3 G73
+10,T3 G74
+10,T3 G75
+10,T3 G76
+10,T3 G77
+10,T3 G78
+10,T3 G79
+10,T3 G80
+10,T3 G81
+10,T3 G82
+10,T3 G83
+10,T3 G84
+10,T4 G1
+10,T4 G2
+10,T4 G3
+10,T4 G4
+10,T4 G5
+10,T4 G6
+10,T4 G7
+10,T4 G8
+10,T4 G9
+10,T4 G10
+10,T4 G11
+10,T4 G12
+10,T4 G13
+10,T4 G14
+10,T4 G15
+10,T4 G16
+10,T4 G17
+10,T4 G18
+10,T4 G19
+10,T4 G20
+10,T4 G21
+10,T4 G22
+10,T4 G23
+10,T4 G24
+10,T4 G25
+10,T4 G26
+10,T4 G27
+10,T4 G28
+10,T4 G29
+10,T4 G30
+10,T4 G31
+10,T4 G32
+10,T4 G33
+10,T4 G34
+10,T4 G35
+10,T4 G36
+10,T4 G37
+10,T4 G38
+10,T4 G39
+10,T4 G40
+10,T4 G41
+10,T4 G42
+10,T4 G43
+10,T4 G44
+10,T4 G45
+10,T4 G46
+10,T4 G47
+10,T4 G48
+10,T4 G49
+10,T4 G50
+10,T4 G51
+10,T4 G52
+10,T4 G53
+10,T4 G54
+10,T4 G55
+10,T4 G56
+10,T4 G57
+10,T4 G58
+10,T4 G59
+10,T4 G60
+11,R1 A1
+11,R1 A2
+11,R1 B1
+11,R1 B2
+11,R1 C1
+11,R1 C2
+11,R1 D1
+11,R1 D2
+11,R1 E1
+11,R1 E2
+11,R1 F1
+11,R1 F2
+11,R1 G1
+11,R1 G2
+11,R1 H1
+11,R1 H2
+11,R1 I1
+11,R1 I2
+11,R1 J1
+11,R1 J2
+11,R1 K1
+11,R1 K2
+11,R1 L1
+11,R1 L2
+11,R2 A1
+11,R2 A2
+11,R2 B1
+11,R2 B2
+11,R2 C1
+11,R2 C2
+11,R2 D1
+11,R2 D2
+11,R2 E1
+11,R2 E2
+11,R2 F1
+11,R2 F2
+11,R2 G1
+11,R2 G2
+11,R2 H1
+11,R2 H2
+11,R2 I1
+11,R2 I2
+11,R2 J1
+11,R2 J2
+11,R2 K1
+11,R2 K2
+11,R2 L1
+11,R2 L2
+11,R3 A1
+11,R3 A2
+11,R3 B1
+11,R3 B2
+11,R3 C1
+11,R3 C2
+11,R3 D1
+11,R3 D2
+11,R3 E1
+11,R3 E2
+11,R3 F1
+11,R3 F2
+11,R3 G1
+11,R3 G2
+11,R3 H1
+11,R3 H2
+11,R3 I1
+11,R3 I2
+11,R3 J1
+11,R3 J2
+11,R3 K1
+11,R3 K2
+11,R3 L1
+11,R3 L2
+11,R4 A1
+11,R4 A2
+11,R4 B1
+11,R4 B2
+11,R4 C1
+11,R4 C2
+11,R4 D1
+11,R4 D2
+11,R4 E1
+11,R4 E2
+11,R4 F1
+11,R4 F2
+11,R4 G1
+11,R4 G2
+11,R4 H1
+11,R4 H2
+11,R4 I1
+11,R4 I2
+11,R4 J1
+11,R4 J2
+11,R4 K1
+11,R4 K2
+11,R5 G1
+11,R5 G2
+11,R5 G3
+11,R6 G1
+11,R6 G2
+11,R6 G3
+11,R7 G1
+11,R7 G2
+11,R7 G3
+11,R8 G1
+11,R8 G2
+11,R8 G3
+11,Finals
+12,T1 G1
+12,T1 G2
+12,T1 G3
+12,T1 G4
+12,T1 G5
+12,T1 G6
+12,T1 G7
+12,T1 G8
+12,T1 G9
+12,T1 G10
+12,T1 G11
+12,T1 G12
+12,T1 G13
+12,T1 G14
+12,T1 G15
+12,T1 G16
+12,T1 G17
+12,T1 G18
+12,T1 G19
+12,T1 G20
+12,T1 G21
+12,T1 G22
+12,T1 G23
+12,T1 G24
+12,T1 G25
+12,T1 G26
+12,T1 G27
+12,T1 G28
+12,T1 G29
+12,T1 G30
+12,T1 G31
+12,T1 G32
+12,T1 G33
+12,T1 G34
+12,T1 G35
+12,T1 G36
+12,T1 G37
+12,T1 G38
+12,T1 G39
+12,T1 G40
+12,T1 G41
+12,T1 G42
+12,T1 G43
+12,T1 G44
+12,T1 G45
+12,T1 G46
+12,T1 G47
+12,T1 G48
+12,T1 G49
+12,T1 G50
+12,T1 G51
+12,T1 G52
+12,T1 G53
+12,T1 G54
+12,T1 G55
+12,T1 G56
+12,T1 G57
+12,T1 G58
+12,T1 G59
+12,T1 G60
+12,T1 G61
+12,T1 G62
+12,T1 G63
+12,T1 G64
+12,T1 G65
+12,T1 G66
+12,T1 G67
+12,T1 G68
+12,T1 G69
+12,T1 G70
+12,T1 G71
+12,T1 G72
+12,T1 G73
+12,T1 G74
+12,T1 G75
+12,T1 G76
+12,T1 G77
+12,T1 G78
+12,T1 G79
+12,T1 G80
+12,T1 G81
+12,T1 G82
+12,T1 G83
+12,T1 G84
+12,T2 G1
+12,T2 G2
+12,T2 G3
+12,T2 G4
+12,T2 G5
+12,T2 G6
+12,T2 G7
+12,T2 G8
+12,T2 G9
+12,T2 G10
+12,T2 G11
+12,T2 G12
+12,T2 G13
+12,T2 G14
+12,T2 G15
+12,T2 G16
+12,T2 G17
+12,T2 G18
+12,T2 G19
+12,T2 G20
+12,T2 G21
+12,T2 G22
+12,T2 G23
+12,T2 G24
+12,T2 G25
+12,T2 G26
+12,T2 G27
+12,T2 G28
+12,T2 G29
+12,T2 G30
+12,T2 G31
+12,T2 G32
+12,T2 G33
+12,T2 G34
+12,T2 G35
+12,T2 G36
+12,T2 G37
+12,T2 G38
+12,T2 G39
+12,T2 G40
+12,T3 G1
+12,T3 G2
+12,T3 G3
+12,T3 G4
+12,T3 G5
+12,T3 G6
+12,T3 G7
+12,T3 G8
+12,T3 G9
+12,T3 G10
+12,T3 G11
+12,T3 G12
+12,T3 G13
+12,T3 G14
+12,T3 G15
+12,T3 G16
+12,T3 G17
+12,T3 G18
+12,T3 G19
+12,T3 G20
+12,T3 G21
+12,T3 G22
+12,T3 G23
+12,T3 G24
+12,T3 G25
+12,T3 G26
+12,T3 G27
+12,T3 G28
+12,T3 G29
+12,T3 G30
+12,T3 G31
+12,T3 G32
+12,T3 G33
+12,T3 G34
+12,T3 G35
+12,T3 G36
+12,T3 G37
+12,T3 G38
+12,T3 G39
+12,T3 G40
+12,T4 G1
+12,T4 G2
+12,T4 G3
+12,T4 G4
+12,T4 G5
+12,T4 G6
+12,T4 G7
+12,T4 G8
+12,T4 G9
+12,T4 G10
+12,T4 G11
+12,T4 G12
+12,T4 G13
+12,T4 G14
+12,T4 G15
+12,T4 G16
+12,T4 G17
+12,T4 G18
+12,T4 G19
+12,T4 G20
+12,T4 G21
+12,T4 G22
+12,T4 G23
+12,T4 G24
+12,T4 G25
+12,T4 G26
+12,T4 G27
+12,T4 G28
+12,T4 G29
+12,T4 G30
+12,T4 G31
+12,T4 G32
+12,T4 G33
+12,T4 G34
+12,T4 G35
+12,T4 G36
+12,T4 G37
+12,T4 G38
+12,T4 G39
+12,T4 G40
+13,R1 A
+13,R1 B
+13,R1 C
+13,R1 D
+13,R1 E
+13,R2 A
+13,R2 B
+13,R2 C
+13,R2 D
+13,R2 E
+13,R3 A
+13,R3 B
+13,R3 C
+13,R3 D
+13,R3 E
+13,Elim A
+13,Elim B
+13,Elim C
+13,Elim D
+13,Semi A
+13,Semi B
+13,Finals
+14,R1 T1
+14,R1 T2
+14,R1 T3
+14,R1 T4
+14,R2 T1
+14,R2 T2
+14,R2 T3
+14,R2 T4
+14,R3 T1
+14,R3 T2
+14,R3 T3
+14,R3 T4
+14,R4 T1
+14,R4 T2
+14,R4 T3
+14,R4 T4
+14,R5 T1
+14,R5 T2
+14,R5 T3
+14,R5 T4
+14,R6 T1
+14,R6 T2
+14,R6 T3
+14,R6 T4
+14,Finals 1
+14,Finals 2
+14,Finals 3
+15,A1
+15,A2
+15,A3
+15,B1
+15,B2
+15,B3
+15,C1
+15,C2
+15,C3
+15,D1
+15,D2
+15,D3
+15,E1
+15,E2
+15,E3
+15,F1
+15,F2
+15,F3
+15,G1
+15,G2
+15,G3
+15,H1
+15,H2
+15,H3
+15,I1
+15,I2
+15,I3
+15,J1
+15,J2
+15,J3
+15,K1
+15,K2
+15,K3
+15,L1
+15,L2
+15,L3
+15,M1
+15,M2
+15,M3
+15,N1
+15,N2
+15,N3
+15,O1
+15,O2
+15,O3
+15,P1
+15,P2
+15,P3
+15,Q1
+15,R1
+15,R2
+15,R3
+15,Semi A1
+15,Semi A2
+15,Semi A3
+15,Semi B1
+15,Semi B2
+15,Semi C1
+15,Semi C2
+15,Semi C3
+15,Finals 1
+15,Finals 2
+15,Finals 3
+16,T1 G1
+16,T1 G2
+16,T1 G3
+16,T1 G4
+16,T1 G5
+16,T1 G6
+16,T1 G7
+16,T1 G8
+16,T1 G9
+16,T1 G10
+16,T1 G11
+16,T1 G12
+16,T1 G13
+16,T1 G14
+16,T1 G15
+16,T1 G16
+16,T1 G17
+16,T1 G18
+16,T1 G19
+16,T1 G20
+16,T1 G21
+16,T1 G22
+16,T1 G23
+16,T1 G24
+16,T1 G25
+16,T1 G26
+16,T1 G27
+16,T1 G28
+16,T1 G29
+16,T1 G30
+16,T1 G31
+16,T1 G32
+16,T1 G33
+16,T1 G34
+16,T1 G35
+16,T1 G36
+16,T1 G37
+16,T1 G38
+16,T1 G39
+16,T1 G40
+16,T1 G41
+16,T1 G42
+16,T1 G43
+16,T1 G44
+16,T1 G45
+16,T1 G46
+16,T1 G47
+16,T1 G48
+16,T1 G49
+16,T1 G50
+16,T1 G51
+16,T1 G52
+16,T1 G53
+16,T1 G54
+16,T1 G55
+16,T1 G56
+16,T1 G57
+16,T1 G58
+16,T1 G59
+16,T1 G60
+16,T1 G61
+16,T1 G62
+16,T1 G63
+16,T1 G64
+16,T1 G65
+16,T1 G66
+16,T1 G67
+16,T1 G68
+16,T1 G69
+16,T1 G70
+16,T1 G71
+16,T1 G72
+16,T1 G73
+16,T1 G74
+16,T1 G75
+16,T1 G76
+16,T1 G77
+16,T1 G78
+16,T1 G79
+16,T1 G80
+16,T1 G81
+16,T1 G82
+16,T1 G83
+16,T1 G84
+16,T2 G1
+16,T2 G2
+16,T2 G3
+16,T2 G4
+16,T2 G5
+16,T2 G6
+16,T2 G7
+16,T2 G8
+16,T2 G9
+16,T2 G10
+16,T2 G11
+16,T2 G12
+16,T2 G13
+16,T2 G14
+16,T2 G15
+16,T2 G16
+16,T3 G1
+16,T3 G2
+16,T3 G3
+16,T3 G4
+16,T3 G5
+16,T3 G6
+16,T3 G7
+16,T3 G8
+16,T3 G9
+16,T3 G10
+16,T3 G11
+16,T3 G12
+16,T3 G13
+16,T3 G14
+16,T3 G15
+16,T3 G16
+16,T3 G17
+16,T3 G18
+16,T3 G19
+16,T3 G20
+16,T3 G21
+16,T3 G22
+16,T3 G23
+16,T3 G24
+16,T3 G25
+16,T3 G26
+16,T3 G27
+16,T3 G28
+16,T3 G29
+16,T3 G30
+16,T3 G31
+16,T3 G32
+16,T3 G33
+16,T3 G34
+16,T3 G35
+16,T3 G36
+16,T3 G37
+16,T3 G38
+16,T3 G39
+16,T3 G40
+16,T3 G41
+16,T3 G42
+17,R1 T1
+17,R1 T2
+17,R1 T3
+17,R1 T4
+17,R2 T1
+17,R2 T2
+17,R2 T3
+17,R2 T4
+17,R3 T1
+17,R3 T2
+17,R3 T3
+17,R3 T4
+17,R4 T1
+17,R4 T2
+17,R4 T3
+17,R4 T4
+17,R5 T1
+17,R5 T2
+17,R5 T3
+17,R5 T4
+17,R6 T1
+17,R6 T2
+17,R6 T3
+17,R6 T4
+17,R7 T1
+17,R7 T2
+17,Finals 1
+17,Finals 2
+17,Finals 3
+19,R1 A1
+19,R1 A2
+19,R1 B1
+19,R1 B2
+19,R1 C1
+19,R1 C2
+19,R1 D1
+19,R1 D2
+19,R1 E1
+19,R1 E2
+19,R1 F1
+19,R1 F2
+19,R1 G1
+19,R1 G2
+19,R2 A1
+19,R2 A2
+19,R2 B1
+19,R2 B2
+19,R2 C1
+19,R2 C2
+19,R2 D1
+19,R2 D2
+19,R2 E1
+19,R2 E2
+19,R2 F1
+19,R2 F2
+19,R3 A1
+19,R3 A2
+19,R3 B1
+19,R3 B2
+19,R3 C1
+19,R3 C2
+19,R3 D1
+19,R3 D2
+19,R3 E1
+19,R3 E2
+19,R3 F1
+19,R3 F2
+19,R4 A1
+19,R4 A2
+19,R4 B1
+19,R4 B2
+19,R4 C1
+19,R4 C2
+19,R4 D1
+19,R4 D2
+19,R4 E1
+19,R4 E2
+19,R4 F1
+19,R4 F2
+19,Semi A1
+19,Semi A2
+19,Semi B1
+19,Semi B2
+19,Semi C1
+19,Semi C2
+19,Play-in
+19,Finals
+20,R1 H1
+20,R1 H2
+20,R1 I1
+20,R1 I2
+20,R1 J1
+20,R1 J2
+20,R1 Z1
+20,R1 Z2
+20,R2 H1
+20,R2 H2
+20,R2 I1
+20,R2 I2
+20,R2 J1
+20,R2 J2
+20,R2 Z1
+20,R2 Z2
+20,R3 H1
+20,R3 H2
+20,R3 J1
+20,R3 J2
+20,R3 Z1
+20,R3 Z2
+20,R4 H1
+20,R4 H2
+20,R4 I1
+20,R4 I2
+20,R4 J1
+20,R4 J2
+20,Finals
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T1
+18,T2 G1
+18,T2 G2
+18,T2 G3
+18,T2 G4
+18,T2 G5
+18,T2 G6
+18,T2 G7
+18,T2 G8
+18,T2 G9
+18,T2 G10
+18,T2 G11
+18,T2 G12
+18,T2 G13
+18,T2 G14
+18,T2 G15
+18,T2 G16
+18,T2 G17
+18,T2 G18
+18,T2 G19
+18,T2 G20
+18,T2 G21
+18,T2 G22
+18,T2 G23
+18,T2 G24
+18,T2 G25
+18,T2 G26
+18,T2 G27
+18,T2 G28
+18,T2 G29
+18,T2 G30
+18,T2 G31
+18,T2 G32
+18,T2 G33
+18,T2 G34
+18,T2 G35
+18,T2 G36
+18,T2 G37
+18,T2 G38
+18,T2 G39
+18,T2 G40
+18,T2 G41
+18,T2 G42
+18,T2 G43
+18,T2 G44
+18,T2 G45
+18,T2 G46
+18,T2 G47
+18,T2 G48
+18,T2 G49
+18,T2 G50
+18,T3 G1
+18,T3 G2
+18,T3 G3
+18,T3 G4
+18,T3 G5
+18,T3 G6
+18,T3 G7
+18,T3 G8
+18,T3 G9
+18,T3 G10
+18,T3 G11
+18,T3 G12
+18,T3 G13
+18,T3 G14
+18,T3 G15
+18,T3 G16
+18,T3 G17
+18,T3 G18
+18,T3 G19
+18,T3 G20
+18,T3 G21
+18,T3 G22
+18,T3 G23
+18,T3 G24
+18,T3 G25
+18,T3 G26
+18,T3 G27
+18,T3 G28
+18,T3 G29
+18,T3 G30
+18,T3 G31
+18,T3 G32
+18,T3 G33
+18,T3 G34
+18,T3 G35
+18,T3 G36
+18,T3 G37
+18,T3 G38
+18,T3 G39
+18,T3 G40
+18,T3 G41
+18,T3 G42
+18,T3 G43
+18,T3 G44
+18,T3 G45
+18,T3 G46
+18,T3 G47
+18,T3 G48
+18,T3 G49
+18,T3 G50
+18,T3 G51
+18,T3 G52
+18,T3 G53
+18,T3 G54
+18,T3 G55
+18,T3 G56
+18,T3 G57
+18,T3 G58
+18,T3 G59
+18,T3 G60
+18,T3 G61
+18,T3 G62

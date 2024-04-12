@@ -6,6 +6,14 @@ import graph
 # Grab the event name and id from the events_rows.csv file
 EVENT_KEY = {}
 RATED_EVENT = {}
+
+# list of player ids from players_rows.csv
+PLAYER_KEY = {}
+with open('players_rows.csv', newline='') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        PLAYER_KEY[row['username']] = int(row['id'])
+
 with open('events_rows.csv', newline='') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
@@ -59,11 +67,9 @@ def main():
             ranks = [int(row[f'rank_{letter}']) for letter in 'abcd' if row[f'rank_{letter}']]
             event = int(EVENT_KEY[row['event']])
 
-            # For each row, write to a games_rows.csv file that has the headers id, event, and name
-            # row does not have an id field, so we need to add it incrementally starting with 1
             with open('games_rows.csv', 'a', newline='') as csvfile:
                 writer = csv.writer(csvfile)
-                writer.writerow([reader.line_num - 1, event, row['event']])
+                writer.writerow([event, row['match']])
             
 
             # Initialize ratings for players if they don't exist in the given event category
@@ -88,9 +94,9 @@ def main():
                 writer = csv.writer(csvfile)
                 for player in players:
                     if player in player_ratings['three_and_four_player']:
-                        writer.writerow([reader.line_num -1, player, ranks[players.index(player)], player_ratings['three_and_four_player'][player].ordinal(z=3) * 24 + 1200])
+                        writer.writerow([reader.line_num -1, PLAYER_KEY[player], ranks[players.index(player)], player_ratings['three_and_four_player'][player].ordinal(z=3) * 24 + 1200])
                     else:
-                        writer.writerow([reader.line_num -1, player, ranks[players.index(player)], 1200])
+                        writer.writerow([reader.line_num -1, PLAYER_KEY[player], ranks[players.index(player)], 1200])
 
             updated_rating = update_rating(player_ratings['all_time'], players, ranks)
             update_event_rating(rating_by_event[event], players, updated_rating)
