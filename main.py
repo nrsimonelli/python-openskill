@@ -3,28 +3,14 @@ import json
 from openskill.models import PlackettLuce
 import graph
 
-EVENT_KEY = {
-    'First DE Tournament': 1,
-    'Second DE Tournament': 2,
-    'Draft Kings, January 2021': 3,
-    'Draft Swiss, March': 4,
-    '1v1, March 2021': 5,
-    'Classic, May 2021': 6,
-    '1v1, July 2021': 7,
-    'Winter Cup 2021': 8,
-    'February 2022 Draft': 9,
-    'Season 1, 1v1 League': 10,
-    'May 2022 Mashup': 11,
-    'Season 2, 1v1 League': 12,
-    'September Scenarios 2022': 13,
-    'Factory Rush 2022': 14,
-    '2023 New Years Tournament': 15,
-    'Season 3, 1v1 League': 16,
-    'Factory Rush 2023': 17,
-    '2024 Scythe Ice Bowl (Main)': 18,
-    '2024 Scythe Ice Bowl (Novice)': 19,
-    'Season 4, 1v1 League': 20,
-}
+# Grab the event name and id from the events_rows.csv file
+EVENT_KEY = {}
+RATED_EVENT = {}
+with open('events_rows.csv', newline='') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        EVENT_KEY[row['name']] = int(row['id'])
+        RATED_EVENT[int(row['id'])] = row['rating_event']
 
 model = PlackettLuce()
 
@@ -60,7 +46,7 @@ def main():
     rating_by_event = dict()
 
     all_events = list(EVENT_KEY.values())
-    one_versus_one_event_list = [5, 7, 10, 12, 16, 20]
+    one_versus_one_event_list = [key for key, value in RATED_EVENT.items() if value == 'false']
     three_and_four_player_event_list = list(set(all_events) - set(one_versus_one_event_list))  
 
     # Read the CSV file
@@ -72,6 +58,13 @@ def main():
             players = [row[f'player_{letter}'] for letter in 'abcd' if row[f'player_{letter}']]
             ranks = [int(row[f'rank_{letter}']) for letter in 'abcd' if row[f'rank_{letter}']]
             event = int(EVENT_KEY[row['event']])
+
+            # For each row, write to a games_rows.csv file that has the headers id, event, and name
+            # row does not have an id field, so we need to add it incrementally starting with 1
+            with open('games_rows.csv', 'a', newline='') as csvfile:
+                writer = csv.writer(csvfile)
+                writer.writerow([reader.line_num - 1, event, row['event']])
+            
 
             # Initialize ratings for players if they don't exist in the given event category
             for player in players:
@@ -89,6 +82,15 @@ def main():
 
             if event in three_and_four_player_event_list:
                 update_rating(player_ratings['three_and_four_player'], players, ranks)
+
+            
+            with open('game_participation_rows.csv', 'a', newline='') as csvfile:
+                writer = csv.writer(csvfile)
+                for player in players:
+                    if player in player_ratings['three_and_four_player']:
+                        writer.writerow([reader.line_num -1, player, ranks[players.index(player)], player_ratings['three_and_four_player'][player].ordinal(z=3) * 24 + 1200])
+                    else:
+                        writer.writerow([reader.line_num -1, player, ranks[players.index(player)], 1200])
 
             updated_rating = update_rating(player_ratings['all_time'], players, ranks)
             update_event_rating(rating_by_event[event], players, updated_rating)
