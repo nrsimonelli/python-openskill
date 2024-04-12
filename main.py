@@ -94,9 +94,9 @@ def main():
                 writer = csv.writer(csvfile)
                 for player in players:
                     if player in player_ratings['three_and_four_player']:
-                        writer.writerow([reader.line_num -1, PLAYER_KEY[player], ranks[players.index(player)], player_ratings['three_and_four_player'][player].ordinal(z=3) * 24 + 1200])
+                        writer.writerow([reader.line_num -1, PLAYER_KEY[player], ranks[players.index(player)], json.dumps({ "mu": player_ratings['three_and_four_player'][player].mu, "sigma": player_ratings['three_and_four_player'][player].sigma, "ordinal": player_ratings['three_and_four_player'][player].ordinal(z=3) * 24 + 1200})])
                     else:
-                        writer.writerow([reader.line_num -1, PLAYER_KEY[player], ranks[players.index(player)], 1200])
+                        writer.writerow([reader.line_num -1, PLAYER_KEY[player], ranks[players.index(player)], { "mu": 25, "sigma": 8.333333333333334, "ordinal": 1200 }])
 
             updated_rating = update_rating(player_ratings['all_time'], players, ranks)
             update_event_rating(rating_by_event[event], players, updated_rating)
