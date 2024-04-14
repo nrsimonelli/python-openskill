@@ -30,7 +30,7 @@ def initialize_event_rating(rating_by_event, player, event):
     if event not in rating_by_event:
         rating_by_event[event] = {}
     if player not in rating_by_event[event]:
-      rating_by_event[event][player] = []
+        rating_by_event[event][player] = []
 
 def update_rating(player_ratings, players, ranks):
     updated_rating = model.rate(teams=[[player_ratings[player]] for player in players], ranks=ranks)
@@ -42,8 +42,27 @@ def update_event_rating(event_rating, players, updated_rating):
   # each player in players needs their updated_rating stored in player_ratings
   for i in range(len(players)):
     event_rating[players[i]].append({"mu": updated_rating[i][0].mu, "sigma": updated_rating[i][0].sigma, "ordinal": updated_rating[i][0].ordinal(z=3) * 24 + 1200})
-        
 
+def initialize_supabase_rating(rating_for_supabase, current_rating, player, event):
+    if event not in rating_for_supabase:
+        rating_for_supabase[event] = {}
+    if player not in rating_for_supabase[event]:
+        if player not in current_rating:
+            rating_for_supabase[event][player] = [{"games_won": 0}, {"mu": 25, "sigma": 8.333333333333334, "ordinal": 1200}]
+        else:
+            rating_for_supabase[event][player] = [{"games_won": 0}, {"mu": current_rating[player].mu, "sigma": current_rating[player].sigma, "ordinal": current_rating[player].ordinal(z=3) * 24 + 1200}]
+    
+
+def update_supabase_rating(rating_for_supabase, players, ranks, should_update, previous_ratings):
+    for i in range(len(players)):
+        player = players[i]
+        if ranks[i] == 1:
+            rating_for_supabase[player][0]['games_won'] += 1
+        if should_update:
+            if player in previous_ratings:
+                rating_for_supabase[player][1] = {"mu": previous_ratings[player].mu, "sigma": previous_ratings[player].sigma, "ordinal": previous_ratings[player].ordinal(z=3) * 24 + 1200}
+            else:
+                rating_for_supabase[player].append({"mu": 25, "sigma": 8.333333333333334, "ordinal": 1200})
 def main():   
     player_ratings = {
         'all_time': {},
@@ -52,6 +71,8 @@ def main():
     }  
 
     rating_by_event = dict()
+
+    rating_for_supabase = dict()
 
     all_events = list(EVENT_KEY.values())
     one_versus_one_event_list = [key for key, value in RATED_EVENT.items() if value == 'false']
@@ -81,6 +102,8 @@ def main():
 
                 initialize_rating(player_ratings['all_time'], player)
                 initialize_event_rating(rating_by_event, player, event)
+                
+                initialize_supabase_rating(rating_for_supabase, player_ratings['three_and_four_player'], player, event)
             
             # Update the ratings    
             if event in one_versus_one_event_list:
@@ -101,6 +124,9 @@ def main():
             updated_rating = update_rating(player_ratings['all_time'], players, ranks)
             update_event_rating(rating_by_event[event], players, updated_rating)
 
+            # boolean variable for whether the event is a one versus one event
+            should_update = event in three_and_four_player_event_list
+            update_supabase_rating(rating_for_supabase[event], players, ranks, should_update, player_ratings['three_and_four_player'])
     
     for category in player_ratings:
         for player in player_ratings[category]:
@@ -114,17 +140,42 @@ def main():
     with open(f"rating_by_event.json", "w") as outfile:
         outfile.write(json.dumps(rating_by_event, indent=2))
 
-    # graphing demonstrations
-    tournament_num = 18
-    graph.graph_tournament(rating_by_event[tournament_num], list(EVENT_KEY.keys())[tournament_num - 1])
-    graph.clear()
-    player = "JoyDivision"
-    graph.graph_player(rating_by_event, player, "event") # or by game
-    graph.clear()
+    with open(f"supabase_rating.json", "w") as outfile:
+        outfile.write(json.dumps(rating_for_supabase, indent=2))
 
-    player_group = ["FOMOF", "JoyDivision", "Mr. Der", "Nevic", "nobadinohz"]
-    graph.graph_players(rating_by_event, player_group, "event")
-    graph.clear()
+    with open('event_participation.csv', 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(['event', 'player', 'games_won', 'updated_rating'])
+        for event in rating_for_supabase:
+            for player in rating_for_supabase[event]:
+                writer.writerow([event, PLAYER_KEY[player], rating_for_supabase[event][player][0]['games_won'], json.dumps(rating_for_supabase[event][player][1])])
+
+    with open('players_rows.csv', 'r') as csvfile:
+        reader = csv.reader(csvfile)
+        rows = list(reader)
+        for i in range(1, len(rows)):
+            player_name = rows[i][2]
+            if player_name in player_ratings['three_and_four_player']:
+                r = player_ratings['three_and_four_player'][player_name]
+                rows[i].append(json.dumps({ "mu": r.mu, "sigma": r.sigma, "ordinal": r.ordinal}))
+            else:
+                print(f"Player {player} not found in three_and_four_player ratings list")
+                rows[i].append(json.dumps({"mu": 25, "sigma": 8.333333333333334, "ordinal": 1200}))
+        with open('players_rows.csv', 'w', newline='') as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerows(rows)
+
+    # graphing demonstrations
+    # tournament_num = 18
+    # graph.graph_tournament(rating_by_event[tournament_num], list(EVENT_KEY.keys())[tournament_num - 1])
+    # graph.clear()
+    # player = "JoyDivision"
+    # graph.graph_player(rating_by_event, player, "event") # or by game
+    # graph.clear()
+
+    # player_group = ["FOMOF", "JoyDivision", "Mr. Der", "Nevic", "nobadinohz"]
+    # graph.graph_players(rating_by_event, player_group, "event")
+    # graph.clear()
 
 if __name__ == "__main__":
     main()
