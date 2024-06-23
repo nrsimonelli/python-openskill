@@ -1,9 +1,7 @@
 import csv
-import json
 
 storage = {}
 starts = [3, 10, 17]
-
 
 for i in range(len(starts)):
     start = starts[i]
@@ -24,8 +22,9 @@ for i in range(len(starts)):
 for key in storage:
     storage[key] = dict(sorted(storage[key].items()))
 
-with open("intermediate.json", "w") as f:
-    json.dump(storage, f)
+# sanity checking
+# with open("intermediate.json", "w") as f:
+#     json.dump(storage, f)
 
 csv_storage = []
 tournament_name = "2024 Spring Autobidder Draft Tournament (Casual Bracket)"

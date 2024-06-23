@@ -1,5 +1,4 @@
 import csv
-import json
 
 storage = {}
 starts = [1, 9, 17, 25]
@@ -21,8 +20,9 @@ for i in range(len(starts)):
                 if row[start+1]:
                     storage[f"R{i + 1}"][row[0]].append([row[start][0:row[start].rfind("#")], int(row[start+7])]) #grab number of points so we can calculate ranking (3 for first place, 1 for second and third, 0 for fourth)
 
-with open("intermediate.json", "w") as f:
-    json.dump(storage, f)
+# sanity checking
+# with open("intermediate.json", "w") as f:
+#     json.dump(storage, f)
 
 csv_storage = []
 tournament_name = "Casual Scythe Tournament March 2023"
