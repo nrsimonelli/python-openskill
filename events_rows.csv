@@ -1,21 +1,24 @@
-id,created_at,start_date,name,bid,draft,num_players_per_game,rating_event
-1,2024-04-01 20:24:39.632348+00,2020-05-10 00:00:00+00,First DE Tournament,true,false,4,true
-2,2024-04-01 20:24:39.632348+00,2020-09-01 00:00:00+00,Second DE Tournament,true,false,4,true
-3,2024-04-01 20:24:39.632348+00,2021-01-28 00:00:00+00,"Draft Kings, January 2021",false,true,3,true
-4,2024-04-01 20:24:39.632348+00,2021-03-11 00:00:00+00,"Draft Swiss, March",false,true,3,true
-5,2024-04-01 20:24:39.632348+00,2021-03-15 00:00:00+00,"1v1, March 2021",false,false,2,false
-6,2024-04-01 20:24:39.632348+00,2021-05-01 00:00:00+00,"Classic, May 2021",true,false,4,true
-7,2024-04-01 20:24:39.632348+00,2021-07-01 00:00:00+00,"1v1, July 2021",false,false,2,false
-8,2024-04-01 20:24:39.632348+00,2021-09-01 00:00:00+00,Winter Cup 2021,false,false,3,true
-9,2024-04-01 20:24:39.632348+00,2022-02-01 00:00:00+00,February 2022 Draft,false,true,3,true
-10,2024-04-01 20:24:39.632348+00,2022-04-01 00:00:00+00,"Season 1, 1v1 League",false,false,2,false
-11,2024-04-01 20:24:39.632348+00,2022-05-01 00:00:00+00,May 2022 Mashup,true,false,3,true
-12,2024-04-01 20:24:39.632348+00,2022-06-01 00:00:00+00,"Season 2, 1v1 League",false,false,2,false
-13,2024-04-01 20:24:39.632348+00,2022-09-01 00:00:00+00,September Scenarios 2022,true,false,4,true
-14,2024-04-01 20:24:39.632348+00,2022-11-04 00:00:00+00,Factory Rush 2022,false,true,3,true
-15,2024-04-01 20:24:39.632348+00,2023-01-01 00:00:00+00,2023 New Years Tournament,true,true,3,true
-16,2024-04-01 20:24:39.632348+00,2023-01-31 00:00:00+00,"Season 3, 1v1 League",false,false,2,false
-17,2024-04-01 20:24:39.632348+00,2023-12-03 00:00:00+00,Factory Rush 2023,false,true,3,true
-18,2024-04-01 20:24:39.632348+00,2024-01-02 00:00:00+00,"Season 4, 1v1 League",false,false,2,false
-19,2024-04-01 20:24:39.632348+00,2024-01-22 00:00:00+00,2024 Scythe Ice Bowl (Main),true,false,4,true
-20,2024-04-01 20:24:39.632348+00,2024-01-21 23:54:24+00,2024 Scythe Ice Bowl (Novice),true,false,4,true
+id,created_at,start_date,name,bid,draft,num_players_per_game,rating_event,winner
+1,2024-04-01 20:24:39.632348+00,2020-05-10 00:00:00+00,First DE Tournament,true,false,4,true,101
+2,2024-04-01 20:24:39.632348+00,2020-09-01 00:00:00+00,Second DE Tournament,true,false,4,true,148
+3,2024-04-01 20:24:39.632348+00,2021-01-28 00:00:00+00,"Draft Kings, January 2021",false,true,3,true,120
+4,2024-04-01 20:24:39.632348+00,2021-03-11 00:00:00+00,"Draft Swiss, March",false,true,3,true,148
+5,2024-04-01 20:24:39.632348+00,2021-03-15 00:00:00+00,"1v1, March 2021",false,false,2,false,99
+6,2024-04-01 20:24:39.632348+00,2021-05-01 00:00:00+00,"Classic, May 2021",true,false,4,true,101
+7,2024-04-01 20:24:39.632348+00,2021-07-01 00:00:00+00,"1v1, July 2021",false,false,2,false,20
+8,2024-04-01 20:24:39.632348+00,2021-09-01 00:00:00+00,Winter Cup 2021,false,false,3,true,202
+9,2024-04-01 20:24:39.632348+00,2022-02-01 00:00:00+00,February 2022 Draft,false,true,3,true,99
+10,2024-04-01 20:24:39.632348+00,2022-04-01 00:00:00+00,"Season 1, 1v1 League",false,false,2,false,99
+11,2024-04-01 20:24:39.632348+00,2022-05-01 00:00:00+00,May 2022 Mashup,true,false,3,true,112
+12,2024-04-01 20:24:39.632348+00,2022-06-01 00:00:00+00,"Season 2, 1v1 League",false,false,2,false,99
+13,2024-04-01 20:24:39.632348+00,2022-09-01 00:00:00+00,September Scenarios 2022,true,false,4,true,101
+14,2024-04-01 20:24:39.632348+00,2022-11-04 00:00:00+00,Factory Rush 2022,false,true,3,true,99
+15,2024-04-01 20:24:39.632348+00,2023-01-01 00:00:00+00,2023 New Years Tournament,true,true,3,true,99
+16,2024-04-01 20:24:39.632348+00,2023-01-31 00:00:00+00,"Season 3, 1v1 League",false,false,2,false,99
+17,2024-04-01 20:24:39.632348+00,2023-12-03 00:00:00+00,Factory Rush 2023,false,true,3,true,99
+18,2024-04-01 20:24:39.632348+00,2024-01-02 00:00:00+00,"Season 4, 1v1 League",false,false,2,false,99
+19,2024-04-01 20:24:39.632348+00,2024-01-22 00:00:00+00,2024 Scythe Ice Bowl (Main),true,false,4,true,99
+20,2024-04-01 20:24:39.632348+00,2024-01-21 23:54:24+00,2024 Scythe Ice Bowl (Novice),true,false,4,true,
+21,2024-06-29 00:00:21.550826+00,2023-03-06 06:00:00+00,Casual Scythe Tournament March 2023,true,false,4,true,
+22,2024-06-29 00:02:33.099354+00,2024-05-01 05:00:00+00,2024 Spring Autobidder Draft Tournament (Main Bracket),true,true,3,true,99
+23,2024-06-29 00:03:20.021478+00,2024-05-02 05:00:00+00,2024 Spring Autobidder Draft Tournament (Casual Bracket),true,true,3,true,

@@ -150,6 +150,21 @@ def main():
             for player in rating_for_supabase[event]:
                 writer.writerow([event, PLAYER_KEY[player], rating_for_supabase[event][player][0]['games_won'], json.dumps(rating_for_supabase[event][player][1])])
 
+    # compare the unique player names in values.csv with those in players_rows.csv
+    # for all those that are not in players_rows.csv, add them to the csv file
+    # with open('players_rows.csv', 'r') as csvfile:
+    #     reader = csv.reader(csvfile)
+    #     rows = list(reader)
+    #     player_names = [row[2] for row in rows]
+        
+    #     for player in player_ratings['all_time']:
+    #         if player not in player_names:
+    #             rows.append([len(rows), "2024-07-01 19:55:51.4348+00", player])
+    #     with open('players_rows.csv', 'w', newline='') as csvfile:
+    #         writer = csv.writer(csvfile)
+    #         writer.writerows(rows)
+  
+
     with open('players_rows.csv', 'r') as csvfile:
         reader = csv.reader(csvfile)
         rows = list(reader)
