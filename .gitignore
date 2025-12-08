@@ -2,5 +2,5 @@ env/
 venv/
 __pycache__/
 docs/
-archive/
+scripts/archive/
 .env
