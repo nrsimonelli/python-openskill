@@ -1,0 +1,57 @@
+,,,"Round 1: Game 1 Hi-Tier; Game 2 Low-Tier // Round 2: Game 1 lake factions + Rusviet; game 2 non-lake factions // 
+Round 3: game 1 Pat/Mech/Ag/Eng boards and no Sax; game 2: Industrial, Inno, Militant, Eng boards. No Crimea. // Round 4: no restrictions",,,,,,,,,,,,,,,,,,
+,,,"Instructions: enter positive numbers only, even for penalty. If there is a tie for first, add 0.5 to the raw score of the player who wins the tiebreaker.",,,,,,,,,,,,,,,,,,
+,,,Game 1,,,,,,,Game 2,,,,,,,,,,,
+Round,Group,Player Name,Faction,Mat,Raw Score (from DE),Time penalty (if any),Bid value,Net Score,Win?,Faction,Mat,Raw Score (from DE),Time penalty (if any),Bid value,Net Score,Win?,Total wins from match,# games completed,opponent 1,opponent 2,opponent 3
+1,A,Winteriscoming,Polania,Innovative,54,,21,33,,Saxony,Agricultural,63,,11,52,,0,2,Nevic,dAy,3dsam1
+1,A,Nevic,Nordic,Militant,67,,0,67,,Polania,Mechanical,77,,25,52,,0,2,Winteriscoming,dAy,3dsam1
+1,A,dAy,Rusviet,Mechanical,94,,18,76,yes,Albion,Innovative,86,,8,78,yes,2,2,Winteriscoming,Nevic,3dsam1
+1,A,3dsam1,,,,,,,,,,,,,,,0,0,Winteriscoming,Nevic,dAy
+1,B,Hit Mann,,,,,,,,,,,,,,,0,0,Duce,nobadinohz,HarleyQuinn
+1,B,Duce,Crimea,Mechanical,38,0,13,25,,Togawa,Mechanical,76,0,1,75,yes,1,2,Hit Mann,nobadinohz,HarleyQuinn
+1,B,nobadinohz,Nordic,Patriotic,63,0,9,54,yes,Albion,Innovative,81,0,20,61,,1,2,Hit Mann,Duce,HarleyQuinn
+1,B,HarleyQuinn,Polania,Agricultural,49,0,0,49,,Nordic,Agricultural,76,0,18,58,,0,2,Hit Mann,Duce,nobadinohz
+1,C,loveable tofosi,Albion,Innovative,34,,10,24,,Polania,Mechanical,51,,10,41,,0,2,Hugu,HeroofCanton,poserLX
+1,C,Hugu,Polania,Militant,42,,21,21,,Albion,Patriotic,68,,8,60,,0,2,loveable tofosi,HeroofCanton,poserLX
+1,C,HeroofCanton,Nordic,Mechanical,31,,0,31,,Crimea,Agricultural,64,,14,50,,0,2,loveable tofosi,Hugu,poserLX
+1,C,poserLX,Saxony,Industrial,81,,19,62,yes,Togawa,Industrial,62,,0,62,yes,2,2,loveable tofosi,Hugu,HeroofCanton
+2,D,Winteriscoming,Nordic,Mechanical,60,,9,51,yes,Crimea,Innovative,41,,17,24,,1,2,Hit Mann,Hugu,Duce
+2,D,Hit Mann,,,,,,,,,,,,,,,0,0,Winteriscoming,Hugu,Duce
+2,D,Hugu,Polania,Engineering,52,,13,39,,Saxony,Militant,42,,0,42,,0,2,Winteriscoming,Hit Mann,Duce
+2,D,Duce,Togawa,Industrial,44,,0,44,,Rusviet,Engineering,62,,7,55,yes,1,2,Winteriscoming,Hit Mann,Hugu
+2,E,Nevic,Togawa,Agricultural,48,0,0,48,yes,Saxony,Militant,65,,22,43,yes,2,2,nobadinohz,loveable tofosi,HeroofCanton
+2,E,nobadinohz,Polania,Militant,39,0,18,21,,Albion,Engineering,11,,0,11,,0,2,Nevic,loveable tofosi,HeroofCanton
+2,E,loveable tofosi,Rusviet,Patriotic,39,0,20,19,,Rusviet,Innovative,53,,33,20,,0,2,Nevic,nobadinohz,HeroofCanton
+2,E,HeroofCanton,Nordic,Industrial,19,0,15,4,,Crimea,Industrial,54,,29,25,,0,2,Nevic,nobadinohz,loveable tofosi
+2,F,dAy,Nordic,Patriotic,107,,9,98,yes,Saxony,Militant,62,,18,44,yes,2,2,HarleyQuinn,poserLX,3dsam1
+2,F,HarleyQuinn,Rusviet,Militant,53,,26,27,,Crimea,Mechanical,37,,21,16,,0,2,dAy,poserLX,3dsam1
+2,F,poserLX,Togawa,Innovative,68,,0,68,,Rusviet,Patriotic,36,,24,12,,0,2,dAy,HarleyQuinn,3dsam1
+2,F,3dsam1,Polania,Industrial,58,,15,43,,Albion,Engineering,24,,3,21,,0,2,dAy,HarleyQuinn,poserLX
+3,G,Winteriscoming,Polania,Patriotic,45,0,16,29,,Albion,Militant,76,0,7,69,yes,1,2,nobadinohz,Hugu,poserLX
+3,G,nobadinohz,Togawa,Agricultural,46,0,5,41,,Togawa,Industrial,53,0,0,53,,0,2,Winteriscoming,Hugu,poserLX
+3,G,Hugu,Nordic,Mechanical,42,0,6,36,,Saxony,Mechanical,32,0,14,18,,0,2,Winteriscoming,nobadinohz,poserLX
+3,G,poserLX,Albion,Engineering,56,0,1,55,yes,Nordic,Innovative,57,0,16,41,,1,2,Winteriscoming,nobadinohz,Hugu
+3,H,Nevic,Rusviet,Mechanical,98,,25,73,yes,Nordic,Industrial,76,,17,59,yes,2,2,3dsam1,Hit Mann,HeroofCanton
+3,H,3dsam1,Polania,Agricultural,71,,18,53,,Togawa,Militant,53,,0,53,,0,2,Nevic,Hit Mann,HeroofCanton
+3,H,Hit Mann,,,,,,,,,,,,,,,0,0,Nevic,3dsam1,HeroofCanton
+3,H,HeroofCanton,Togawa,Engineering,57,,0,57,,Saxony,Engineering,41,,8,33,,0,2,Nevic,3dsam1,Hit Mann
+3,I,dAy,Crimea,Engineering,49,,27,22,yes,Polania,Engineering,49,,7,42,,1,2,Duce,HarleyQuinn,loveable tofosi
+3,I,Duce,Rusviet,Mechanical,34,,29,5,,Nordic,Innovative,65,5,13,47,yes,1,2,dAy,HarleyQuinn,loveable tofosi
+3,I,HarleyQuinn,Nordic,Agricultural,15,,0,15,,Rusviet,Militant,71,,29,42,,0,2,dAy,Duce,loveable tofosi
+3,I,loveable tofosi,Albion,Patriotic,34,,15,19,,Albion,Industrial,46,,0,46,,0,2,dAy,Duce,HarleyQuinn
+4,J,Winteriscoming,Rusviet,Patriotic,80,,28,52,yes,Polania,Agricultural,59,,14,45,,1,2,loveable tofosi,HarleyQuinn,3dsam1
+4,J,loveable tofosi,Albion,Militant,46,,14,32,,Albion,Patriotic,48,,9,39,,0,2,Winteriscoming,HarleyQuinn,3dsam1
+4,J,HarleyQuinn,Togawa,Engineering,38,,0,38,,Nordic,Militant,56,,0,56,yes,1,2,Winteriscoming,loveable tofosi,3dsam1
+4,J,3dsam1,Saxony,Industrial,38,,27,11,,Rusviet,Mechanical,53,,27,26,,0,2,Winteriscoming,loveable tofosi,HarleyQuinn
+4,K,Nevic,Togawa,Innovative,59,,4,55,yes,Crimea,Innovative,86,,25,61,yes,2,2,Duce,nobadinohz,Hugu
+4,K,Duce,Polania,Industrial,51,,12,39,,Polania,Patriotic,59,,15,44,,0,2,Nevic,nobadinohz,Hugu
+4,K,nobadinohz,Saxony,Agricultural,38,,4,34,,Saxony,Engineering,35,,5,30,,0,2,Nevic,Duce,Hugu
+4,K,Hugu,Crimea,Engineering,49,,13,36,,Nordic,Mechanical,43,,4,39,,0,2,Nevic,Duce,nobadinohz
+4,L,dAy,,,,,,,,,,,,,,,0,0,Hit Mann,HeroofCanton,poserLX
+4,L,Hit Mann,,,,,,,,,,,,,,,0,0,dAy,HeroofCanton,poserLX
+4,L,HeroofCanton,,,,,,,,,,,,,,,0,0,dAy,Hit Mann,poserLX
+4,L,poserLX,,,,,,,,,,,,,,,0,0,dAy,Hit Mann,HeroofCanton
+FINAL,,dAy,Polania,Engineering,48,,8,40,,,,,,,,,,,Nevic,poserLX,Duce
+FINAL,,Nevic,Togawa,Industrial,35,,0,35,,,,,,,,,,,dAy,poserLX,Duce
+FINAL,,poserLX,Albion,Patriotic,65,,4,61,yes,,,,,,,,,,dAy,Nevic,Duce
+FINAL,,Duce,Crimea,Agricultural,64,,10,54,,,,,,,,,,,dAy,Nevic,poserLX

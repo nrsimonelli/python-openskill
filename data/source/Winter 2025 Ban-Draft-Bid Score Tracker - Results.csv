@@ -1,0 +1,57 @@
+,,,"Instructions: enter positive numbers only, even for penalty. If there is a tie for first, add 0.5 to the raw score of the player who wins the tiebreaker.",,,,,,,,,,,,,,,,,
+,,,Game 1,,,,,,,Game 2,,,,,,,,,,
+Round,Group,Player Name,Faction,Mat,Raw Score (from DE),Time penalty (if any),Bid value,Net Score,Win?,Faction,Mat,Raw Score (from DE),Time penalty (if any),Bid value,Net Score,Win?,Total wins from match,# games completed,opponent 1,opponent 2
+1,A,releasethecralkin ,Nordic,Industrial,59,,0,59,yes,Nordic,Industrial,50,,9,41,,1,2,Nevic,tomeleoon
+1,A,Nevic,Crimea,Engineering,39,,4,35,,Togawa,Innovative,73,,4,69,yes,1,2,releasethecralkin ,tomeleoon
+1,A,tomeleoon,Saxony,Militant,55,,2,53,,Polania,Agricultural,58,,0,58,,0,2,releasethecralkin ,Nevic
+1,B,FOMOF,Nordic,Industrial,50,0,10,40,yes,Togawa,Patriotic,70,0,18,52,yes,2,2,loveable tofosi ,JoyDivision
+1,B,loveable tofosi ,Polania,Engineering,37,0,0,37,,Nordic,Agricultural,39,0,14,25,,0,2,FOMOF,JoyDivision
+1,B,JoyDivision,Rusviet,Mechanical,41,0,6,35,,Albion,Mechanical,38,0,0,38,,0,2,FOMOF,loveable tofosi 
+1,C,Winteriscoming,Togawa,Innovative,44,,2,42,,Crimea,Engineering,65,,2,63,yes,1,2,poserLX,Duce
+1,C,poserLX,Polania,Agricultural,22,,0,22,,Saxony,Militant,59,,0,59,,0,2,Winteriscoming,Duce
+1,C,Duce,Nordic,Industrial,51,,7,44,yes,Nordic,Industrial,59,,3,56,,1,2,Winteriscoming,poserLX
+1,D,dAy,Togawa,Patriotic,55,,15,40,,Polania,Engineering,28,,0,28,,0,2,Mr. Der,truebroyeti
+1,D,Mr. Der,Nordic,Agricultural,71,,7,64,yes,Nordic,Industrial,45,,11,34,,1,2,dAy,truebroyeti
+1,D,truebroyeti,Albion,Mechanical,47,,0,47,,Rusviet,Mechanical,72,,14,58,yes,1,2,dAy,Mr. Der
+2,E,releasethecralkin ,Albion,Militant,39,,0,39,,Nordic,Agricultural,52,,0,52,,0,2,loveable tofosi ,Duce
+2,E,loveable tofosi ,Nordic,Innovative,51,,6,45,,Togawa,Patriotic,84,,0,84,yes,1,2,releasethecralkin ,Duce
+2,E,Duce,Polania,Industrial,55,,8,47,yes,Crimea,Engineering,76,,12,64,,1,2,releasethecralkin ,loveable tofosi 
+2,F,Nevic,Togawa,Patriotic,87,,7,80,,Albion,Patriotic,31,,0,31,,0,2,JoyDivision,dAy
+2,F,JoyDivision,Crimea,Engineering,94,,15,79,,Polania,Militant,58,,18,40,yes,1,2,Nevic,dAy
+2,F,dAy,Nordic,Agricultural,107,,0,107,yes,Rusviet,Engineering,47,,14,33,,1,2,Nevic,JoyDivision
+2,G,tomeleoon,Polania,Militant,22,,18,4,,Polania,Militant,52,,13,39,yes,1,2,Winteriscoming,Mr. Der
+2,G,Winteriscoming,Rusviet,Engineering,56,,19,37,yes,Saxony,Patriotic,38,,0,38,,1,2,tomeleoon,Mr. Der
+2,G,Mr. Der,Albion,Patriotic,26,,0,26,,Rusviet,Engineering,51,,18,33,,0,2,tomeleoon,Winteriscoming
+2,H,FOMOF,Polania,Militant,29,,14,15,,Nordic,Innovative,57,,11,46,,0,2,poserLX,truebroyeti
+2,H,poserLX,Rusviet,Engineering,70,,13,57,yes,Albion,Militant,78,,0,78,yes,2,2,FOMOF,truebroyeti
+2,H,truebroyeti,Saxony,Patriotic,30,,0,30,,Polania,Industrial,55,,10,45,,0,2,FOMOF,poserLX
+3,I,releasethecralkin ,Crimea,Industrial,64,,21,43,,Albion,Mechanical,30,,0,30,,0,2,JoyDivision,Mr. Der
+3,I,JoyDivision,Togawa,Militant,72,,0,72,yes,Crimea,Engineering,43,,21,22,,1,2,releasethecralkin ,Mr. Der
+3,I,Mr. Der,Saxony,Agricultural,47,,6,41,,Nordic,Innovative,61,,21,40,yes,1,2,releasethecralkin ,JoyDivision
+3,J,Nevic,Nordic,Innovative,70,,19,51,,Nordic,Militant,59,,7,52,,0,2,Winteriscoming,truebroyeti
+3,J,Winteriscoming,Crimea,Engineering,54,,23,31,,Saxony,Patriotic,33,,0,33,,0,2,Nevic,truebroyeti
+3,J,truebroyeti,Albion,Mechanical,67,,0,67,yes,Polania,Industrial,60,,7,53,yes,2,2,Nevic,Winteriscoming
+3,K,tomeleoon,Saxony,Patriotic,63,,0,63,yes,Polania,Innovative,38,,1,37,yes,2,2,loveable tofosi ,poserLX
+3,K,loveable tofosi ,Nordic,Militant,31,,0,31,,Crimea,Agricultural,21,,0,21,,0,2,tomeleoon,poserLX
+3,K,poserLX,Polania,Industrial,39,,6,33,,Rusviet,Patriotic,35,,7,28,,0,2,tomeleoon,loveable tofosi 
+3,L,FOMOF,Rusviet,Patriotic,52,,8,44,,Crimea,Industrial,41,,18,23,,0,2,Duce,dAy
+3,L,Duce,Polania,Innovative,56,,15,41,,Saxony,Agricultural,61,,0,61,yes,1,2,FOMOF,dAy
+3,L,dAy,Crimea,Agricultural,73,,0,73,yes,Togawa,Militant,30,,5,25,,1,2,FOMOF,Duce
+4,M,releasethecralkin ,Polania,Patriotic,60,,0,60,,Togawa,Agricultural,38,,0,38,,0,2,poserLX,truebroyeti
+4,M,poserLX,Rusviet,Agricultural,55,,3,52,,Nordic,Engineering,36,,4,32,,0,2,releasethecralkin ,truebroyeti
+4,M,truebroyeti,Crimea,Industrial,68,,6,62,yes,Saxony,Militant,57,,16,41,yes,2,2,releasethecralkin ,poserLX
+4,N,Nevic,Nordic,Engineering,58,,7,51,,Saxony,Patriotic,41,,9,32,,0,2,FOMOF,Mr. Der
+4,N,FOMOF,Saxony,Militant,71,,17,54,yes,Crimea,Agricultural,46,,10,36,,1,2,Nevic,Mr. Der
+4,N,Mr. Der,Togawa,Agricultural,51,,0,51,,Albion,Innovative,63,,0,63,yes,1,2,Nevic,FOMOF
+4,O,tomeleoon,Albion,Innovative,45,,0,45,,Polania,Industrial,51,,22,29,,0,2,JoyDivision,Duce
+4,O,JoyDivision,Saxony,Patriotic,67,,12,55,yes,Albion,Militant,60,,11,49,,1,2,tomeleoon,Duce
+4,O,Duce,Crimea,Agricultural,52,,8,44,,Nordic,Engineering,70,,0,70,yes,1,2,tomeleoon,JoyDivision
+4,P,loveable tofosi ,Albion,Militant,67,,8,59,,Rusviet,Agricultural,54,,5,49,,0,2,Winteriscoming,dAy
+4,P,Winteriscoming,Polania,Industrial,53,,16,37,,Crimea,Industrial,55,,14,41,,0,2,loveable tofosi ,dAy
+4,P,dAy,Nordic,Engineering,62,,0,62,yes,Polania,Patriotic,76,,0,76,yes,2,2,loveable tofosi ,Winteriscoming
+Semifinal,,FOMOF,Saxony,Patriotic,28,,0,28,,,,,,,,,0,1,Duce,Mr. Der
+Semifinal,,Duce,Polania,Militant,56,,15,41,,,,,,,,,0,1,FOMOF,Mr. Der
+Semifinal,,Mr. Der,Crimea,Engineering,64,,10,54,yes,,,,,,,,1,1,FOMOF,Duce
+Final,,dAy,Togawa,Engineering,58,,0,58,,,,,,,,,0,1,truebroyeti,Mr. Der
+Final,,truebroyeti,Crimea,Mechanical,54,,21,33,,,,,,,,,0,1,dAy,Mr. Der
+Final,,Mr. Der,Polania,Agricultural,80,,14,66,yes,,,,,,,,1,1,dAy,truebroyeti

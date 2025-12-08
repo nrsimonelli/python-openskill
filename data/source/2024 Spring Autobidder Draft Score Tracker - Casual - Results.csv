@@ -1,0 +1,42 @@
+,,,"Instructions: enter positive numbers only, even for penalty. If there is a tie for first, add 0.5 to the raw score of the player who wins the tiebreaker.",,,,,,,,,,,,,,,,,,,,,,,,
+,,,Game 1,,,,,,,Game 2,,,,,,,Game 3,,,,,,,,,,
+Round,Group,Player Name,Faction,Mat,Raw Score (from DE),Time penalty (if any),Bid value (from Autobidder),Net Score,Win?,Faction,Mat,Raw Score (from DE),Time penalty (if any),Bid value (from Autobidder),Net Score,Win?,Faction,Mat,Raw Score (from DE),Time penalty (if any),Bid value (from Autobidder),Net Score,Win?,Total wins from match,# games completed,opponent 1,opponent 2
+1,X,Brofessor,Polania,Industrial,61,0,10,51,,Albion,Militant,72,0,0,72,,Togawa,Innovative,53,0,0,53,yes,1,3,HarleyQuinn,3dsam1
+1,X,HarleyQuinn,Togawa,Innovative,52,0,0,52,yes,Polania,Industrial,98,0,10,88,yes,Albion,Militant,33,0,0,33,,2,3,Brofessor,3dsam1
+1,X,3dsam1,Albion,Militant,44,0,0,44,,Togawa,Innovative,65,0,0,65,,Polania,Industrial,27,0,10,17,,0,3,Brofessor,HarleyQuinn
+1,Y,HeroofCanton,Polania,Mechanical,68,,3,65,,Crimea,Agricultural,57,,0,57,yes,Saxony,Patriotic,72,,3,69,yes,2,3,Maarek Stele,JVswashbuckler
+1,Y,Maarek Stele,Saxony,Patriotic,29,,3,26,,Polania,Mechanical,31,,3,28,,Crimea,Agricultural,59,,0,59,,0,3,HeroofCanton,JVswashbuckler
+1,Y,JVswashbuckler,Crimea,Agricultural,79,,0,79,yes,Saxony,Patriotic,35,,3,32,,Polania,Mechanical,70,,3,67,,1,3,HeroofCanton,Maarek Stele
+1,Z,Hít Mann,Crimea,Agricultural,66,,0,66,yes,Nordic,Militant,60,,1,59,yes,Togawa,Innovative,62,,1,61,,2,3,TrailDucker,loveable tofosi
+1,Z,TrailDucker,Togawa,Innovative,40,,1,39,,Crimea,Agricultural,33,,0,33,,Nordic,Militant,70,,1,69,yes,1,3,Hít Mann,loveable tofosi
+1,Z,loveable tofosi,Nordic,Militant,45,,1,44,,Togawa,Innovative,30,,1,29,,Crimea,Agricultural,67,,0,67,,0,3,Hít Mann,TrailDucker
+2,X,HarleyQuinn,Crimea,Agricultural,78,,6,72,,Polania,Patriotic,66,,8,58,,Togawa,Militant,64,,0,64,yes,1,3,HeroofCanton,Hít Mann
+2,X,HeroofCanton,Togawa,Militant,90,,0,90,yes,Crimea,Agricultural,73,,6,67,yes,Polania,Patriotic,51,,8,43,,2,3,HarleyQuinn,Hít Mann
+2,X,Hít Mann,Polania,Patriotic,52,,8,44,,Togawa,Militant,45,,0,45,,Crimea,Agricultural,67,,6,61,,0,3,HarleyQuinn,HeroofCanton
+2,Y,TrailDucker,Crimea,Agricultural,61,0,6,55,,Polania,Patriotic,63,0,8,55,,Togawa,Militant,52,0,0,52,,0,3,Brofessor,JVswashbuckler
+2,Y,Brofessor,Togawa,Militant,64,0,0,64,,Crimea,Agricultural,76,0,6,70,yes,Polania,Patriotic,43,0,8,35,,1,3,TrailDucker,JVswashbuckler
+2,Y,JVswashbuckler,Polania,Patriotic,80,0,8,72,yes,Togawa,Militant,48,0,0,48,,Crimea,Agricultural,64,0,6,58,yes,0,3,TrailDucker,Brofessor
+2,Z,loveable tofosi,Rusviet,Mechanical,41,0,14,27,,Polania,Industrial,47,,9,38,,Crimea,Agricultural,50,,0,50,yes,1,3,3dsam1,Maarek Stele
+2,Z,3dsam1,Crimea,Agricultural,63,0,0,63,yes,Rusviet,Mechanical,71,,14,57,yes,Polania,Industrial,53,,9,44,,2,3,loveable tofosi,Maarek Stele
+2,Z,Maarek Stele,Polania,Industrial,16,0,9,7,,Crimea,Agricultural,35,,0,35,,Rusviet,Mechanical,42,,14,28,,0,3,loveable tofosi,3dsam1
+3,X,HeroofCanton,Rusviet,Mechanical,102,,23,79,,Togawa,Agricultural,61,,0,61,,Crimea,Militant,66,,35,31,,0,3,HarleyQuinn,3dsam1
+3,X,HarleyQuinn,Crimea,Militant,114,,35,79,,Rusviet,Mechanical,92,,23,69,yes,Togawa,Agricultural,80,,0,80,yes,2,3,HeroofCanton,3dsam1
+3,X,3dsam1,Togawa,Agricultural,84,,0,84,yes,Crimea,Militant,76,,35,41,,Rusviet,Mechanical,55,,23,32,,1,3,HeroofCanton,HarleyQuinn
+3,Y,loveable tofosi,Togawa,Innovative,41,,0,41,,Saxony,Industrial,50,,10,40,,Polania,Patriotic,31,,5,26,,0,3,Brofessor,Hít Mann
+3,Y,Brofessor,Saxony,Industrial,53,,10,43,,Polania,Patriotic,67,,5,62,yes,Togawa,Innovative,16,,0,16,,1,3,loveable tofosi,Hít Mann
+3,Y,Hít Mann,Polania,Patriotic,48.5,,5,43.5,yes,Togawa,Innovative,60,,0,60,,Saxony,Industrial,44,,10,34,yes,2,3,loveable tofosi,Brofessor
+3,Z,JVswashbuckler,Polania,Mechanical,47,,12,35,,Nordic,Agricultural,54,,0,54,yes,Saxony,Patriotic,63,,12,51,,0,3,TrailDucker,Maarek Stele
+3,Z,TrailDucker,Saxony,Patriotic,57,,12,45,yes,Polania,Mechanical,42,,12,30,,Nordic,Agricultural,99,,0,99,yes,2,3,JVswashbuckler,Maarek Stele
+3,Z,Maarek Stele,Nordic,Agricultural,39,,0,39,,Saxony,Patriotic,45,,12,33,,Polania,Mechanical,45,,12,33,,0,3,JVswashbuckler,TrailDucker
+4,X,HarleyQuinn,Crimea,Agricultural,81,,3,78,yes,Saxony,Mechanical,61,,0,61,,Togawa,Patriotic,43,0,0,43,,1,3,Hít Mann,HeroofCanton
+4,X,Hít Mann,Togawa,Patriotic,59,,0,59,,Crimea,Agricultural,53,,3,50,,Saxony,Mechanical,48,0,0,48,yes,1,3,HarleyQuinn,HeroofCanton
+4,X,HeroofCanton,Saxony,Mechanical,48,,0,48,,Togawa,Patriotic,66,,0,66,yes,Crimea,Agricultural,34,0,3,31,,1,3,HarleyQuinn,Hít Mann
+4,Y,Brofessor,Nordic,Mechanical,65,,7,58,yes,Togawa,Agricultural,45,,0,45,,Polania,Patriotic,57,,15,42,,1,3,TrailDucker,3dsam1
+4,Y,TrailDucker,Togawa,Agricultural,44,,0,44,,Polania,Patriotic,45,,15,30,,Nordic,Mechanical,43,,7,36,,0,3,Brofessor,3dsam1
+4,Y,3dsam1,Polania,Patriotic,48,,15,33,,Nordic,Mechanical,59,,7,52,yes,Togawa,Agricultural,48,,0,48,yes,2,3,Brofessor,TrailDucker
+4,Z,JVswashbuckler,,,,,,,,,,,,,,,,,,,,,,0,0,Maarek Stele,loveable tofosi
+4,Z,Maarek Stele,,,,,,,,,,,,,,,,,,,,,,0,0,JVswashbuckler,loveable tofosi
+4,Z,loveable tofosi,,,,,,,,,,,,,,,,,,,,,,0,0,JVswashbuckler,Maarek Stele
+FINAL,X,Hít Mann,Polania,Patriotic,65,,7,58,yes,Nordic,Militant,66,,0,66,yes,Saxony,Industrial,,,11,,,2,2,3dsam1,HarleyQuinn
+FINAL,X,3dsam1,Nordic,Militant,35,,0,35,,Saxony,Industrial,45,,11,34,,Polania,Patriotic,,,7,,,0,2,Hít Mann,HarleyQuinn
+FINAL,X,HarleyQuinn,Saxony,Industrial,65,,11,54,,Polania,Patriotic,32,,7,25,,Nordic,Militant,,,0,,,0,2,Hít Mann,3dsam1

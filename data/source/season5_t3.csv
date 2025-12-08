@@ -1,0 +1,41 @@
+Match #	Home Player	Away Player	Faction 1	Mat 1	Faction 2	Mat 2	Player on Combo 1	Player on Combo 2	Match Winner	Match Loser	score combo 1	score combo 2	# rounds
+1	loveable tofosi	FibausmHochhaus	Saxony	Militant	Nordic	Industrial	FibausmHochhaus	loveable tofosi	loveable tofosi	FibausmHochhaus	48	83	24
+2	FibausmHochhaus	loveable tofosi	Polania	Engineering	Crimea	Agricultural	FibausmHochhaus	loveable tofosi	FibausmHochhaus	loveable tofosi	49	30	18
+3	loveable tofosi	WaveSamu	Rusviet	Innovative	Polania	Industrial	WaveSamu	loveable tofosi	WaveSamu	loveable tofosi	61	34	16
+4	FibausmHochhaus	WaveSamu	Crimea	Innovative	Rusviet	Militant	WaveSamu	FibausmHochhaus	FibausmHochhaus	WaveSamu	48	70	18
+5	loveable tofosi	Britta	Albion	Militant	Togawa	Innovative	loveable tofosi	Britta	Britta	loveable tofosi	49	65	17
+6	Britta	loveable tofosi	Polania	Patriotic	Nordic	Mechanical	loveable tofosi	Britta	Britta	loveable tofosi	55	64	19
+7	Britta	loveable tofosi	Nordic	Industrial	Crimea	Engineering	loveable tofosi	Britta	Britta	loveable tofosi	46	78	24
+8	loveable tofosi	Britta	Saxony	Patriotic	Polania	Mechanical	Britta	loveable tofosi	Britta	loveable tofosi	73	46	19
+9	Britta	FibausmHochhaus	Nordic	Industrial	Crimea	Engineering	Britta	FibausmHochhaus	Britta	FibausmHochhaus	66	38	19
+10	Britta	WaveSamu	Crimea	Engineering	Nordic	Industrial	Britta	WaveSamu	Britta	WaveSamu	60	29	17
+11	WaveSamu	FibausmHochhaus	Nordic	Mechanical	Polania	Agricultural	WaveSamu	FibausmHochhaus	FibausmHochhaus	WaveSamu	26	38	16
+12	FibausmHochhaus	WaveSamu	Togawa	Industrial	Nordic	Engineering	FibausmHochhaus	WaveSamu	FibausmHochhaus	WaveSamu	55	30	18
+13	WaveSamu	FibausmHochhaus	Crimea	Agricultural	Saxony	Militant	FibausmHochhaus	WaveSamu	WaveSamu	FibausmHochhaus	47	53	18
+14	FibausmHochhaus	loveable tofosi	Polania	Mechanical	Nordic	Agricultural	FibausmHochhaus	loveable tofosi	loveable tofosi	FibausmHochhaus	34	54	19
+15	loveable tofosi	FibausmHochhaus	Togawa	Innovative	Nordic	Mechanical	loveable tofosi	FibausmHochhaus	FibausmHochhaus	loveable tofosi	66	73	23
+16	loveable tofosi	WaveSamu	Saxony	Industrial	Nordic	Patriotic	loveable tofosi	WaveSamu	WaveSamu	loveable tofosi	63	70	22
+17	WaveSamu	loveable tofosi	Albion	Innovative	Togawa	Patriotic	loveable tofosi	WaveSamu	WaveSamu	loveable tofosi	47	60	20
+18	WaveSamu	Britta	Albion	Innovative	Saxony	Patriotic	WaveSamu	Britta	Britta	WaveSamu	51	29	16
+19	Britta	WaveSamu	Rusviet	Mechanical	Crimea	Industrial	Britta	WaveSamu	Britta	WaveSamu	60	27	16
+20	WaveSamu	Britta	Rusviet	Agricultural	Polania	Patriotic	WaveSamu	Britta	Britta	WaveSamu	75	47	18
+21	FibausmHochhaus	Britta	Polania	Industrial	Rusviet	Engineering	FibausmHochhaus	Britta	FibausmHochhaus	Britta	49	46	17
+22	WaveSamu	loveable tofosi	Nordic	Engineering	Crimea	Agricultural	WaveSamu	loveable tofosi	loveable tofosi	WaveSamu	54	42	19
+23	Britta	FibausmHochhaus	Crimea	Industrial	Rusviet	Mechanical	Britta	FibausmHochhaus	Britta	FibausmHochhaus	73	47	16
+24	FibausmHochhaus	Britta	Polania	Mechanical	Togawa	Patriotic	Britta	FibausmHochhaus	Britta	FibausmHochhaus	87	54	21
+25	loveable tofosi	Scuri	Saxony	Industrial	Rusviet	Patriotic	loveable tofosi	Scuri	Scuri	loveable tofosi	43	45	18
+26	Scuri	loveable tofosi	Togawa	Patriotic	Nordic	Engineering	loveable tofosi	Scuri	loveable tofosi	Scuri	80	47	24
+27	Britta	Scuri	Nordic	Industrial	Crimea	Engineering	Britta	Scuri	Britta	Scuri	56	41	17
+28	Britta	Scuri	Crimea	Engineering	Nordic	Industrial	Britta	Scuri	Britta	Scuri	69	46	20
+29	Scuri	WaveSamu	Crimea	Agricultural	Albion	Militant	Scuri	WaveSamu	Scuri	WaveSamu	55	42	18
+30	WaveSamu	Scuri	Saxony	Patriotic	Togawa	Innovative	WaveSamu	Scuri	Scuri	WaveSamu	50	51	21
+31	FibausmHochhaus	Scuri	Togawa	Industrial	Nordic	Engineering	FibausmHochhaus	Scuri	Scuri	FibausmHochhaus	77	90	26
+32	Scuri	FibausmHochhaus	Crimea	Agricultural	Albion	Innovative	FibausmHochhaus	Scuri	FibausmHochhaus	Scuri	68	46	19
+33	loveable tofosi	Scuri	Polania	Industrial	Rusviet	Agricultural	Scuri	loveable tofosi	loveable tofosi	Scuri	58	78	21
+34	Scuri	loveable tofosi	Crimea	Agricultural	Togawa	Innovative	loveable tofosi	Scuri	loveable tofosi	Scuri	68	44	24
+35	Scuri	FibausmHochhaus	Nordic	Industrial	Crimea	Engineering	Scuri	FibausmHochhaus	FibausmHochhaus	Scuri	53	83	20
+36	FibausmHochhaus	Scuri	Albion	Agricultural	Togawa	Engineering	Scuri	FibausmHochhaus	FibausmHochhaus	Scuri	37	75	19
+37	WaveSamu	Scuri	Polania	Engineering	Nordic	Mechanical	Scuri	WaveSamu	Scuri	WaveSamu	72	49	21
+38	Scuri	Britta	Nordic	Engineering	Togawa	Industrial	Britta	Scuri	Britta	Scuri	87	44	19
+39	Britta	Scuri	Polania	Patriotic	Saxony	Mechanical	Scuri	Britta	Britta	Scuri	48	61	20
+40	Scuri	WaveSamu	Crimea	Agricultural	Albion	Innovative	Scuri	WaveSamu	WaveSamu	Scuri	44	66	19

@@ -1,0 +1,61 @@
+Game #	Home Player	Away Player	Faction 1	Mat 1	Player on Combo 1	Raw Score Combo 1	Combo Bid	Reset Bid	Total Score Combo 1	Faction 2	Mat 2	Player on Combo 2	Raw Score Combo 2	Combo Bid	Reset Bid	Total Score Combo 2	Game Winner	Game Loser
+1	Zottelschratz	Winteriscoming	Nordic	Innovative	Zottelschratz	43			38	Saxony	Engineering	Winteriscoming	41			41	Winteriscoming	Zottelschratz
+2	Zottelschratz	Winteriscoming	Nordic	Innovative	Winteriscoming	71			64	Saxony	Engineering	Zottelschratz	76			76	Zottelschratz	Winteriscoming
+3	dAy	releasethecralkin	Nordic	Innovative	dAy	80		2	75	Saxony	Engineering	releasethecralkin	91		2	89	releasethecralkin	dAy
+4	dAy	releasethecralkin	Nordic	Innovative	releasethecralkin	38			33	Saxony	Engineering	dAy	52			52	dAy	releasethecralkin
+5	JoyDivision	Nevic	Nordic	Innovative	Nevic	48			43	Saxony	Engineering	JoyDivision	58			58	JoyDivision	Nevic
+6	JoyDivision	Nevic	Nordic	Innovative	JoyDivision	100			95	Saxony	Engineering	Nevic	96			96	Nevic	JoyDivision
+7	Nevic	dAy	Polania	Mechanical	Nevic	38			38	Rusviet	Agricultural	dAy	53			53	dAy	Nevic
+8	Nevic	dAy	Polania	Mechanical	dAy	59		2	57	Rusviet	Agricultural	Nevic	71		2	69	Nevic	dAy
+9	releasethecralkin	Zottelschratz	Polania	Mechanical	Zottelschratz	53			51	Rusviet	Agricultural	releasethecralkin	67			67	releasethecralkin	Zottelschratz
+10	releasethecralkin	Zottelschratz	Polania	Mechanical	releasethecralkin	60			60	Rusviet	Agricultural	Zottelschratz	61			61	Zottelschratz	releasethecralkin
+11	JoyDivision	releasethecralkin	Polania	Mechanical	JoyDivision	55			55	Rusviet	Agricultural	releasethecralkin	31			31	JoyDivision	releasethecralkin
+12	JoyDivision	releasethecralkin	Polania	Mechanical	releasethecralkin	50			50	Rusviet	Agricultural	JoyDivision	58			58	JoyDivision	releasethecralkin
+13	JoyDivision	Winteriscoming	Polania	Patriotic	JoyDivision	90		2	90	Saxony	Industrial	Winteriscoming	47		2	45	JoyDivision	Winteriscoming
+14	JoyDivision	Winteriscoming	Polania	Patriotic	Winteriscoming	57			57	Saxony	Industrial	JoyDivision	42			42	Winteriscoming	JoyDivision
+15	Nevic	releasethecralkin	Polania	Patriotic	Nevic	83			83	Saxony	Industrial	releasethecralkin	100			100	releasethecralkin	Nevic
+16	Nevic	releasethecralkin	Polania	Patriotic	releasethecralkin	42			42	Saxony	Industrial	Nevic	71			71	Nevic	releasethecralkin
+17	Zottelschratz	JoyDivision	Polania	Patriotic	JoyDivision	55		2	55	Saxony	Industrial	Zottelschratz	60		2	58	Zottelschratz	JoyDivision
+18	Zottelschratz	JoyDivision	Polania	Patriotic	Zottelschratz	54			54	Saxony	Industrial	JoyDivision	45			45	Zottelschratz	JoyDivision
+19	Winteriscoming	Nevic	Nordic	Patriotic	Winteriscoming	82			82	Rusviet	Militant	Nevic	76			76	Winteriscoming	Nevic
+20	Winteriscoming	Nevic	Nordic	Patriotic	Nevic	56			56	Rusviet	Militant	Winteriscoming	63			63	Winteriscoming	Nevic
+21	Zottelschratz	dAy	Nordic	Patriotic	dAy	64			64	Rusviet	Militant	Zottelschratz	86			86	Zottelschratz	dAy
+22	Zottelschratz	dAy	Nordic	Patriotic	Zottelschratz	61			61	Rusviet	Militant	dAy	86			86	dAy	Zottelschratz
+23	releasethecralkin	Winteriscoming	Nordic	Patriotic	releasethecralkin	58			58	Rusviet	Militant	Winteriscoming	74			74	Winteriscoming	releasethecralkin
+24	releasethecralkin	Winteriscoming	Nordic	Patriotic	Winteriscoming	83			83	Rusviet	Militant	releasethecralkin	88			88	releasethecralkin	Winteriscoming
+25	Zottelschratz	Nevic	Albion	Patriotic	Nevic	80		2	72	Togawa	Innovative	Zottelschratz	69		2	67	Nevic	Zottelschratz
+26	Zottelschratz	Nevic	Albion	Patriotic	Zottelschratz	64		2	58	Togawa	Innovative	Nevic	57		2	55	Zottelschratz	Nevic
+27	dAy	JoyDivision	Albion	Patriotic	JoyDivision	64			58	Togawa	Innovative	dAy	101			101	dAy	JoyDivision
+28	dAy	JoyDivision	Albion	Patriotic	dAy	55			49	Togawa	Innovative	JoyDivision	56			56	JoyDivision	dAy
+29	Winteriscoming	dAy	Albion	Patriotic	Winteriscoming	58			52	Togawa	Innovative	dAy	76			76	dAy	Winteriscoming
+30	Winteriscoming	dAy	Albion	Patriotic	dAy	72			66	Togawa	Innovative	Winteriscoming	62			62	dAy	Winteriscoming
+31	Winteriscoming	Zottelschratz	Crimea	Mechanical	Zottelschratz	63			63	Nordic	Patriotic	Winteriscoming	51			51	Zottelschratz	Winteriscoming
+32	Winteriscoming	Zottelschratz	Crimea	Mechanical	Winteriscoming	92			92	Nordic	Patriotic	Zottelschratz	94			94	Zottelschratz	Winteriscoming
+33	releasethecralkin	dAy	Crimea	Mechanical	dAy	47			47	Nordic	Patriotic	releasethecralkin	61			61	releasethecralkin	dAy
+34	releasethecralkin	dAy	Crimea	Mechanical	releasethecralkin	100			100	Nordic	Patriotic	dAy	81			81	releasethecralkin	dAy
+35	dAy	Nevic	Crimea	Agricultural	Nevic	92		2	84	Togawa	Industrial	dAy	70		2	68	Nevic	dAy
+36	dAy	Nevic	Crimea	Agricultural	dAy	49			43	Togawa	Industrial	Nevic	39			39	dAy	Nevic
+37	Zottelschratz	releasethecralkin	Crimea	Agricultural	Zottelschratz	49		2	41	Togawa	Industrial	releasethecralkin	42		2	40	Zottelschratz	releasethecralkin
+38	Zottelschratz	releasethecralkin	Crimea	Agricultural	releasethecralkin	84			78	Togawa	Industrial	Zottelschratz	69			69	releasethecralkin	Zottelschratz
+39	JoyDivision	Zottelschratz	Crimea	Agricultural	Zottelschratz	66			60	Togawa	Industrial	JoyDivision	40			40	Zottelschratz	JoyDivision
+40	JoyDivision	Zottelschratz	Crimea	Agricultural	JoyDivision	49			43	Togawa	Industrial	Zottelschratz	58			58	Zottelschratz	JoyDivision
+41	Winteriscoming	JoyDivision	Crimea	Innovative	Winteriscoming	38			38	Polania	Militant	JoyDivision	59			59	JoyDivision	Winteriscoming
+42	Winteriscoming	JoyDivision	Crimea	Innovative	JoyDivision	68		2	68	Polania	Militant	Winteriscoming	32		2	30	JoyDivision	Winteriscoming
+43	releasethecralkin	Nevic	Crimea	Innovative	Nevic	92	0	0	92	Polania	Militant	releasethecralkin	67	0	0	67	Nevic	releasethecralkin
+44	releasethecralkin	Nevic	Crimea	Innovative	releasethecralkin	50	0	0	50	Polania	Militant	Nevic	25	0	0	25	releasethecralkin	Nevic
+45	Nevic	Winteriscoming	Nordic	Engineering	Nevic	49		2	49	Togawa	Industrial	Winteriscoming	59		2	57	Winteriscoming	Nevic
+46	Nevic	Winteriscoming	Nordic	Engineering	Winteriscoming	48		0	48	Togawa	Industrial	Nevic	63		0	63	Nevic	Winteriscoming
+47	JoyDivision	Nevic	Nordic	Engineering	JoyDivision	63			63	Togawa	Industrial	Nevic	60			60	JoyDivision	Nevic
+48	JoyDivision	Nevic	Nordic	Engineering	Nevic	39			39	Togawa	Industrial	JoyDivision	58			58	JoyDivision	Nevic
+49	dAy	Zottelschratz	Nordic	Engineering	Zottelschratz	30			30	Togawa	Industrial	dAy	43			43	dAy	Zottelschratz
+50	dAy	Zottelschratz	Nordic	Engineering	dAy	33			33	Togawa	Industrial	Zottelschratz	56			56	Zottelschratz	dAy
+51	releasethecralkin	JoyDivision	Nordic	Engineering	JoyDivision	54		2	54	Togawa	Industrial	releasethecralkin	61		2	59	releasethecralkin	JoyDivision
+52	releasethecralkin	JoyDivision	Nordic	Engineering	releasethecralkin	58			58	Togawa	Industrial	JoyDivision	89			89	JoyDivision	releasethecralkin
+53	Nevic	Zottelschratz	Albion	Mechanical	Nevic	88			88	Togawa	Engineering	Zottelschratz	52			52	Nevic	Zottelschratz
+54	Nevic	Zottelschratz	Albion	Mechanical	Zottelschratz	66			66	Togawa	Engineering	Nevic	52			52	Zottelschratz	Nevic
+55	JoyDivision	dAy	Albion	Mechanical	JoyDivision	64			64	Togawa	Engineering	dAy	101			101	dAy	JoyDivision
+56	JoyDivision	dAy	Albion	Mechanical	dAy	94			94	Togawa	Engineering	JoyDivision	57			57	dAy	JoyDivision
+57	Winteriscoming	releasethecralkin	Albion	Mechanical	Winteriscoming	80			80	Togawa	Engineering	releasethecralkin	73			73	Winteriscoming	releasethecralkin
+58	Winteriscoming	releasethecralkin	Albion	Mechanical	releasethecralkin	101		2	101	Togawa	Engineering	Winteriscoming	70		2	68	releasethecralkin	Winteriscoming
+59	dAy	Winteriscoming	Albion	Mechanical	Winteriscoming	60			60	Togawa	Engineering	dAy	90			90	dAy	Winteriscoming
+60	dAy	Winteriscoming	Albion	Mechanical	dAy	90			90	Togawa	Engineering	Winteriscoming	60			60	dAy	Winteriscoming

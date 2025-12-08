@@ -1,0 +1,25 @@
+Game #	Home Player	Away Player	Faction 1	Mat 1	Player on Combo 1	Raw Score Combo 1	Combo Bid	Reset Bid	Total Score Combo 1	Faction 2	Mat 2	Player on Combo 2	Raw Score Combo 2	Combo Bid	Reset Bid	Total Score Combo 2	Game Winner	Game Loser
+1	Duce	Maarek Stele	Nordic	Innovative	Duce	61			56	Saxony	Engineering	Maarek Stele	14			14	Duce	Maarek Stele
+2	Duce	Maarek Stele	Nordic	Innovative	Maarek Stele	24			19	Saxony	Engineering	Duce	52			52	Duce	Maarek Stele
+3	whisper0007	Duce	Polania	Mechanical	whisper0007	43			43	Rusviet	Agricultural	Duce	61			61	Duce	whisper0007
+4	whisper0007	Duce	Polania	Mechanical	Duce	58.5			58.5	Rusviet	Agricultural	whisper0007	58			58	Duce	whisper0007
+5	loveable tofosi	CBSChess	Polania	Mechanical	loveable tofosi	70			70	Rusviet	Agricultural	CBSchess	56			56	loveable tofosi	CBSchess
+6	loveable tofosi	CBSChess	Polania	Mechanical	CBSchess	110			110	Rusviet	Agricultural	loveable tofosi	67			67	CBSchess	loveable tofosi
+7	Duce	loveable tofosi	Polania	Patriotic	Duce	62			62	Saxony	Industrial	loveable tofosi	44			44	Duce	loveable tofosi
+8	Duce	loveable tofosi	Polania	Patriotic	loveable tofosi	42			42	Saxony	Industrial	Duce	69			69	Duce	loveable tofosi
+9	Maarek Stele	whisper0007	Polania	Patriotic	Maarek Stele	45			45	Saxony	Industrial	whisper0007	49			49	whisper0007	Maarek Stele
+10	Maarek Stele	whisper0007	Polania	Patriotic	whisper0007	60			60	Saxony	Industrial	Maarek Stele	30			30	whisper0007	Maarek Stele
+11	CBSChess	Duce	Nordic	Patriotic	CBSchess	53			53	Rusviet	Militant	Duce	92			92	Duce	CBSchess
+12	CBSChess	Duce	Nordic	Patriotic	Duce	53			53	Rusviet	Militant	CBSchess	70			70	CBSchess	Duce
+13	Maarek Stele	CBSChess	Albion	Patriotic	Maarek Stele	50			44	Togawa	Innovative	CBSchess	75			75	CBSchess	Maarek Stele
+14	Maarek Stele	CBSChess	Albion	Patriotic	CBSchess	88			82	Togawa	Innovative	Maarek Stele	82.5			82.5	Maarek Stele	CBSchess
+15	whisper0007	loveable tofosi	Albion	Patriotic	whisper0007	69			63	Togawa	Innovative	loveable tofosi	116			116	loveable tofosi	whisper0007
+16	whisper0007	loveable tofosi	Albion	Patriotic	loveable tofosi	84		2	78	Togawa	Innovative	whisper0007	83		2	81	whisper0007	loveable tofosi
+17	Duce	whisper0007	Crimea	Agricultural	whisper0007	42			36	Togawa	Industrial	Duce	74			74	Duce	whisper0007
+18	Duce	whisper0007	Crimea	Agricultural	Duce	68			62	Togawa	Industrial	whisper0007	43			43	Duce	whisper0007
+19	CBSChess	loveable tofosi	Crimea	Agricultural	loveable tofosi	66			60	Togawa	Industrial	CBSchess	39			39	loveable tofosi	CBSchess
+20	CBSChess	loveable tofosi	Crimea	Agricultural	CBSchess	65		2	59	Togawa	Industrial	loveable tofosi	26		2	24	CBSchess	loveable tofosi
+21	loveable tofosi	Duce	Crimea	Innovative	Duce	57			57	Polania	Militant	loveable tofosi	31			31	Duce	loveable tofosi
+22	loveable tofosi	Duce	Crimea	Innovative	loveable tofosi	97			97	Polania	Militant	Duce	82			82	loveable tofosi	Duce
+23	loveable tofosi	whisper0007	Albion	Mechanical	loveable tofosi	111			111	Togawa	Engineering	whisper0007	50			50	loveable tofosi	whisper0007
+24	loveable tofosi	whisper0007	Albion	Mechanical	whisper0007	86			86	Togawa	Engineering	loveable tofosi	82			82	whisper0007	loveable tofosi

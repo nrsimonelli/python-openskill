@@ -1,0 +1,85 @@
+Game #	Home Player	Away Player	Faction 1	Mat 1	Combo Bid 1	Faction 2	Mat 2	Combo Bid 2	Player on Combo 1	Player on Combo 2	Match Winner	Match Loser
+1	Winteriscoming	loveable tofosi	Nordic	Innovative	9	Saxony	Engineering	0	Winteriscoming	loveable tofosi	loveable tofosi	Winteriscoming
+2	loveable tofosi	Winteriscoming	Albion	Industrial	10	Togawa	Agricultural	0	Winteriscoming	loveable tofosi	loveable tofosi	Winteriscoming
+3	Winteriscoming	thebluebus	Togawa	Industrial	0	Nordic	Engineering	4	Winteriscoming	thebluebus	thebluebus	Winteriscoming
+4	thebluebus	Winteriscoming	Rusviet	Patriotic	0	Polania	Innovative	10	thebluebus	Winteriscoming	thebluebus	Winteriscoming
+5	tomeleoon	thebluebus	Saxony	Patriotic	5	Crimea	Engineering	0	tomeleoon	thebluebus	thebluebus	tomeleoon
+6	truebroyeti	thebluebus	Togawa	Militant	0	Saxony	Engineering	0	truebroyeti	thebluebus	truebroyeti	thebluebus
+7	thebluebus	loveable tofosi	Rusviet	Patriotic	0	Crimea	Agricultural	7	loveable tofosi	thebluebus	thebluebus	loveable tofosi
+8	loveable tofosi	thebluebus	Togawa	Innovative	0	Albion	Militant	0	thebluebus	loveable tofosi	thebluebus	loveable tofosi
+9	Winteriscoming	loveable tofosi	Togawa	Militant	0	Saxony	Engineering	3	Winteriscoming	loveable tofosi	Winteriscoming	loveable tofosi
+10	loveable tofosi	Winteriscoming	Crimea	Innovative	15	Nordic	Patriotic	0	Winteriscoming	loveable tofosi	Winteriscoming	loveable tofosi
+11	Winteriscoming	thebluebus	Togawa	Militant	0	Saxony	Engineering	5	Winteriscoming	thebluebus	thebluebus	Winteriscoming
+12	thebluebus	Winteriscoming	Polania	Patriotic	0	Nordic	Innovative	8	thebluebus	Winteriscoming	thebluebus	Winteriscoming
+13	loveable tofosi	thebluebus	Polania	Industrial	8	Saxony	Agricultural	0	thebluebus	loveable tofosi	thebluebus	loveable tofosi
+14	thebluebus	loveable tofosi	Rusviet	Engineering	0	Nordic	Industrial	8	thebluebus	loveable tofosi	thebluebus	loveable tofosi
+15	loveable tofosi	WaveSamu	Nordic	Industrial	0	Saxony	Militant	9	WaveSamu	loveable tofosi	WaveSamu	loveable tofosi
+16	WaveSamu	loveable tofosi	Polania	Militant	0	Crimea	Innovative	0	loveable tofosi	WaveSamu	WaveSamu	loveable tofosi
+17	tomeleoon	WaveSamu	Polania	Engineering	0	Crimea	Agricultural	2	tomeleoon	WaveSamu	tomeleoon	WaveSamu
+18	WaveSamu	tomeleoon	Polania	Militant	0	Crimea	Innovative	6	WaveSamu	tomeleoon	tomeleoon	WaveSamu
+19	thebluebus	WaveSamu	Nordic	Patriotic	0	Crimea	Industrial	7	WaveSamu	thebluebus	thebluebus	WaveSamu
+20	tomeleoon	loveable tofosi	Saxony	Innovative	0	Rusviet	Patriotic	0	loveable tofosi	tomeleoon	tomeleoon	loveable tofosi
+21	loveable tofosi	tomeleoon	Saxony	Industrial	0	Rusviet	Agricultural	0	loveable tofosi	tomeleoon	tomeleoon	loveable tofosi
+22	thebluebus	tomeleoon	Crimea	Agricultural	3	Rusviet	Patriotic	0	thebluebus	tomeleoon	tomeleoon	thebluebus
+23	thebluebus	truebroyeti	Crimea	Agricultural	3	Rusviet	Patriotic	0	thebluebus	truebroyeti	thebluebus	truebroyeti
+24	thebluebus	stillcantfrontlever	Polania	Industrial	14	Saxony	Mechanical	0	stillcantfrontlever	thebluebus	thebluebus	stillcantfrontlever
+25	WaveSamu	thebluebus	Nordic	Mechanical	0	Saxony	Agricultural	0	thebluebus	WaveSamu	WaveSamu	thebluebus
+26	thebluebus	WaveSamu	Polania	Innovative	7	Crimea	Mechanical	0	thebluebus	WaveSamu	thebluebus	WaveSamu
+27	truebroyeti	thebluebus	Togawa	Engineering	4	Albion	Mechanical	0	thebluebus	truebroyeti	truebroyeti	thebluebus
+28	Winteriscoming	truebroyeti	Nordic	Innovative	6	Saxony	Engineering	0	truebroyeti	Winteriscoming	truebroyeti	Winteriscoming
+29	tomeleoon	Winteriscoming	Polania	Engineering	4	Nordic	Agricultural	0	Winteriscoming	tomeleoon	tomeleoon	Winteriscoming
+30	Winteriscoming	tomeleoon	Nordic	Innovative	9	Saxony	Engineering	0	Winteriscoming	tomeleoon	tomeleoon	Winteriscoming
+31	WaveSamu	Winteriscoming	Polania	Patriotic	19	Saxony	Agricultural	0	Winteriscoming	WaveSamu	Winteriscoming	WaveSamu
+32	tomeleoon	WaveSamu	Saxony	Mechanical	2	Albion	Patriotic	0	WaveSamu	tomeleoon	WaveSamu	tomeleoon
+33	truebroyeti	Winteriscoming	Albion	Innovative	0	Nordic	Mechanical	6	truebroyeti	Winteriscoming	truebroyeti	Winteriscoming
+34	truebroyeti	loveable tofosi	Togawa	Engineering	0	Albion	Mechanical	6	truebroyeti	loveable tofosi	truebroyeti	loveable tofosi
+35	loveable tofosi	truebroyeti	Saxony	Innovative	9	Nordic	Patriotic	0	loveable tofosi	truebroyeti	truebroyeti	loveable tofosi
+36	truebroyeti	loveable tofosi	Rusviet	Agricultural	0	Polania	Mechanical	2	truebroyeti	loveable tofosi	truebroyeti	loveable tofosi
+37	Winteriscoming	WaveSamu	Albion	Innovative	6	Nordic	Mechanical	0	WaveSamu	Winteriscoming	WaveSamu	Winteriscoming
+38	WaveSamu	Winteriscoming	Crimea	Innovative	16	Polania	Militant	0	WaveSamu	Winteriscoming	Winteriscoming	WaveSamu
+39	tomeleoon	thebluebus	Polania	Industrial	0	Rusviet	Engineering	0	thebluebus	tomeleoon	tomeleoon	thebluebus
+40	thebluebus	tomeleoon	Nordic	Industrial	3	Saxony	Militant	0	thebluebus	tomeleoon	tomeleoon	thebluebus
+41	Winteriscoming	WaveSamu	Polania	Industrial	5	Saxony	Mechanical	0	Winteriscoming	WaveSamu	Winteriscoming	WaveSamu
+42	WaveSamu	tomeleoon	Saxony	Engineering	0	Crimea	Agricultural	5	tomeleoon	WaveSamu	tomeleoon	WaveSamu
+43	loveable tofosi	stillcantfrontlever	Saxony	Industrial	8	Crimea	Agricultural	0	loveable tofosi	stillcantfrontlever	loveable tofosi	stillcantfrontlever
+44	Winteriscoming	stillcantfrontlever	Rusviet	Agricultural	8	Polania	Mechanical	0	stillcantfrontlever	Winteriscoming	Winteriscoming	stillcantfrontlever
+45	stillcantfrontlever	Winteriscoming	Polania	Innovative	5	Saxony	Industrial	0	Winteriscoming	stillcantfrontlever	stillcantfrontlever	Winteriscoming
+46	Winteriscoming	tomeleoon	Togawa	Engineering	3	Albion	Mechanical	0	Winteriscoming	tomeleoon	Winteriscoming	tomeleoon
+47	tomeleoon	Winteriscoming	Crimea	Engineering	0	Rusviet	Militant	9	tomeleoon	Winteriscoming	Winteriscoming	tomeleoon
+48	truebroyeti	stillcantfrontlever	Togawa	Militant	0	Saxony	Engineering	7	truebroyeti	stillcantfrontlever	truebroyeti	stillcantfrontlever
+49	stillcantfrontlever	truebroyeti	Nordic	Industrial		Crimea	Engineering		stillcantfrontlever	truebroyeti	stillcantfrontlever	truebroyeti
+50	Winteriscoming	truebroyeti	Polania	Industrial	10	Saxony	Mechanical	0	Winteriscoming	truebroyeti	Winteriscoming	truebroyeti
+51	truebroyeti	tomeleoon	Togawa	Militant		Saxony	Engineering	6	truebroyeti	tomeleoon	tomeleoon	truebroyeti
+52	loveable tofosi	WaveSamu	Saxony	Militant	0	Rusviet	Innovative	22	loveable tofosi	WaveSamu	WaveSamu	loveable tofosi
+53	WaveSamu	loveable tofosi	Albion	Militant	3	Togawa	Innovative	0	WaveSamu	loveable tofosi	WaveSamu	loveable tofosi
+54	truebroyeti	WaveSamu	Albion	Mechanical		Togawa	Engineering		truebroyeti	WaveSamu	truebroyeti	WaveSamu
+55	thebluebus	truebroyeti	Saxony	Industrial	2	Polania	Patriotic		truebroyeti	thebluebus	truebroyeti	thebluebus
+56	WaveSamu	thebluebus	Polania	Industrial	8	Saxony	Mechanical	0	thebluebus	WaveSamu	WaveSamu	thebluebus
+57	tomeleoon	loveable tofosi	Togawa	Patriotic	0	Polania	Mechanical	0	loveable tofosi	tomeleoon	tomeleoon	loveable tofosi
+58	loveable tofosi	tomeleoon	Saxony	Engineering	0	Nordic	Patriotic	16	loveable tofosi	tomeleoon	tomeleoon	loveable tofosi
+59	truebroyeti	Winteriscoming	Nordic	Innovative	8	Saxony	Patriotic	0	truebroyeti	Winteriscoming	truebroyeti	Winteriscoming
+60	tomeleoon	truebroyeti	Polania	Mechanical	10	Nordic	Agricultural	0	truebroyeti	tomeleoon	tomeleoon	truebroyeti
+61	truebroyeti	tomeleoon	Saxony	Industrial	0	Polania	Patriotic	0	truebroyeti	tomeleoon	truebroyeti	tomeleoon
+62	stillcantfrontlever	WaveSamu	Nordic	Industrial	5	Crimea	Engineering	0	stillcantfrontlever	WaveSamu	WaveSamu	stillcantfrontlever
+63	stillcantfrontlever	Winteriscoming	Nordic	Patriotic	10	Crimea	Mechanical	0	Winteriscoming	stillcantfrontlever	Winteriscoming	stillcantfrontlever
+64	Winteriscoming	stillcantfrontlever	Polania	Mechanical	12	Rusviet	Agricultural	0	stillcantfrontlever	Winteriscoming	Winteriscoming	stillcantfrontlever
+65	WaveSamu	stillcantfrontlever	Albion	Militant	6	Togawa	Innovative	0	stillcantfrontlever	WaveSamu	WaveSamu	stillcantfrontlever
+66	stillcantfrontlever	WaveSamu	Crimea	Engineering	0	Rusviet	Mechanical	1	stillcantfrontlever	WaveSamu	stillcantfrontlever	WaveSamu
+67	WaveSamu	truebroyeti	Polania	Industrial		Saxony	Innovative	12	WaveSamu	truebroyeti	WaveSamu	truebroyeti
+68	truebroyeti	WaveSamu	Albion	Patriotic	0	Togawa	Innovative	0	truebroyeti	WaveSamu	truebroyeti	WaveSamu
+69	WaveSamu	truebroyeti	Saxony	Industrial	3	Polania	Patriotic	0	WaveSamu	truebroyeti	truebroyeti	WaveSamu
+70	WaveSamu	stillcantfrontlever	Albion	Patriotic	6	Togawa	Innovative	0	WaveSamu	stillcantfrontlever	WaveSamu	stillcantfrontlever
+71	loveable tofosi	truebroyeti	Albion	Agricultural	0	Togawa	Patriotic	0	loveable tofosi	truebroyeti	truebroyeti	loveable tofosi
+72	truebroyeti	stillcantfrontlever	Togawa	Engineering	0	Albion	Mechanical	0	stillcantfrontlever	truebroyeti	truebroyeti	stillcantfrontlever
+73	stillcantfrontlever	tomeleoon	Crimea	Engineering	4	Rusviet	Patriotic	0	stillcantfrontlever	tomeleoon	stillcantfrontlever	tomeleoon
+74	tomeleoon	stillcantfrontlever	Saxony	Engineering	0	Nordic	Militant	2	tomeleoon	stillcantfrontlever	tomeleoon	stillcantfrontlever
+75	tomeleoon	truebroyeti	Polania	Engineering	0	Saxony	Militant	0	tomeleoon	truebroyeti	tomeleoon	truebroyeti
+76	stillcantfrontlever	tomeleoon	Nordic	Industrial	0	Crimea	Engineering	0	stillcantfrontlever	tomeleoon	stillcantfrontlever	tomeleoon
+77	tomeleoon	stillcantfrontlever	Polania	Engineering	0	Saxony	Militant	2	tomeleoon	stillcantfrontlever	tomeleoon	stillcantfrontlever
+78	loveable tofosi	stillcantfrontlever	Saxony	Patriotic	0	Polania	Mechanical	2	loveable tofosi	stillcantfrontlever	stillcantfrontlever	loveable tofosi
+79	stillcantfrontlever	loveable tofosi	Crimea	Engineering	6	Rusviet	Patriotic	0	stillcantfrontlever	loveable tofosi	stillcantfrontlever	loveable tofosi
+80	stillcantfrontlever	thebluebus	Nordic	Industrial	7	Crimea	Engineering	0	stillcantfrontlever	thebluebus	thebluebus	stillcantfrontlever
+81	loveable tofosi	stillcantfrontlever	Nordic	Innovative	6	Rusviet	Patriotic	0	loveable tofosi	stillcantfrontlever	stillcantfrontlever	loveable tofosi
+82	thebluebus	stillcantfrontlever	Rusviet	Mechanical	0	Polania	Innovative	6	stillcantfrontlever	thebluebus	thebluebus	stillcantfrontlever
+83	stillcantfrontlever	thebluebus	Rusviet	Patriotic	0	Crimea	Engineering	12	thebluebus	stillcantfrontlever	thebluebus	stillcantfrontlever
+84	stillcantfrontlever	truebroyeti	Nordic	Innovative	5	Rusviet	Engineering	0	truebroyeti	stillcantfrontlever	stillcantfrontlever	truebroyeti

@@ -1,0 +1,25 @@
+Game #	Home Player	Away Player	Faction 1	Mat 1	Player on Combo 1	Raw Score Combo 1	Combo Bid	Reset Bid	Total Score Combo 1	Faction 2	Mat 2	Player on Combo 2	Raw Score Combo 2	Combo Bid	Reset Bid	Total Score Combo 2	Game Winner	Game Loser
+1	Dzordz	truebroyeti	Nordic	Innovative	Dzordz	105			100	Saxony	Engineering	truebroyeti	83			83	Dzordz	truebroyeti
+2	Dzordz	truebroyeti	Nordic	Innovative	truebroyeti	47			42	Saxony	Engineering	Dzordz	43			43	Dzordz	truebroyeti
+3	stillcantfrontlever	Dzordz	Polania	Mechanical	stillcantfrontlever	35			35	Rusviet	Agricultural	Dzordz	53			53	Dzordz	stillcantfrontlever
+4	stillcantfrontlever	Dzordz	Polania	Mechanical	Dzordz	95			95	Rusviet	Agricultural	stillcantfrontlever	67			67	Dzordz	stillcantfrontlever
+5	FibausmHochhaus	truebroyeti	Polania	Patriotic	truebroyeti	56			56	Saxony	Industrial	FibausmHochhaus	60			60	FibausmHochhaus	truebroyeti
+6	FibausmHochhaus	truebroyeti	Polania	Patriotic	FibausmHochhaus	64			64	Saxony	Industrial	truebroyeti	37			37	FibausmHochhaus	truebroyeti
+7	stillcantfrontlever	FibausmHochhaus	Nordic	Patriotic	FibausmHochhaus	68			68	Rusviet	Militant	stillcantfrontlever	59			59	FibausmHochhaus	stillcantfrontlever
+8	stillcantfrontlever	FibausmHochhaus	Nordic	Patriotic	stillcantfrontlever	95			95	Rusviet	Militant	FibausmHochhaus	76			76	stillcantfrontlever	FibausmHochhaus
+9	FibausmHochhaus	Dzordz	Albion	Patriotic	FibausmHochhaus	103			97	Togawa	Innovative	Dzordz	91			91	FibausmHochhaus	Dzordz
+10	FibausmHochhaus	Dzordz	Albion	Patriotic	Dzordz	81		2	73	Togawa	Innovative	FibausmHochhaus	55		2	53	Dzordz	FibausmHochhaus
+11	truebroyeti	stillcantfrontlever	Albion	Patriotic	truebroyeti	71			65	Togawa	Innovative	stillcantfrontlever	45			45	truebroyeti	stillcantfrontlever
+12	truebroyeti	stillcantfrontlever	Albion	Patriotic	stillcantfrontlever	26			20	Togawa	Innovative	truebroyeti	59			59	truebroyeti	stillcantfrontlever
+13	truebroyeti	Dzordz	Crimea	Mechanical	Dzordz	69			69	Nordic	Patriotic	truebroyeti	62			62	Dzordz	truebroyeti
+14	truebroyeti	Dzordz	Crimea	Mechanical	truebroyeti	70		2	68	Nordic	Patriotic	Dzordz	77		2	75	Dzordz	truebroyeti
+15	Dzordz	stillcantfrontlever	Crimea	Agricultural	stillcantfrontlever	12			6	Togawa	Industrial	Dzordz	61			61	Dzordz	stillcantfrontlever
+16	Dzordz	stillcantfrontlever	Crimea	Agricultural	Dzordz	64			58	Togawa	Industrial	stillcantfrontlever	26			26	Dzordz	stillcantfrontlever
+17	truebroyeti	FibausmHochhaus	Crimea	Innovative	FibausmHochhaus	63			61	Polania	Militant	truebroyeti	84			84	truebroyeti	FibausmHochhaus
+18	truebroyeti	FibausmHochhaus	Crimea	Innovative	truebroyeti	49			49	Polania	Militant	FibausmHochhaus	33			33	truebroyeti	FibausmHochhaus
+19	FibausmHochhaus	stillcantfrontlever	Nordic	Engineering	FibausmHochhaus	65			65	Togawa	Industrial	stillcantfrontlever	48			48	FibausmHochhaus	stillcantfrontlever
+20	FibausmHochhaus	stillcantfrontlever	Nordic	Engineering	stillcantfrontlever	71			71	Togawa	Industrial	FibausmHochhaus	50			50	stillcantfrontlever	FibausmHochhaus
+21	Dzordz	FibausmHochhaus	Albion	Mechanical	FibausmHochhaus	78			78	Togawa	Engineering	Dzordz	108			108	Dzordz	FibausmHochhaus
+22	Dzordz	FibausmHochhaus	Albion	Mechanical	Dzordz	50			50	Togawa	Engineering	FibausmHochhaus	65			65	FibausmHochhaus	Dzordz
+23	stillcantfrontlever	truebroyeti	Albion	Mechanical	truebroyeti	60			60	Togawa	Engineering	stillcantfrontlever	65			65	stillcantfrontlever	truebroyeti
+24	stillcantfrontlever	truebroyeti	Albion	Mechanical	stillcantfrontlever	53			53	Togawa	Engineering	truebroyeti	55			55	truebroyeti	stillcantfrontlever
