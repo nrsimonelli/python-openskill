@@ -5,8 +5,8 @@ Match #	Home Player	Away Player	Faction 1	Mat 1	Faction 2	Mat 2	Player on Combo 
 4	JoyDivision	releasethecralkin	Crimea	Industrial	Saxony	Innovative	JoyDivision	releasethecralkin	releasethecralkin	JoyDivision			
 5	releasethecralkin	JoyDivision	Polania	Militant	Crimea	Innovative	releasethecralkin	JoyDivision	releasethecralkin	JoyDivision			
 6	JoyDivision	releasethecralkin	Rusviet	Mechanical	Crimea	Engineering	JoyDivision	releasethecralkin	JoyDivision	releasethecralkin			
-7	releasethecralkin	dAyKiLLeR	Crimea	Innovative	Polania	Militant	dAyKiLLeR	releasethecralkin	dAyKiLLeR	releasethecralkin	56	33	
-8	dAyKiLLeR	releasethecralkin	Nordic	Patriotic	Polania	Agricultural	releasethecralkin	dAyKiLLeR	releasethecralkin	dAyKiLLeR	66	28	25
+7	releasethecralkin	dAy	Crimea	Innovative	Polania	Militant	dAy	releasethecralkin	dAy	releasethecralkin	56	33	
+8	dAy	releasethecralkin	Nordic	Patriotic	Polania	Agricultural	releasethecralkin	dAy	releasethecralkin	dAy	66	28	25
 9	Zottelschratz	Bulldogcoma	Saxony	Innovative	Crimea	Industrial	Bulldogcoma	Zottelschratz	Zottelschratz	Bulldogcoma	42	67	17
 10	Bulldogcoma	Zottelschratz	Nordic	Agricultural	Saxony	Engineering	Zottelschratz	Bulldogcoma	Bulldogcoma	Zottelschratz	48	42	17
 11	Zottelschratz	Bulldogcoma	Polania	Industrial	Rusviet	Engineering	Zottelschratz	Bulldogcoma	Zottelschratz	Bulldogcoma	87	58	23
@@ -20,17 +20,17 @@ Match #	Home Player	Away Player	Faction 1	Mat 1	Faction 2	Mat 2	Player on Combo 
 19	Nevic	Bulldogcoma	Albion	Patriotic	Saxony	Militant	Nevic	Bulldogcoma	Nevic	Bulldogcoma	63	57	22
 20	releasethecralkin	Zottelschratz	Crimea	Innovative	Polania	Militant	releasethecralkin	Zottelschratz	Zottelschratz	releasethecralkin	67	52	16
 21	Zottelschratz	releasethecralkin	Polania	Industrial	Rusviet	Engineering	Zottelschratz	releasethecralkin	Zottelschratz	releasethecralkin	120	85	23
-22	dAyKiLLeR	Nevic	Rusviet	Agricultural	Polania	Mechanical	dAyKiLLeR	Nevic	dAyKiLLeR	Nevic	61	43	17
-23	Nevic	dAyKiLLeR	Rusviet	Mechanical	Crimea	Industrial	Nevic	dAyKiLLeR	dAyKiLLeR	Nevic	40	54	16
-24	Nevic	dAyKiLLeR	Albion	Patriotic	Saxony	Militant	Nevic	dAyKiLLeR	dAyKiLLeR	Nevic	50	103	22
-25	dAyKiLLeR	Nevic	Polania	Mechanical	Nordic	Patriotic	dAyKiLLeR	Nevic	Nevic	dAyKiLLeR	33	58	20
+22	dAy	Nevic	Rusviet	Agricultural	Polania	Mechanical	dAy	Nevic	dAy	Nevic	61	43	17
+23	Nevic	dAy	Rusviet	Mechanical	Crimea	Industrial	Nevic	dAy	dAy	Nevic	40	54	16
+24	Nevic	dAy	Albion	Patriotic	Saxony	Militant	Nevic	dAy	dAy	Nevic	50	103	22
+25	dAy	Nevic	Polania	Mechanical	Nordic	Patriotic	dAy	Nevic	Nevic	dAy	33	58	20
 26	Bulldogcoma	Nevic	Nordic	Agricultural	Saxony	Engineering	Bulldogcoma	Nevic	Nevic	Bulldogcoma	53	62	18
 27	releasethecralkin	Nevic	Nordic	Patriotic	Crimea	Mechanical	releasethecralkin	Nevic	releasethecralkin	Nevic			
-28	dAyKiLLeR	Zottelschratz	Togawa	Industrial	Nordic	Engineering	Zottelschratz	dAyKiLLeR	dAyKiLLeR	Zottelschratz	39	52	21
-29	Zottelschratz	dAyKiLLeR	Polania	Industrial	Rusviet	Engineering	Zottelschratz	dAyKiLLeR	Zottelschratz	dAyKiLLeR	52	33	20
+28	dAy	Zottelschratz	Togawa	Industrial	Nordic	Engineering	Zottelschratz	dAy	dAy	Zottelschratz	39	52	21
+29	Zottelschratz	dAy	Polania	Industrial	Rusviet	Engineering	Zottelschratz	dAy	Zottelschratz	dAy	52	33	20
 30	Zottelschratz	releasethecralkin	Nordic	Engineering	Togawa	Industrial	releasethecralkin	Zottelschratz	releasethecralkin	Zottelschratz	72	69	21
-31	dAyKiLLeR	Zottelschratz	Polania	Mechanical	Rusviet	Agricultural	Zottelschratz	dAyKiLLeR	dAyKiLLeR	Zottelschratz	50	56	18
-32	Zottelschratz	dAyKiLLeR	Saxony	Innovative	Crimea	Industrial	dAyKiLLeR	Zottelschratz	dAyKiLLeR	Zottelschratz	47	21	14
+31	dAy	Zottelschratz	Polania	Mechanical	Rusviet	Agricultural	Zottelschratz	dAy	dAy	Zottelschratz	50	56	18
+32	Zottelschratz	dAy	Saxony	Innovative	Crimea	Industrial	dAy	Zottelschratz	dAy	Zottelschratz	47	21	14
 33	Bulldogcoma	JoyDivision	Saxony	Engineering	Nordic	Agricultural	JoyDivision	Bulldogcoma	JoyDivision	Bulldogcoma	55	38	21
 34	JoyDivision	Bulldogcoma	Nordic	Patriotic	Crimea	Mechanical	Bulldogcoma	JoyDivision	JoyDivision	Bulldogcoma	91	97	28
 35	JoyDivision	Bulldogcoma	Polania	Engineering	Crimea	Agricultural	JoyDivision	Bulldogcoma	JoyDivision	Bulldogcoma	81	74	24
@@ -43,18 +43,18 @@ Match #	Home Player	Away Player	Faction 1	Mat 1	Faction 2	Mat 2	Player on Combo 
 42	Nevic	releasethecralkin	Albion	Mechanical	Togawa	Engineering	Nevic	releasethecralkin	Nevic	releasethecralkin	130	69	26
 43	releasethecralkin	Bulldogcoma	Crimea	Innovative	Polania	Militant	Bulldogcoma	releasethecralkin	releasethecralkin	Bulldogcoma	72	95	22
 44	Bulldogcoma	JoyDivision	Polania	Innovative	Crimea	Industrial	Bulldogcoma	JoyDivision	Bulldogcoma	JoyDivision	74	68	17
-45	dAyKiLLeR	Bulldogcoma	Nordic	Engineering	Togawa	Industrial	dAyKiLLeR	Bulldogcoma	dAyKiLLeR	Bulldogcoma	56	46	
-46	Bulldogcoma	dAyKiLLeR	Nordic	Patriotic	Crimea	Mechanical	Bulldogcoma	dAyKiLLeR	dAyKiLLeR	Bulldogcoma			
-47	dAyKiLLeR	nobadinohz	Nordic	Engineering	Togawa	Industrial	dAyKiLLeR	nobadinohz	dAyKiLLeR	nobadinohz	38	30	16
-48	dAyKiLLeR	nobadinohz	Polania	Mechanical	Rusviet	Agricultural	dAyKiLLeR	nobadinohz	dAyKiLLeR	nobadinohz	101	66	22
+45	dAy	Bulldogcoma	Nordic	Engineering	Togawa	Industrial	dAy	Bulldogcoma	dAy	Bulldogcoma	56	46	
+46	Bulldogcoma	dAy	Nordic	Patriotic	Crimea	Mechanical	Bulldogcoma	dAy	dAy	Bulldogcoma			
+47	dAy	nobadinohz	Nordic	Engineering	Togawa	Industrial	dAy	nobadinohz	dAy	nobadinohz	38	30	16
+48	dAy	nobadinohz	Polania	Mechanical	Rusviet	Agricultural	dAy	nobadinohz	dAy	nobadinohz	101	66	22
 49	Nevic	Zottelschratz	Togawa	Engineering	Albion	Mechanical	Nevic	Zottelschratz	Zottelschratz	Nevic	48	63	20
-50	dAyKiLLeR	Bulldogcoma	Togawa	Industrial	Nordic	Engineering	dAyKiLLeR	Bulldogcoma	dAyKiLLeR	Bulldogcoma			
+50	dAy	Bulldogcoma	Togawa	Industrial	Nordic	Engineering	dAy	Bulldogcoma	dAy	Bulldogcoma			
 51	Zottelschratz	Nevic	Rusviet	Engineering	Polania	Industrial	Zottelschratz	Nevic	Nevic	Zottelschratz	34	64	14
-52	dAyKiLLeR	releasethecralkin	Rusviet	Agricultural	Polania	Mechanical	dAyKiLLeR	releasethecralkin	dAyKiLLeR	releasethecralkin			
+52	dAy	releasethecralkin	Rusviet	Agricultural	Polania	Mechanical	dAy	releasethecralkin	dAy	releasethecralkin			
 53	Nevic	Zottelschratz	Rusviet	Mechanical	Crimea	Industrial	Nevic	Zottelschratz	Zottelschratz	Nevic	33	60	16
-54	dAyKiLLeR	JoyDivision	Rusviet	Agricultural	Polania	Mechanical	JoyDivision	dAyKiLLeR	dAyKiLLeR	JoyDivision			
+54	dAy	JoyDivision	Rusviet	Agricultural	Polania	Mechanical	JoyDivision	dAy	dAy	JoyDivision			
 55	Zottelschratz	Nevic	Nordic	Engineering	Togawa	Industrial	Zottelschratz	Nevic	Nevic	Zottelschratz	48	74	20
-56	dAyKiLLeR	JoyDivision	Rusviet	Agricultural	Polania	Mechanical	JoyDivision	dAyKiLLeR	dAyKiLLeR	JoyDivision			
+56	dAy	JoyDivision	Rusviet	Agricultural	Polania	Mechanical	JoyDivision	dAy	dAy	JoyDivision			
 57	Nevic	JoyDivision	Togawa	Industrial	Crimea	Agricultural	Nevic	JoyDivision	JoyDivision	Nevic			
 58	Zottelschratz	JoyDivision	Albion	Mechanical	Togawa	Engineering	JoyDivision	Zottelschratz	Zottelschratz	JoyDivision	52	97	27
 59	Nevic	nobadinohz	Albion	Mechanical	Togawa	Engineering	Nevic	nobadinohz	nobadinohz	Nevic	42	56	20
@@ -66,9 +66,9 @@ Match #	Home Player	Away Player	Faction 1	Mat 1	Faction 2	Mat 2	Player on Combo 
 65	nobadinohz	JoyDivision	Togawa	Industrial	Nordic	Engineering	JoyDivision	nobadinohz	JoyDivision	nobadinohz	63	50	25
 66	nobadinohz	releasethecralkin	Polania	Industrial	Rusviet	Engineering	nobadinohz	releasethecralkin	nobadinohz	releasethecralkin	89	71	26
 67	releasethecralkin	nobadinohz	Crimea	Mechanical	Nordic	Patriotic	releasethecralkin	nobadinohz	releasethecralkin	nobadinohz	103	75	24
-68	releasethecralkin	dAyKiLLeR	Crimea	Innovative	Polania	Militant	dAyKiLLeR	releasethecralkin	dAyKiLLeR	releasethecralkin			
-69	nobadinohz	dAyKiLLeR	Nordic	Patriotic	Crimea	Mechanical	nobadinohz	dAyKiLLeR	nobadinohz	dAyKiLLeR	65	58	19
-70	nobadinohz	dAyKiLLeR	Albion	Agricultural	Togawa	Patriotic	nobadinohz	dAyKiLLeR	nobadinohz	dAyKiLLeR	70	51	22
+68	releasethecralkin	dAy	Crimea	Innovative	Polania	Militant	dAy	releasethecralkin	dAy	releasethecralkin			
+69	nobadinohz	dAy	Nordic	Patriotic	Crimea	Mechanical	nobadinohz	dAy	nobadinohz	dAy	65	58	19
+70	nobadinohz	dAy	Albion	Agricultural	Togawa	Patriotic	nobadinohz	dAy	nobadinohz	dAy	70	51	22
 71	nobadinohz	Bulldogcoma	Albion	Agricultural	Togawa	Patriotic	Bulldogcoma	nobadinohz	Bulldogcoma	nobadinohz	67	62	21
 72	nobadinohz	Zottelschratz	Polania	Industrial	Rusviet	Engineering	Zottelschratz	nobadinohz	Zottelschratz	nobadinohz	63	19	12
 73	Bulldogcoma	nobadinohz	Polania	Innovative	Crimea	Industrial	Bulldogcoma	nobadinohz	nobadinohz	Bulldogcoma	86	91	27
@@ -76,10 +76,10 @@ Match #	Home Player	Away Player	Faction 1	Mat 1	Faction 2	Mat 2	Player on Combo 
 75	Zottelschratz	nobadinohz	Albion	Mechanical	Togawa	Engineering	Zottelschratz	nobadinohz	Zottelschratz	nobadinohz	57	51	21
 76	nobadinohz	Zottelschratz	Nordic	Patriotic	Crimea	Mechanical	Zottelschratz	nobadinohz	Zottelschratz	nobadinohz	60	36	18
 77	nobadinohz	Nevic	Polania	Industrial	Rusviet	Engineering	Nevic	nobadinohz	Nevic	nobadinohz	59	46	18
-78	Bulldogcoma	dAyKiLLeR	Saxony	Engineering	Nordic	Agricultural	dAyKiLLeR	Bulldogcoma	dAyKiLLeR	Bulldogcoma			
+78	Bulldogcoma	dAy	Saxony	Engineering	Nordic	Agricultural	dAy	Bulldogcoma	dAy	Bulldogcoma			
 79	Bulldogcoma	releasethecralkin	Saxony	Engineering	Nordic	Agricultural	Bulldogcoma	releasethecralkin	releasethecralkin	Bulldogcoma	47	57	17
 80	Bulldogcoma	releasethecralkin	Crimea	Innovative	Polania	Militant	Bulldogcoma	releasethecralkin	Bulldogcoma	releasethecralkin			
 81	releasethecralkin	Bulldogcoma	Polania	Innovative	Crimea	Industrial	releasethecralkin	Bulldogcoma	releasethecralkin	Bulldogcoma			
 82	nobadinohz	Nevic	Albion	Patriotic	Saxony	Militant	nobadinohz	Nevic	Nevic	nobadinohz	60	91	24
-83	JoyDivision	dAyKiLLeR	Togawa	Industrial	Crimea	Agricultural	JoyDivision	dAyKiLLeR	JoyDivision	dAyKiLLeR			
-84	JoyDivision	dAyKiLLeR	Nordic	Patriotic	Rusviet	Militant	JoyDivision	dAyKiLLeR	JoyDivision	dAyKiLLeR			
+83	JoyDivision	dAy	Togawa	Industrial	Crimea	Agricultural	JoyDivision	dAy	JoyDivision	dAy			
+84	JoyDivision	dAy	Nordic	Patriotic	Rusviet	Militant	JoyDivision	dAy	JoyDivision	dAy			

@@ -1,85 +1,85 @@
 Match #	Home Player	Away Player	Faction 1	Mat 1	Faction 2	Mat 2	Player on Combo 1	Player on Combo 2	Match Winner	Match Loser	score combo 1	score combo 2	# rounds
-1	morewhales	dzordz	Nordic	Engineering	Togawa	Industrial	dzordz	morewhales	morewhales	dzordz	51	28	16
-2	dzordz	morewhales	Crimea	Innovative	Rusviet	Militant	morewhales	dzordz	morewhales	dzordz	56	42	13
-3	morewhales	dzordz	Nordic	Patriotic	Polania	Mechanical	dzordz	morewhales	dzordz	morewhales	72	51	30
-4	dzordz	morewhales	Polania	Industrial	Rusviet	Mechanical	morewhales	dzordz	morewhales	dzordz	63	50	18
-5	Winteriscoming	kibittzer	Polania	Engineering	Crimea	Agricultural	Winteriscoming	kibittzer	Winteriscoming	kibittzer	78	59	25
-6	kibittzer	Winteriscoming	Nordic	Industrial	Saxony	Mechanical	kibittzer	Winteriscoming	Winteriscoming	kibittzer	69	45	20
-7	morewhales	kibittzer	Nordic	Engineering	Togawa	Industrial	kibittzer	morewhales	kibittzer	morewhales	46	42	16
-8	kibittzer	morewhales	Polania	Industrial	Rusviet	Agricultural	morewhales	kibittzer	morewhales	kibittzer	61	33	14
-9	truebroyeti	dzordz	Polania	Industrial	Rusviet	Engineering	truebroyeti	dzordz	dzordz	truebroyeti	44	56	19
+1	morewhales	Dzordz	Nordic	Engineering	Togawa	Industrial	Dzordz	morewhales	morewhales	Dzordz	51	28	16
+2	Dzordz	morewhales	Crimea	Innovative	Rusviet	Militant	morewhales	Dzordz	morewhales	Dzordz	56	42	13
+3	morewhales	Dzordz	Nordic	Patriotic	Polania	Mechanical	Dzordz	morewhales	Dzordz	morewhales	72	51	30
+4	Dzordz	morewhales	Polania	Industrial	Rusviet	Mechanical	morewhales	Dzordz	morewhales	Dzordz	63	50	18
+5	Winteriscoming	kibitzer	Polania	Engineering	Crimea	Agricultural	Winteriscoming	kibitzer	Winteriscoming	kibitzer	78	59	25
+6	kibitzer	Winteriscoming	Nordic	Industrial	Saxony	Mechanical	kibitzer	Winteriscoming	Winteriscoming	kibitzer	69	45	20
+7	morewhales	kibitzer	Nordic	Engineering	Togawa	Industrial	kibitzer	morewhales	kibitzer	morewhales	46	42	16
+8	kibitzer	morewhales	Polania	Industrial	Rusviet	Agricultural	morewhales	kibitzer	morewhales	kibitzer	61	33	14
+9	truebroyeti	Dzordz	Polania	Industrial	Rusviet	Engineering	truebroyeti	Dzordz	Dzordz	truebroyeti	44	56	19
 10	morewhales	truebroyeti	Nordic	Patriotic	Polania	Mechanical	morewhales	truebroyeti	morewhales	truebroyeti	64	30	26
 11	truebroyeti	morewhales	Polania	Industrial	Rusviet	Engineering	truebroyeti	morewhales	morewhales	truebroyeti	39	47	15
-12	Winteriscoming	kibittzer	Polania	Engineering	Crimea	Agricultural	kibittzer	Winteriscoming	Winteriscoming	kibittzer	64	19	
-13	kibittzer	Winteriscoming	Albion	Patriotic	Togawa	Innovative	Winteriscoming	kibittzer	Winteriscoming	kibittzer	70	56	
-14	Grishous	dzordz	Polania	Industrial	Rusviet	Engineering	Grishous	dzordz	dzordz	Grishous	51	59	17
-15	dzordz	Grishous	Togawa	Industrial	Nordic	Engineering	dzordz	Grishous	Grishous	dzordz	49	55	19
-16	Winteriscoming	dzordz	Polania	Engineering	Crimea	Agricultural	Winteriscoming	dzordz	dzordz	Winteriscoming	52	71	22
-17	dzordz	Winteriscoming	Rusviet	Innovative	Crimea	Militant	Winteriscoming	dzordz	Winteriscoming	dzordz			
+12	Winteriscoming	kibitzer	Polania	Engineering	Crimea	Agricultural	kibitzer	Winteriscoming	Winteriscoming	kibitzer	64	19	
+13	kibitzer	Winteriscoming	Albion	Patriotic	Togawa	Innovative	Winteriscoming	kibitzer	Winteriscoming	kibitzer	70	56	
+14	Grishous	Dzordz	Polania	Industrial	Rusviet	Engineering	Grishous	Dzordz	Dzordz	Grishous	51	59	17
+15	Dzordz	Grishous	Togawa	Industrial	Nordic	Engineering	Dzordz	Grishous	Grishous	Dzordz	49	55	19
+16	Winteriscoming	Dzordz	Polania	Engineering	Crimea	Agricultural	Winteriscoming	Dzordz	Dzordz	Winteriscoming	52	71	22
+17	Dzordz	Winteriscoming	Rusviet	Innovative	Crimea	Militant	Winteriscoming	Dzordz	Winteriscoming	Dzordz			
 18	truebroyeti	Grishous	Rusviet	Agricultural	Polania	Mechanical	Grishous	truebroyeti	truebroyeti	Grishous	51	61	22
 19	Grishous	truebroyeti	Polania	Industrial	Rusviet	Engineering	Grishous	truebroyeti	Grishous	truebroyeti	77	60	24
-20	dzordz	Winteriscoming	Nordic	Agricultural	Polania	Mechanical	dzordz	Winteriscoming	Winteriscoming	dzordz			
-21	dzordz	Grishous	Nordic	Agricultural	Polania	Mechanical	dzordz	Grishous	Grishous	dzordz	46	22	20
+20	Dzordz	Winteriscoming	Nordic	Agricultural	Polania	Mechanical	Dzordz	Winteriscoming	Winteriscoming	Dzordz			
+21	Dzordz	Grishous	Nordic	Agricultural	Polania	Mechanical	Dzordz	Grishous	Grishous	Dzordz	46	22	20
 22	Winteriscoming	Grishous	Polania	Militant	Crimea	Innovative	Winteriscoming	Grishous	Winteriscoming	Grishous			
-23	Grishous	Raubi	Polania	Industrial	Rusviet	Engineering	Grishous	Raubi	Raubi	Grishous	112	63	20
-24	Raubi	Grishous	Polania	Industrial	Rusviet	Engineering	Raubi	Grishous	Grishous	Raubi	35	53	15
-25	Winteriscoming	dzordz	Polania	Militant	Crimea	Innovative	Winteriscoming	dzordz	dzordz	Winteriscoming	32	62	19
+23	Grishous	Räubi	Polania	Industrial	Rusviet	Engineering	Grishous	Räubi	Räubi	Grishous	112	63	20
+24	Räubi	Grishous	Polania	Industrial	Rusviet	Engineering	Räubi	Grishous	Grishous	Räubi	35	53	15
+25	Winteriscoming	Dzordz	Polania	Militant	Crimea	Innovative	Winteriscoming	Dzordz	Dzordz	Winteriscoming	32	62	19
 26	truebroyeti	Grishous	Crimea	Innovative	Polania	Militant	Grishous	truebroyeti	Grishous	truebroyeti	54	42	18
 27	Grishous	truebroyeti	Crimea	Innovative	Polania	Militant	truebroyeti	Grishous	truebroyeti	Grishous	87	65	23
 28	Grishous	Winteriscoming	Polania	Industrial	Rusviet	Engineering	Grishous	Winteriscoming	Winteriscoming	Grishous	45	59	27
 29	truebroyeti	Winteriscoming	Polania	Industrial	Rusviet	Engineering	truebroyeti	Winteriscoming	Winteriscoming	truebroyeti			
-30	Raubi	Grishous	Polania	Engineering	Nordic	Agricultural	Raubi	Grishous	Raubi	Grishous	71	58	21
-31	kibittzer	Raubi	Saxony	Mechanical	Polania	Engineering	kibittzer	Raubi	Raubi	kibittzer	43	58	22
-32	dzordz	Raubi	Togawa	Industrial	Nordic	Engineering	dzordz	Raubi	Raubi	dzordz	51	57	22
-33	Raubi	dzordz	Crimea	Engineering	Polania	Agricultural	dzordz	Raubi	dzordz	Raubi	50	25	14
-34	truebroyeti	kibittzer	Crimea	Innovative	Polania	Militant	kibittzer	truebroyeti	kibittzer	truebroyeti	83	57	20
-35	kibittzer	truebroyeti	Saxony	Agricultural	Nordic	Engineering	kibittzer	truebroyeti	kibittzer	truebroyeti	83	44	21
+30	Räubi	Grishous	Polania	Engineering	Nordic	Agricultural	Räubi	Grishous	Räubi	Grishous	71	58	21
+31	kibitzer	Räubi	Saxony	Mechanical	Polania	Engineering	kibitzer	Räubi	Räubi	kibitzer	43	58	22
+32	Dzordz	Räubi	Togawa	Industrial	Nordic	Engineering	Dzordz	Räubi	Räubi	Dzordz	51	57	22
+33	Räubi	Dzordz	Crimea	Engineering	Polania	Agricultural	Dzordz	Räubi	Dzordz	Räubi	50	25	14
+34	truebroyeti	kibitzer	Crimea	Innovative	Polania	Militant	kibitzer	truebroyeti	kibitzer	truebroyeti	83	57	20
+35	kibitzer	truebroyeti	Saxony	Agricultural	Nordic	Engineering	kibitzer	truebroyeti	kibitzer	truebroyeti	83	44	21
 36	Winteriscoming	truebroyeti	Albion	Patriotic	Saxony	Militant	truebroyeti	Winteriscoming	truebroyeti	Winteriscoming	70	26	22
 37	truebroyeti	Winteriscoming	Rusviet	Agricultural	Polania	Mechanical	truebroyeti	Winteriscoming	truebroyeti	Winteriscoming	48	25	19
 38	Winteriscoming	truebroyeti	Rusviet	Agricultural	Polania	Mechanical	Winteriscoming	truebroyeti	truebroyeti	Winteriscoming	31	44	20
-39	dzordz	Raubi	Rusviet	Engineering	Polania	Industrial	Raubi	dzordz	Raubi	dzordz			
-40	Raubi	dzordz	Nordic	Patriotic	Polania	Mechanical	dzordz	Raubi	dzordz	Raubi	60	38	19
+39	Dzordz	Räubi	Rusviet	Engineering	Polania	Industrial	Räubi	Dzordz	Räubi	Dzordz			
+40	Räubi	Dzordz	Nordic	Patriotic	Polania	Mechanical	Dzordz	Räubi	Dzordz	Räubi	60	38	19
 41	Winteriscoming	Grishous	Polania	Mechanical	Rusviet	Agricultural	Winteriscoming	Grishous	Grishous	Winteriscoming	57	73	22
 42	Grishous	Winteriscoming	Polania	Industrial	Rusviet	Engineering	Grishous	Winteriscoming	Winteriscoming	Grishous	50	40	20
-43	Grishous	dzordz	Polania	Industrial	Rusviet	Engineering	Grishous	dzordz	Grishous	dzordz	75	46	20
-44	Winteriscoming	Raubi	Polania	Militant	Crimea	Innovative	Winteriscoming	Raubi	Raubi	Winteriscoming			
-45	Raubi	Winteriscoming	Polania	Mechanical	Nordic	Patriotic	Raubi	Raubi	Winteriscoming	Raubi			
-46	Raubi	Winteriscoming	Rusviet	Engineering	Crimea	Industrial	Raubi	Winteriscoming	Winteriscoming	Raubi			
-47	Winteriscoming	Raubi	Polania	Engineering	Crimea	Agricultural	Winteriscoming	Raubi	Winteriscoming	Raubi			
-48	Grishous	Raubi	Polania	Industrial	Rusviet	Engineering	Grishous	Raubi	Raubi	Grishous	48	56	22
-49	kibittzer	truebroyeti	Polania	Militant	Saxony	Industrial	kibittzer	truebroyeti	kibittzer	truebroyeti	82	49	17
-50	truebroyeti	kibittzer	Polania	Mechanical	Rusviet	Agricultural	kibittzer	truebroyeti	kibittzer	truebroyeti	72	50	18
-51	dzordz	truebroyeti	Togawa	Industrial	Nordic	Engineering	truebroyeti	dzordz	truebroyeti	dzordz			
-52	truebroyeti	dzordz	Nordic	Agricultural	Saxony	Engineering	truebroyeti	dzordz	dzordz	truebroyeti	37	35	15
-53	truebroyeti	Raubi	Saxony	Engineering	Togawa	Innovative	Raubi	truebroyeti	truebroyeti	Raubi	38	44	17
+43	Grishous	Dzordz	Polania	Industrial	Rusviet	Engineering	Grishous	Dzordz	Grishous	Dzordz	75	46	20
+44	Winteriscoming	Räubi	Polania	Militant	Crimea	Innovative	Winteriscoming	Räubi	Räubi	Winteriscoming			
+45	Räubi	Winteriscoming	Polania	Mechanical	Nordic	Patriotic	Räubi	Räubi	Winteriscoming	Räubi			
+46	Räubi	Winteriscoming	Rusviet	Engineering	Crimea	Industrial	Räubi	Winteriscoming	Winteriscoming	Räubi			
+47	Winteriscoming	Räubi	Polania	Engineering	Crimea	Agricultural	Winteriscoming	Räubi	Winteriscoming	Räubi			
+48	Grishous	Räubi	Polania	Industrial	Rusviet	Engineering	Grishous	Räubi	Räubi	Grishous	48	56	22
+49	kibitzer	truebroyeti	Polania	Militant	Saxony	Industrial	kibitzer	truebroyeti	kibitzer	truebroyeti	82	49	17
+50	truebroyeti	kibitzer	Polania	Mechanical	Rusviet	Agricultural	kibitzer	truebroyeti	kibitzer	truebroyeti	72	50	18
+51	Dzordz	truebroyeti	Togawa	Industrial	Nordic	Engineering	truebroyeti	Dzordz	truebroyeti	Dzordz			
+52	truebroyeti	Dzordz	Nordic	Agricultural	Saxony	Engineering	truebroyeti	Dzordz	Dzordz	truebroyeti	37	35	15
+53	truebroyeti	Räubi	Saxony	Engineering	Togawa	Innovative	Räubi	truebroyeti	truebroyeti	Räubi	38	44	17
 54	Grishous	morewhales	Polania	Industrial	Rusviet	Engineering	Grishous	morewhales	Grishous	morewhales	56	55	21
 55	morewhales	Grishous	Crimea	Industrial	Saxony	Innovative	morewhales	Grishous	morewhales	Grishous	53	39	17
 56	Grishous	morewhales	Polania	Industrial	Rusviet	Engineering	Grishous	morewhales	morewhales	Grishous	56	97	19
 57	morewhales	Grishous	Albion	Agricultural	Togawa	Patriotic	morewhales	Grishous	Grishous	morewhales	51	79	21
-58	morewhales	kibittzer	Crimea	Industrial	Saxony	Innovative	kibittzer	morewhales	morewhales	kibittzer	21	56	12
-59	kibittzer	morewhales	Rusviet	Engineering	Polania	Agricultural	morewhales	kibittzer	morewhales	kibittzer	58	37	17
+58	morewhales	kibitzer	Crimea	Industrial	Saxony	Innovative	kibitzer	morewhales	morewhales	kibitzer	21	56	12
+59	kibitzer	morewhales	Rusviet	Engineering	Polania	Agricultural	morewhales	kibitzer	morewhales	kibitzer	58	37	17
 60	Winteriscoming	morewhales	Polania	Militant	Crimea	Innovative	Winteriscoming	morewhales	morewhales	Winteriscoming	46	92	20
 61	morewhales	Winteriscoming	Polania	Engineering	Nordic	Agricultural	Winteriscoming	morewhales	morewhales	Winteriscoming	30	56	20
-62	Grishous	kibittzer	Rusviet	Engineering	Polania	Industrial	Grishous	kibittzer	Grishous	kibittzer	49	21	14
-63	kibittzer	Grishous	Togawa	Industrial	Albion	Patriotic	kibittzer	Grishous	Grishous	kibittzer	40	68	19
+62	Grishous	kibitzer	Rusviet	Engineering	Polania	Industrial	Grishous	kibitzer	Grishous	kibitzer	49	21	14
+63	kibitzer	Grishous	Togawa	Industrial	Albion	Patriotic	kibitzer	Grishous	Grishous	kibitzer	40	68	19
 64	morewhales	Winteriscoming	Saxony	Innovative	Crimea	Industrial	Winteriscoming	morewhales	Winteriscoming	morewhales	43	31	
 65	Winteriscoming	morewhales	Polania	Engineering	Crimea	Agricultural	Winteriscoming	morewhales	morewhales	Winteriscoming	39	65	17
-66	morewhales	Raubi	Crimea	Industrial	Saxony	Innovative	Raubi	morewhales	morewhales	Raubi	48	48.5	20
-67	Raubi	morewhales	Nordic	Industrial	Rusviet	Mechanical	morewhales	Raubi	morewhales	Raubi	54	24	16
-68	morewhales	Raubi	Crimea	Engineering	Saxony	Militant	Raubi	morewhales	Raubi	morewhales	74	64	24
-69	Raubi	morewhales	Polania	Engineering	Nordic	Agricultural	Raubi	morewhales	Raubi	morewhales	66	31	17
-70	Raubi	truebroyeti	Nordic	Agricultural	Polania	Engineering	Raubi	truebroyeti	Raubi	truebroyeti			
-71	dzordz	truebroyeti	Rusviet	Engineering	Nordic	Patriotic	truebroyeti	dzordz	truebroyeti	dzordz	49	42	15
-72	truebroyeti	Raubi	Nordic	Agricultural	Saxony	Engineering	truebroyeti	Raubi	truebroyeti	Raubi	69	54	23
-73	Raubi	truebroyeti	Crimea	Agricultural	Polania	Engineering	truebroyeti	Raubi	Raubi	truebroyeti	46	74	19
+66	morewhales	Räubi	Crimea	Industrial	Saxony	Innovative	Räubi	morewhales	morewhales	Räubi	48	48.5	20
+67	Räubi	morewhales	Nordic	Industrial	Rusviet	Mechanical	morewhales	Räubi	morewhales	Räubi	54	24	16
+68	morewhales	Räubi	Crimea	Engineering	Saxony	Militant	Räubi	morewhales	Räubi	morewhales	74	64	24
+69	Räubi	morewhales	Polania	Engineering	Nordic	Agricultural	Räubi	morewhales	Räubi	morewhales	66	31	17
+70	Räubi	truebroyeti	Nordic	Agricultural	Polania	Engineering	Räubi	truebroyeti	Räubi	truebroyeti			
+71	Dzordz	truebroyeti	Rusviet	Engineering	Nordic	Patriotic	truebroyeti	Dzordz	truebroyeti	Dzordz	49	42	15
+72	truebroyeti	Räubi	Nordic	Agricultural	Saxony	Engineering	truebroyeti	Räubi	truebroyeti	Räubi	69	54	23
+73	Räubi	truebroyeti	Crimea	Agricultural	Polania	Engineering	truebroyeti	Räubi	Räubi	truebroyeti	46	74	19
 74	morewhales	truebroyeti	Saxony	Innovative	Crimea	Industrial	truebroyeti	morewhales	morewhales	truebroyeti	29	43	16
 75	truebroyeti	morewhales	Nordic	Agricultural	Saxony	Engineering	morewhales	truebroyeti	truebroyeti	morewhales	64	94	24
-76	kibittzer	Raubi	Togawa	Innovative	Albion	Patriotic	kibittzer	Raubi	kibittzer	Raubi	80	71	23
-77	Grishous	kibittzer	Polania	Industrial	Rusviet	Engineering	Grishous	kibittzer	Grishous	kibittzer	64	54	16
-78	kibittzer	Grishous	Crimea	Industrial	Saxony	Innovative	kibittzer	Grishous	Grishous	kibittzer	57	43	15
-79	kibittzer	dzordz	Saxony	Agricultural	Nordic	Patriotic	kibittzer	dzordz	kibittzer	dzordz	63	42	19
-80	dzordz	kibittzer	Togawa	Industrial	Nordic	Engineering	dzordz	kibittzer	dzordz	kibittzer	56	40	20
-81	kibittzer	dzordz	Rusviet	Engineering	Crimea	Mechanical	dzordz	kibittzer	dzordz	kibittzer	71	65	19
-82	dzordz	kibittzer	Rusviet	Engineering	Polania	Industrial	dzordz	kibittzer	dzordz	kibittzer	69	39	
-83	Raubi	kibittzer	Nordic	Agricultural	Polania	Engineering	Raubi	kibittzer	Raubi	kibittzer	54	30	24
-84	Raubi	kibittzer	Rusviet	Engineering	Polania	Industrial	Raubi	kibittzer	Raubi	kibittzer	54	27	15
+76	kibitzer	Räubi	Togawa	Innovative	Albion	Patriotic	kibitzer	Räubi	kibitzer	Räubi	80	71	23
+77	Grishous	kibitzer	Polania	Industrial	Rusviet	Engineering	Grishous	kibitzer	Grishous	kibitzer	64	54	16
+78	kibitzer	Grishous	Crimea	Industrial	Saxony	Innovative	kibitzer	Grishous	Grishous	kibitzer	57	43	15
+79	kibitzer	Dzordz	Saxony	Agricultural	Nordic	Patriotic	kibitzer	Dzordz	kibitzer	Dzordz	63	42	19
+80	Dzordz	kibitzer	Togawa	Industrial	Nordic	Engineering	Dzordz	kibitzer	Dzordz	kibitzer	56	40	20
+81	kibitzer	Dzordz	Rusviet	Engineering	Crimea	Mechanical	Dzordz	kibitzer	Dzordz	kibitzer	71	65	19
+82	Dzordz	kibitzer	Rusviet	Engineering	Polania	Industrial	Dzordz	kibitzer	Dzordz	kibitzer	69	39	
+83	Räubi	kibitzer	Nordic	Agricultural	Polania	Engineering	Räubi	kibitzer	Räubi	kibitzer	54	30	24
+84	Räubi	kibitzer	Rusviet	Engineering	Polania	Industrial	Räubi	kibitzer	Räubi	kibitzer	54	27	15
