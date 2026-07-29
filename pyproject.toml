@@ -1,0 +1,16 @@
+[project]
+name = "python-openskill"
+version = "0.1.0"
+description = "OpenSkill ratings for Scythe tournaments with Supabase sync"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "openskill==5.1.1",
+    "python-dotenv==1.0.0",
+    # Supabase 2.3.x pins httpx <0.26; gotrue passes `proxy=` which requires httpx>=0.26
+    "supabase>=2.9.0,<3",
+    "httpx>=0.26,<0.29",
+]
+
+[tool.uv]
+package = false

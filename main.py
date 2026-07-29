@@ -1,18 +1,19 @@
+import argparse
 import csv
 import json
 import os
 import sys
-from typing import Optional
+from typing import Dict, List, Optional, Set, Tuple
+from urllib.parse import urlparse
 from dotenv import load_dotenv
 from openskill.models import PlackettLuce
 from supabase import create_client, Client
-# import graph
 
 # Fix Windows console encoding
 if sys.platform == 'win32':
     import io
-    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', write_through=True)
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', write_through=True)
 
 # Load environment variables
 load_dotenv()
@@ -36,12 +37,12 @@ RATED_EVENT = {}
 
 # list of player ids from players_rows.csv
 PLAYER_KEY = {}
-with open('players_rows.csv', newline='') as csvfile:
+with open('players_rows.csv', newline='', encoding='utf-8') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
         PLAYER_KEY[row['username']] = int(row['id'])
 
-with open('events_rows.csv', newline='') as csvfile:
+with open('events_rows.csv', newline='', encoding='utf-8') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
         EVENT_KEY[row['name']] = int(row['id'])
@@ -91,15 +92,43 @@ def update_supabase_rating(rating_for_supabase, players, ranks, should_update, p
             else:
                 rating_for_supabase[player].append({"mu": 25, "sigma": 8.333333333333334, "ordinal": 1200})
 
+# PostgREST/Supabase default max rows per request is 1000; paginate to load full tables.
+_SUPABASE_PAGE_SIZE = 1000
+
+
+def _paginate_select(
+    table: str,
+    columns: str,
+    order_columns: Tuple[str, ...] = ('id',),
+) -> List[dict]:
+    """Fetch all rows from a table using range pagination (PostgREST max ~1000 rows per request)."""
+    if not supabase:
+        return []
+    rows: List[dict] = []
+    offset = 0
+    try:
+        while True:
+            query = supabase.table(table).select(columns)
+            for col in order_columns:
+                query = query.order(col, desc=False)
+            response = query.range(offset, offset + _SUPABASE_PAGE_SIZE - 1).execute()
+            batch = response.data or []
+            rows.extend(batch)
+            if len(batch) < _SUPABASE_PAGE_SIZE:
+                break
+            offset += _SUPABASE_PAGE_SIZE
+        return rows
+    except Exception as e:
+        print(f"Warning: Could not paginate {table} from Supabase: {e}")
+        return []
+
+
 # Supabase data loading functions
 def load_existing_games():
     """Load existing games from Supabase, returning a set of (event_id, name) tuples"""
-    if not supabase:
-        return set()
-    
     try:
-        response = supabase.table('games').select('event, name').execute()
-        return {(row['event'], row['name']) for row in response.data}
+        data = _paginate_select('games', 'event, name')
+        return {(row['event'], row['name']) for row in data}
     except Exception as e:
         print(f"Warning: Could not load existing games from Supabase: {e}")
         return set()
@@ -109,25 +138,22 @@ def load_existing_game_participation():
     
     If duplicates exist, all are included in the set (duplicates will be handled by upsert logic).
     """
-    if not supabase:
-        return set()
-    
     try:
-        response = supabase.table('game_participation').select('game, player').execute()
-        # Use a set to automatically deduplicate
-        return {(row['game'], row['player']) for row in response.data}
+        data = _paginate_select('game_participation', 'game, player', ('game', 'player'))
+        return {(row['game'], row['player']) for row in data}
     except Exception as e:
         print(f"Warning: Could not load existing game_participation from Supabase: {e}")
         return set()
 
 def load_existing_event_participation():
     """Load existing event_participation records, returning a dict of {(event_id, player_id): data}"""
-    if not supabase:
-        return {}
-    
     try:
-        response = supabase.table('event_participation').select('event, player, games_won, updated_rating').execute()
-        return {(row['event'], row['player']): row for row in response.data}
+        data = _paginate_select(
+            'event_participation',
+            'event, player, games_won, updated_rating',
+            ('event', 'player'),
+        )
+        return {(row['event'], row['player']): row for row in data}
     except Exception as e:
         print(f"Warning: Could not load existing event_participation from Supabase: {e}")
         return {}
@@ -154,9 +180,9 @@ def load_existing_game_ids():
         return {}
     
     try:
-        response = supabase.table('games').select('id, event, name').order('id', desc=False).execute()
+        data = _paginate_select('games', 'id, event, name')
         game_ids = {}
-        for row in response.data:
+        for row in data:
             key = (row['event'], row['name'])
             # Only keep the first occurrence (lowest ID) if duplicates exist
             if key not in game_ids:
@@ -166,9 +192,54 @@ def load_existing_game_ids():
         print(f"Warning: Could not load existing game IDs from Supabase: {e}")
         return {}
 
+
+def log_supabase_target() -> None:
+    """Print non-secret host from SUPABASE_URL so the user confirms the correct project."""
+    if not SUPABASE_URL:
+        print("Supabase: (SUPABASE_URL not set)")
+        return
+    try:
+        parsed = urlparse(SUPABASE_URL)
+        host = parsed.hostname or SUPABASE_URL
+        print(f"Supabase host: {host}")
+    except Exception:
+        print("Supabase: (could not parse SUPABASE_URL)")
+
+
+def preflight_values_vs_db(
+    values_path: str,
+    game_ids_map: Dict[Tuple[int, str], int],
+) -> Tuple[int, List[Tuple[int, str]], int]:
+    """
+    Compare unique (event_id, match) keys in values.csv to games already in Supabase.
+
+    Returns:
+        (missing_count, sample_missing_keys_up_to_20, unique_game_count_in_values)
+    """
+    seen: Set[Tuple[int, str]] = set()
+    missing: List[Tuple[int, str]] = []
+    with open(values_path, newline='', encoding='utf-8') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            event = int(EVENT_KEY[row['event']])
+            name = row['match'].strip()
+            key = (event, name)
+            if key in seen:
+                continue
+            seen.add(key)
+            if key not in game_ids_map:
+                missing.append(key)
+    sample = missing[:20]
+    return len(missing), sample, len(seen)
+
+
 # Supabase upsert functions
 def upsert_game(event_id, game_name, existing_game_ids):
-    """Upsert a game and return its database ID"""
+    """Upsert a game and return its database ID.
+
+    The games.id column has no DB default/sequence, so new rows must include an
+    explicit id (max existing id + 1 within this run's cache).
+    """
     if not supabase:
         return None
     
@@ -179,9 +250,11 @@ def upsert_game(event_id, game_name, existing_game_ids):
         # Game exists, return its ID
         return existing_game_ids[game_key]
     else:
-        # Insert new game
+        # Insert new game with an explicit id (table has NOT NULL id, no default)
         try:
+            next_id = (max(existing_game_ids.values()) if existing_game_ids else 0) + 1
             response = supabase.table('games').insert({
+                'id': next_id,
                 'event': event_id,
                 'name': game_name
             }).execute()
@@ -256,12 +329,37 @@ def update_player_rating(player_id, current_rating):
     except Exception as e:
         print(f"Error updating player {player_id} rating: {e}")
 
-def main():   
+def main(argv=None) -> int:
+    parser = argparse.ArgumentParser(
+        description='OpenSkill ratings from values.csv; sync rankings to Supabase.',
+    )
+    parser.add_argument(
+        '--dry-run',
+        action='store_true',
+        help='Compute ratings and print what would happen; no Supabase writes, no local CSV/JSON/players overwrite.',
+    )
+    parser.add_argument(
+        '--allow-new-games',
+        action='store_true',
+        help='Allow inserting new rows into the games table when values.csv has keys not in the DB (required for first import or new tournaments).',
+    )
+    parser.add_argument(
+        '--preflight-only',
+        action='store_true',
+        help='Only compare values.csv unique games to Supabase games, then exit (no rating loop).',
+    )
+    args = parser.parse_args(argv)
+    dry_run = args.dry_run
+    allow_new_games = args.allow_new_games
+    preflight_only = args.preflight_only
+
+    log_supabase_target()
+
     player_ratings = {
         'all_time': {},
         'one_versus_one': {},
         'three_and_four_player': {},
-    }  
+    }
 
     rating_by_event = dict()
 
@@ -269,30 +367,70 @@ def main():
 
     all_events = list(EVENT_KEY.values())
     one_versus_one_event_list = [key for key, value in RATED_EVENT.items() if value == 'false']
-    three_and_four_player_event_list = list(set(all_events) - set(one_versus_one_event_list))  
+    three_and_four_player_event_list = list(set(all_events) - set(one_versus_one_event_list))
 
     # Load existing data from Supabase for incremental updates
     print("Loading existing data from Supabase...")
     print("  Loading games...", end='', flush=True)
     existing_games = load_existing_games()
     print(f" OK ({len(existing_games)} games)")
-    
+
     print("  Loading game IDs...", end='', flush=True)
     existing_game_ids = load_existing_game_ids()  # Maps (event_id, name) -> id
     print(f" OK ({len(existing_game_ids)} game IDs)")
-    
+
     print("  Loading game participation...", end='', flush=True)
     existing_game_participation = load_existing_game_participation()
     print(f" OK ({len(existing_game_participation)} participations)")
-    
+
     print("  Loading event participation...", end='', flush=True)
     existing_event_participation = load_existing_event_participation()
-    print(f" OK ({len(existing_event_participation)} participations)")
-    
-    print("Only new/changed records will be inserted or updated.")
+    print(f" OK ({len(existing_event_participation)} participations)", flush=True)
+
+    initial_game_ids = dict(existing_game_ids)
+    initial_gp = set(existing_game_participation)
+
+    values_path = 'values.csv'
+    missing_count, sample_missing, unique_in_values = preflight_values_vs_db(values_path, initial_game_ids)
+    print(f"\nPreflight: {unique_in_values} unique games in {values_path}; {missing_count} not found in Supabase (by event + match name).")
+    if sample_missing and missing_count > 0:
+        print(f"  Sample of missing keys (event_id, name), up to 20:")
+        for ev, na in sample_missing:
+            print(f"    ({ev}, {na!r})")
+
+    if preflight_only:
+        print("Preflight-only: exiting.")
+        return 0
+
+    if supabase and not dry_run:
+        if missing_count > 0 and not allow_new_games:
+            if len(initial_game_ids) > 0:
+                print(
+                    "\nAbort: values.csv contains games that are not in the database. "
+                    "This usually means the wrong Supabase project, or event/match strings do not match. "
+                    "Fix the data or run with --allow-new-games if you intentionally add new tournaments.",
+                    file=sys.stderr,
+                )
+                return 1
+            print(
+                "\nAbort: database has no games but values.csv does. "
+                "For a first-time bulk load, re-run with --allow-new-games.",
+                file=sys.stderr,
+            )
+            return 1
+    elif not supabase:
+        print("  (Skipping strict preflight checks: no Supabase connection.)")
+
+    if dry_run:
+        print("\n" + "=" * 60)
+        print("DRY RUN: no Supabase writes; no games_rows.csv / JSON / players_rows.csv writes.")
+        print("=" * 60 + "\n")
+
+    if not dry_run:
+        print("Only new/changed records will be inserted or updated.")
 
     # Optional: Generate CSV files for backup/reference (regenerated from values.csv each run)
-    generate_csv = os.getenv('GENERATE_CSV', 'true').lower() == 'true'
+    generate_csv = os.getenv('GENERATE_CSV', 'true').lower() == 'true' and not dry_run
     
     # Prepare CSV file handles for batch writing
     games_csv_rows = []
@@ -304,19 +442,21 @@ def main():
     print("Processing games from values.csv...")
     
     # Count total rows first for progress tracking
-    with open('values.csv', newline='') as csvfile:
-        total_rows = sum(1 for _ in csv.DictReader(csvfile)) - 1  # Subtract header
-    
+    with open(values_path, newline='', encoding='utf-8') as csvfile:
+        total_rows = sum(1 for _ in csv.DictReader(csvfile))
+
     print(f"Total games to process: {total_rows}")
     print("Progress will be shown every 100 games...")
-    
+
     game_counter = 0  # Track sequential game number for CSV (independent of database IDs)
     new_games_count = 0
     updated_games_count = 0
     games_processed_this_run = set()  # Track games we've seen in this CSV run
-    
-    with open('values.csv', newline='') as csvfile:
-        reader = csv.DictReader(csvfile)     
+    would_gp_insert = 0
+    would_gp_update = 0
+
+    with open(values_path, newline='', encoding='utf-8') as csvfile:
+        reader = csv.DictReader(csvfile)
 
         for row in reader:
             game_counter += 1
@@ -324,27 +464,30 @@ def main():
             players = [row[f'player_{letter}'] for letter in 'abcd' if row[f'player_{letter}']]
             ranks = [int(row[f'rank_{letter}']) for letter in 'abcd' if row[f'rank_{letter}']]
             event = int(EVENT_KEY[row['event']])
-            game_name = row['match']
+            game_name = row['match'].strip()
             game_key = (event, game_name)
 
-            # Check if this game existed in Supabase BEFORE this run started
-            game_existed_before = game_key in existing_game_ids
-            
-            # Upsert game to Supabase and get/store its ID
-            game_id = upsert_game(event, game_name, existing_game_ids)
+            game_existed_before = game_key in initial_game_ids
+
+            if dry_run:
+                game_id = initial_game_ids.get(game_key)
+            else:
+                game_id = upsert_game(event, game_name, existing_game_ids)
+
             if game_id:
-                # Update existing_games set to track processed games
                 existing_games.add(game_key)
-                
-                # Count correctly: only count as "existing" if it was in Supabase before this run
-                # If we've seen it in this CSV already, it's a duplicate name issue (shouldn't happen with unique names)
+
                 if game_existed_before:
                     updated_games_count += 1
                 elif game_key not in games_processed_this_run:
                     new_games_count += 1
-                # If game_key is in games_processed_this_run, it's a duplicate name - don't count it
-                
+
                 games_processed_this_run.add(game_key)
+            elif dry_run:
+                if game_key not in games_processed_this_run:
+                    new_games_count += 1
+                games_processed_this_run.add(game_key)
+                would_gp_insert += len(players)
 
             # Collect CSV rows for batch writing
             if generate_csv:
@@ -383,16 +526,23 @@ def main():
                 else:
                     updated_rating = {"mu": 25, "sigma": 8.333333333333334, "ordinal": 1200}
                 
-                # Upsert to Supabase if game_id is available
                 if game_id:
-                    upsert_game_participation(game_id, player_id, ranking, updated_rating, existing_game_participation)
-                    # Update existing_game_participation set
-                    existing_game_participation.add((game_id, player_id))
-                
-                # Collect CSV rows for batch writing
+                    if dry_run:
+                        if (game_id, player_id) in initial_gp:
+                            would_gp_update += 1
+                        else:
+                            would_gp_insert += 1
+                    else:
+                        upsert_game_participation(
+                            game_id, player_id, ranking, updated_rating, existing_game_participation
+                        )
+                        existing_game_participation.add((game_id, player_id))
+
                 if generate_csv:
                     csv_game_id = game_id if game_id else game_counter
-                    game_participation_csv_rows.append([csv_game_id, player_id, ranking, json.dumps(updated_rating)])
+                    game_participation_csv_rows.append(
+                        [csv_game_id, player_id, ranking, json.dumps(updated_rating)]
+                    )
 
             updated_rating = update_rating(player_ratings['all_time'], players, ranks)
             update_event_rating(rating_by_event[event], players, updated_rating)
@@ -402,7 +552,7 @@ def main():
             update_supabase_rating(rating_for_supabase[event], players, ranks, should_update, player_ratings['three_and_four_player'])
             
             # Progress indicator every 100 games
-            if game_counter % 100 == 0:
+            if game_counter % 100 == 0 and total_rows > 0:
                 print(f"  Processed {game_counter}/{total_rows} games... ({(game_counter/total_rows*100):.1f}%)")
     
     # Write CSV files in batch (write mode to regenerate from values.csv, not append)
@@ -427,39 +577,43 @@ def main():
 
         player_ratings[category] = {k: v for k, v in sorted(player_ratings[category].items(), key=lambda item: item[1].ordinal, reverse=True)}
 
-        # Write JSON files for reference
-        with open(f"{category}_ratings.json", "w") as outfile:
+        if not dry_run:
+            with open(f"{category}_ratings.json", "w", encoding='utf-8') as outfile:
                 outfile.write(json.dumps({player: {"mu": rating.mu, "sigma": rating.sigma, "ordinal": rating.ordinal } for player, rating in player_ratings[category].items()}, indent=2))
 
-    with open(f"rating_by_event.json", "w") as outfile:
-        outfile.write(json.dumps(rating_by_event, indent=2))
+    if not dry_run:
+        with open("rating_by_event.json", "w", encoding='utf-8') as outfile:
+            outfile.write(json.dumps(rating_by_event, indent=2))
 
-    with open(f"supabase_rating.json", "w") as outfile:
-        outfile.write(json.dumps(rating_for_supabase, indent=2))
+        with open("supabase_rating.json", "w", encoding='utf-8') as outfile:
+            outfile.write(json.dumps(rating_for_supabase, indent=2))
 
-    # Upsert event_participation to Supabase
-    if supabase:
+    event_counter = 0
+    total_event_participations = sum(len(players) for players in rating_for_supabase.values())
+
+    if supabase and not dry_run:
         print(f"\nUpserting event participation to Supabase...")
         print(f"Summary: {new_games_count} new games inserted, {updated_games_count} existing games recognized")
-        total_event_participations = sum(len(players) for players in rating_for_supabase.values())
         print(f"Updating {total_event_participations} event participation records...")
-        event_counter = 0
-    else:
+    elif not supabase:
         print("\nSkipping Supabase updates (no credentials configured)")
+    elif dry_run:
+        print("\n[DRY RUN] Skipping event participation Supabase updates.")
+
     for event in rating_for_supabase:
         for player in rating_for_supabase[event]:
             player_id = PLAYER_KEY[player]
             games_won = rating_for_supabase[event][player][0]['games_won']
             updated_rating = rating_for_supabase[event][player][1]
-            upsert_event_participation(event, player_id, games_won, updated_rating, existing_event_participation)
-            # Update existing_event_participation to track what we've processed
-            existing_event_participation[(event, player_id)] = {
-                'event': event,
-                'player': player_id,
-                'games_won': games_won,
-                'updated_rating': updated_rating
-            }
-            if supabase:
+            if not dry_run:
+                upsert_event_participation(event, player_id, games_won, updated_rating, existing_event_participation)
+                existing_event_participation[(event, player_id)] = {
+                    'event': event,
+                    'player': player_id,
+                    'games_won': games_won,
+                    'updated_rating': updated_rating
+                }
+            if supabase and not dry_run:
                 event_counter += 1
                 if event_counter % 50 == 0:
                     print(f"  Updated {event_counter}/{total_event_participations} event participations...")
@@ -473,64 +627,56 @@ def main():
                 for player in rating_for_supabase[event]:
                     writer.writerow([event, PLAYER_KEY[player], rating_for_supabase[event][player][0]['games_won'], json.dumps(rating_for_supabase[event][player][1])])
 
-    # Update player ratings in Supabase and CSV
-    print("\nUpdating player ratings...")
-    with open('players_rows.csv', 'r') as csvfile:
-        reader = csv.reader(csvfile)
-        rows = list(reader)
-        if len(rows) == 0:
-            return
-        
-        # Keep only the first 3 columns (id, created_at, username) and remove all others
-        # This handles cases where there are duplicate current_rating columns
-        for i in range(len(rows)):
-            rows[i] = rows[i][:3]  # Keep only first 3 columns
-        
-        # Add current_rating header
-        rows[0].append('current_rating')
-        
-        # Add current_rating for each player and update Supabase
-        total_players = len(rows) - 1  # Exclude header
-        print(f"Updating {total_players} player ratings...")
-        for i in range(1, len(rows)):
-            player_id = int(rows[i][0])
-            player_name = rows[i][2]
-            if player_name in player_ratings['three_and_four_player']:
-                r = player_ratings['three_and_four_player'][player_name]
-                rating_value = { "mu": r.mu, "sigma": r.sigma, "ordinal": r.ordinal}
-            else:
-                # Player only participated in 1v1 events, use default rating
-                rating_value = {"mu": 25, "sigma": 8.333333333333334, "ordinal": 1200}
-            
-            rows[i].append(json.dumps(rating_value))
-            
-            # Update Supabase
-            update_player_rating(player_id, rating_value)
-            
-            if (i - 1) % 50 == 0:
-                print(f"  Updated {i - 1}/{total_players} player ratings...")
-        
-        # Write updated CSV
-        with open('players_rows.csv', 'w', newline='') as csvfile:
-            writer = csv.writer(csvfile)
-            writer.writerows(rows)
-    
+    if not dry_run:
+        print("\nUpdating player ratings...")
+        with open('players_rows.csv', 'r', encoding='utf-8') as csvfile:
+            reader = csv.reader(csvfile)
+            rows = list(reader)
+            if len(rows) == 0:
+                return 0
+
+            for i in range(len(rows)):
+                rows[i] = rows[i][:3]
+
+            rows[0].append('current_rating')
+
+            total_players = len(rows) - 1
+            print(f"Updating {total_players} player ratings...")
+            for i in range(1, len(rows)):
+                player_id = int(rows[i][0])
+                player_name = rows[i][2]
+                if player_name in player_ratings['three_and_four_player']:
+                    r = player_ratings['three_and_four_player'][player_name]
+                    rating_value = {"mu": r.mu, "sigma": r.sigma, "ordinal": r.ordinal}
+                else:
+                    rating_value = {"mu": 25, "sigma": 8.333333333333334, "ordinal": 1200}
+
+                rows[i].append(json.dumps(rating_value))
+
+                update_player_rating(player_id, rating_value)
+
+                if (i - 1) % 50 == 0:
+                    print(f"  Updated {i - 1}/{total_players} player ratings...")
+
+            with open('players_rows.csv', 'w', newline='', encoding='utf-8') as csvfile:
+                writer = csv.writer(csvfile)
+                writer.writerows(rows)
+    else:
+        print("\n[DRY RUN] Skipping players_rows.csv and Supabase player rating updates.")
+
     print(f"\nProcessing complete!")
     print(f"  - Processed {game_counter} games")
-    print(f"  - Inserted {new_games_count} new games")
-    print(f"  - Recognized {updated_games_count} existing games")
+    if dry_run:
+        print(f"  - Would treat as new games (CSV rows whose keys were not in DB): {new_games_count}")
+        print(f"  - Would treat as existing games: {updated_games_count}")
+        print(f"  - [DRY RUN] Unique games in values.csv not in DB at preflight: {missing_count}")
+        print(f"  - [DRY RUN] game_participation rows: would insert {would_gp_insert}, would update {would_gp_update}")
+    else:
+        print(f"  - Inserted {new_games_count} new games")
+        print(f"  - Recognized {updated_games_count} existing games")
 
-    # graphing demonstrations
-    # tournament_num = 18
-    # graph.graph_tournament(rating_by_event[tournament_num], list(EVENT_KEY.keys())[tournament_num - 1])
-    # graph.clear()
-    # player = "JoyDivision"
-    # graph.graph_player(rating_by_event, player, "event") # or by game
-    # graph.clear()
+    return 0
 
-    # player_group = ["FOMOF", "JoyDivision", "Mr. Der", "Nevic", "nobadinohz"]
-    # graph.graph_players(rating_by_event, player_group, "event")
-    # graph.clear()
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main() or 0)
