@@ -1,98 +1,100 @@
 # Python OpenSkill Rating System
 
-A rating system implementation using the OpenSkill library to calculate player ratings for Scythe tournaments. The system processes game results, calculates ratings using the Plackett-Luce model, and syncs data with Supabase.
+OpenSkill (Plackett-Luce) ratings for Scythe tournaments: CSV game history → ratings → Supabase.
 
-## Project Structure
+## Adding a new event
+
+**Start here:** [docs/ADD_AN_EVENT.md](docs/ADD_AN_EVENT.md)
+
+That guide covers raw sheets → name sanitization → `values.csv` → event/players → `main.py` → optional faction/mat/bid backfill.
+
+## Day-to-day rating sync
+
+```bash
+uv run python main.py
+```
+
+From the **repository root**. With `.env` set:
+
+1. Loads existing Supabase rows (when present)
+2. Replays every game in `values.csv`
+3. Upserts games, participations, and player ratings
+4. Writes root CSV/JSON exports when `GENERATE_CSV=true`
+
+### Safe flags
+
+```bash
+uv run python main.py --preflight-only   # compare values.csv keys to DB
+uv run python main.py --dry-run          # full replay, no writes
+uv run python main.py --allow-new-games  # live run when adding new matches
+```
+
+## Inputs (tracked)
+
+| File               | Role                                                |
+| ------------------ | --------------------------------------------------- |
+| `values.csv`       | All game results (`event`, `match`, players, ranks) |
+| `players_rows.csv` | Username → `id` (must match Supabase `players`)     |
+| `events_rows.csv`  | Event name → `id`, `rating_event`, format flags     |
+
+## Local-only (gitignored)
+
+Keep on disk when working events; not required to clone or run ratings:
+
+| Path                                            | Role                                             |
+| ----------------------------------------------- | ------------------------------------------------ |
+| `data/source/`                                  | Raw sheet exports (conversion + detail backfill) |
+| `scripts/archive/`                              | Convert / sanitize / backfill helpers            |
+| `docs/ops/`, `docs/research/`                   | Rare maintenance notes / SoS experiments         |
+| Generated `*_ratings.json`, `games_rows.csv`, … | Exports from `main.py`                           |
+
+## Outputs (`main.py`)
+
+Local exports (gitignored; regenerated when `GENERATE_CSV=true`):
+
+| File                                            | Role                                                  |
+| ----------------------------------------------- | ----------------------------------------------------- |
+| `games_rows.csv`                                | Games export                                          |
+| `game_participation_rows.csv`                   | Participation export                                  |
+| `event_participation.csv`                       | Event participation export                            |
+| `*_ratings.json`                                | `all_time`, `one_versus_one`, `three_and_four_player` |
+| `rating_by_event.json` / `supabase_rating.json` | Per-event history / payloads                          |
+
+`players_rows.csv` is also rewritten with `current_rating` (still tracked as an input of record).
+
+## Layout
 
 ```
 python-openskill/
-├── main.py                    # Main application entry point
-├── requirements.txt           # Python dependencies
-├── values.csv                 # Main game data source (input)
-├── players_rows.csv           # Player data (input/output)
-├── events_rows.csv            # Event data (input)
-│
-├── data/                      # Data files
-│   └── source/               # Original source CSV files (archived)
-│
-├── scripts/                   # Utility scripts
-│   ├── graph.py              # Visualization utilities (optional)
-│   └── archive/              # One-time conversion/cleanup scripts (archived)
-│
-├── docs/                      # Documentation
-│   ├── SETUP.md              # Setup instructions
-│   ├── WORKFLOW.md           # Workflow documentation
-│   └── ...                   # Other documentation files
-│
-├── images/                    # Generated graph images
-│
-└── [Generated Output Files]   # Created by main.py:
-    ├── games_rows.csv
-    ├── game_participation_rows.csv
-    ├── event_participation.csv
-    ├── all_time_ratings.json
-    ├── one_versus_one_ratings.json
-    ├── three_and_four_player_ratings.json
-    ├── rating_by_event.json
-    └── supabase_rating.json
+├── main.py                 # CSV → ratings → Supabase + exports
+├── pyproject.toml / uv.lock
+├── values.csv / players_rows.csv / events_rows.csv
+├── docs/ADD_AN_EVENT.md    # Canonical “add an event” runbook
+├── data/source/            # Local: raw sheets (gitignored)
+├── scripts/archive/        # Local: convert / backfill tools (gitignored)
+└── [generated CSV/JSON]    # Local exports (gitignored)
 ```
-
-## Requirements
-
-- Python 3.x
-- Dependencies listed in `requirements.txt`
 
 ## Setup
 
-1. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. Configure environment variables (create `.env` file):
+1. Install [uv](https://docs.astral.sh/uv/) (`uv --version`).
+2. From repo root: `uv sync`
+3. `.env`:
 
    ```
-   SUPABASE_URL=your_supabase_url
-   SUPABASE_KEY=your_supabase_key
+   SUPABASE_URL=…
+   SUPABASE_KEY=…          # service role for writes
    GENERATE_CSV=true
    ```
 
-3. Ensure required CSV files are present:
-   - `values.csv` - Main game data
-   - `players_rows.csv` - Player information
-   - `events_rows.csv` - Event information
+4. Ensure the three root input CSVs exist.
 
-## Usage
+Python **3.11+**. Use `uv add` / `uv remove` for deps (`uv.lock` is the lockfile).
 
-Run the main application:
+## Rating categories
 
-```bash
-python main.py
-```
+Driven by `events_rows.csv` → `rating_event`:
 
-The script will:
-
-1. Load existing data from Supabase (if configured)
-2. Process all games from `values.csv`
-3. Calculate ratings using OpenSkill's Plackett-Luce model
-4. Update Supabase database (if configured)
-5. Generate output CSV and JSON files
-
-## Output Files
-
-- **CSV Files**: `games_rows.csv`, `game_participation_rows.csv`, `event_participation.csv`, `players_rows.csv` (updated)
-- **JSON Files**: Rating data in various formats for different rating categories
-
-## Rating Categories
-
-- **All Time**: Combined ratings across all events
-- **One vs One**: Ratings for 1v1 events only
-- **Three and Four Player**: Ratings for 3-4 player events only
-- **By Event**: Ratings tracked per event
-
-## Notes
-
-- The `scripts/archive/` directory contains one-time conversion and cleanup scripts that were used during data migration
-- Source CSV files are archived in `data/source/` for reference
-- Documentation in `docs/` provides additional context about setup and workflows
+- **`false`** → one-versus-one ladder (1v1 leagues)
+- **`true`** → three-and-four-player / main site ratings
+- **All time** — all events; **by event** — `rating_by_event.json` / Supabase event participation
